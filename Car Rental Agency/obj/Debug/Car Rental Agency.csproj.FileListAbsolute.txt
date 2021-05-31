@@ -1,0 +1,12 @@
+C:\Users\rusve\source\repos\Car Rental Agency\bin\Debug\Car Rental Agency.exe.config
+C:\Users\rusve\source\repos\Car Rental Agency\bin\Debug\Car Rental Agency.exe
+C:\Users\rusve\source\repos\Car Rental Agency\bin\Debug\Car Rental Agency.pdb
+C:\Users\rusve\source\repos\Car Rental Agency\obj\Debug\Car Rental Agency.csprojAssemblyReference.cache
+C:\Users\rusve\source\repos\Car Rental Agency\obj\Debug\Car_Rental_Agency.Main.resources
+C:\Users\rusve\source\repos\Car Rental Agency\obj\Debug\Car_Rental_Agency.Properties.Resources.resources
+C:\Users\rusve\source\repos\Car Rental Agency\obj\Debug\Car Rental Agency.csproj.GenerateResource.cache
+C:\Users\rusve\source\repos\Car Rental Agency\obj\Debug\Car Rental Agency.csproj.CoreCompileInputs.cache
+C:\Users\rusve\source\repos\Car Rental Agency\obj\Debug\Car Rental Agency.exe
+C:\Users\rusve\source\repos\Car Rental Agency\obj\Debug\Car Rental Agency.pdb
+C:\Users\rusve\source\repos\Car Rental Agency\obj\Debug\Car_Rental_Agency.CustomerLogin.resources
+C:\Users\rusve\source\repos\Car Rental Agency\obj\Debug\Car_Rental_Agency.EmployeeLogin.resources
