@@ -7,18 +7,34 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace Car_Rental_Agency
 {
     public partial class Main : Form
     {
-
+        SqlConnection mysqlConnection;
         public Main()
         {
             InitializeComponent();
             this.Text = "Car Rental Agency";
             Customer.Click += Customer_click;
             Employee.Click += Employee_click;
+            mysqlConnection = new SqlConnection("server=SYNAPSE;" +
+                                       "Trusted_Connection=yes;" +
+                                       "database=car-rental-agency; " +
+                                       "connection timeout=30");
+
+            try
+            {
+                mysqlConnection.Open();
+                MessageBox.Show("Well done!");
+            }
+
+            catch (SqlException ex)
+            {
+                MessageBox.Show("You failed!" + ex.Message);
+            }
         }
 
         /* When Clicked on the Customer Login this 
@@ -27,7 +43,7 @@ namespace Car_Rental_Agency
          */
         private void Customer_click(object sender, EventArgs e)
         {
-            CustomerLogin login = new CustomerLogin();
+            CustomerLogin login = new CustomerLogin(mysqlConnection);
             login.Show();
             this.Text = "Button One Clicked";
         }

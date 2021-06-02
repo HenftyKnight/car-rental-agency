@@ -32,6 +32,7 @@ namespace Car_Rental_Agency
             this.Customer = new System.Windows.Forms.Button();
             this.Employee = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.Db = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Customer
@@ -65,12 +66,22 @@ namespace Car_Rental_Agency
             this.label1.Text = "Car Rental Agency";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // Db
+            // 
+            this.Db.Location = new System.Drawing.Point(68, 285);
+            this.Db.Name = "Db";
+            this.Db.Size = new System.Drawing.Size(117, 58);
+            this.Db.TabIndex = 3;
+            this.Db.Text = "button1";
+            this.Db.UseVisualStyleBackColor = true;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Db);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Employee);
             this.Controls.Add(this.Customer);
@@ -86,6 +97,7 @@ namespace Car_Rental_Agency
         private System.Windows.Forms.Button Customer;
         private System.Windows.Forms.Button Employee;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button Db;
     }
 }
 

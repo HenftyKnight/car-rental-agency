@@ -7,14 +7,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace Car_Rental_Agency
 {
     public partial class CustomerLogin : Form
     {
-        public CustomerLogin()
+        SqlConnection mysqlConnection;   
+        SqlCommand mysqlCommand;
+
+        public CustomerLogin(SqlConnection mysqlConnection2)
         {
             InitializeComponent();
+            mysqlConnection = mysqlConnection2;
+
+            mysqlCommand = new SqlCommand();
+            mysqlCommand.Connection = mysqlConnection;
+
+            
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -47,12 +57,26 @@ namespace Car_Rental_Agency
             BookingCustomer login = new BookingCustomer();
             login.Show();
 
+            mysqlCommand.CommandText = "INSERT INTO VehicleType values ('SUV',5,5,5,5,5)";
+            try { 
+                mysqlCommand.ExecuteNonQuery();
+            }
+
+            catch(Exception e2) { 
+                MessageBox.Show(e2.ToString());
+            }
+
+
         }
 
         private void loginBtn_Click(object sender, EventArgs e)
         {
             BookingCustomer login = new BookingCustomer();
             login.Show();
+        }
+
+        private void InsertData() 
+        {         
         }
     }
 }
