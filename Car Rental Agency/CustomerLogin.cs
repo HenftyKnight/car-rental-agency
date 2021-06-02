@@ -41,5 +41,18 @@ namespace Car_Rental_Agency
         {
 
         }
+
+        private void SignUp_Enter(object sender, EventArgs e)
+        {
+            BookingCustomer login = new BookingCustomer();
+            login.Show();
+
+        }
+
+        private void loginBtn_Click(object sender, EventArgs e)
+        {
+            BookingCustomer login = new BookingCustomer();
+            login.Show();
+        }
     }
 }

@@ -29,7 +29,8 @@ namespace Car_Rental_Agency
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            EmployeeMain login = new EmployeeMain();
+            login.Show();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
