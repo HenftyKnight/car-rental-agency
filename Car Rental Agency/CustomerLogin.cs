@@ -74,9 +74,5 @@ namespace Car_Rental_Agency
             BookingCustomer login = new BookingCustomer();
             login.Show();
         }
-
-        private void InsertData() 
-        {         
-        }
     }
 }

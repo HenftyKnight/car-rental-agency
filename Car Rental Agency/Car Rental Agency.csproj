@@ -46,11 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Add_car.cs">
+    <Compile Include="AddNewBranch.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="AddNewBranch.Designer.cs">
+      <DependentUpon>AddNewBranch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddNewVehicle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewVehicleType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewVehicleType.Designer.cs">
+      <DependentUpon>AddNewVehicleType.cs</DependentUpon>
+    </Compile>
     <Compile Include="Add_car.Designer.cs">
-      <DependentUpon>Add_car.cs</DependentUpon>
+      <DependentUpon>AddNewVehicle.cs</DependentUpon>
     </Compile>
     <Compile Include="BookingCustomer.cs">
       <SubType>Form</SubType>
@@ -76,23 +88,19 @@
     <Compile Include="CustomerLogin.Designer.cs">
       <DependentUpon>CustomerLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Database.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Database.Designer.cs">
-      <DependentUpon>Database.cs</DependentUpon>
-    </Compile>
+    <Compile Include="Database.cs" />
     <Compile Include="Delete_confirm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Delete_confirm.Designer.cs">
       <DependentUpon>Delete_confirm.cs</DependentUpon>
     </Compile>
-    <Compile Include="EmployeeMain.cs">
+    <Compile Include="General.cs" />
+    <Compile Include="Lookup.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EmployeeMain.Designer.cs">
-      <DependentUpon>EmployeeMain.cs</DependentUpon>
+    <Compile Include="Lookup.Designer.cs">
+      <DependentUpon>Lookup.cs</DependentUpon>
     </Compile>
     <Compile Include="EmployeeLogin.cs">
       <SubType>Form</SubType>
@@ -132,11 +140,23 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Update_Car.cs">
+    <Compile Include="FindBranch.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Update_Car.Designer.cs">
-      <DependentUpon>Update_Car.cs</DependentUpon>
+    <Compile Include="FindBranch.Designer.cs">
+      <DependentUpon>FindBranch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FindVehicle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FindVehicle.Designer.cs">
+      <DependentUpon>FindVehicle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateBranch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateBranch.Designer.cs">
+      <DependentUpon>UpdateBranch.cs</DependentUpon>
     </Compile>
     <Compile Include="Update_confirm.cs">
       <SubType>Form</SubType>
@@ -150,8 +170,14 @@
     <Compile Include="Vehicles.Designer.cs">
       <DependentUpon>Vehicles.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddNewBranch.resx">
+      <DependentUpon>AddNewBranch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddNewVehicleType.resx">
+      <DependentUpon>AddNewVehicleType.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Add_car.resx">
-      <DependentUpon>Add_car.cs</DependentUpon>
+      <DependentUpon>AddNewVehicle.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="BookingCustomer.resx">
       <DependentUpon>BookingCustomer.cs</DependentUpon>
@@ -165,14 +191,11 @@
     <EmbeddedResource Include="CustomerLogin.resx">
       <DependentUpon>CustomerLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Database.resx">
-      <DependentUpon>Database.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Delete_confirm.resx">
       <DependentUpon>Delete_confirm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="EmployeeMain.resx">
-      <DependentUpon>EmployeeMain.cs</DependentUpon>
+    <EmbeddedResource Include="Lookup.resx">
+      <DependentUpon>Lookup.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="EmployeeLogin.resx">
       <DependentUpon>EmployeeLogin.cs</DependentUpon>
@@ -202,8 +225,14 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="Update_Car.resx">
-      <DependentUpon>Update_Car.cs</DependentUpon>
+    <EmbeddedResource Include="FindBranch.resx">
+      <DependentUpon>FindBranch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FindVehicle.resx">
+      <DependentUpon>FindVehicle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateBranch.resx">
+      <DependentUpon>UpdateBranch.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Update_confirm.resx">
       <DependentUpon>Update_confirm.cs</DependentUpon>

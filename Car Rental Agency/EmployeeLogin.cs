@@ -7,14 +7,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using System.Data.SqlClient;
 namespace Car_Rental_Agency
 {
+    
     public partial class EmployeeLogin : Form
     {
-        public EmployeeLogin()
+        SqlConnection mysqlConnection;
+        SqlCommand mysqlCommand;
+        public EmployeeLogin(SqlConnection mysqlConnection2)
         {
             InitializeComponent();
+            mysqlConnection = mysqlConnection2;
+
+            mysqlCommand = new SqlCommand();
+            mysqlCommand.Connection = mysqlConnection;
         }
 
         private void empEmail_Click(object sender, EventArgs e)
@@ -29,7 +36,7 @@ namespace Car_Rental_Agency
 
         private void button1_Click(object sender, EventArgs e)
         {
-            EmployeeMain login = new EmployeeMain();
+            AddingtoDB login = new AddingtoDB(mysqlConnection);
             login.Show();
         }
 

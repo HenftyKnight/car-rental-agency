@@ -37,25 +37,24 @@ namespace Car_Rental_Agency
 
         private void button7_Click(object sender, EventArgs e)
         {
-            Add_car login = new Add_car();
-            login.Show();
+            
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
-            Update_Car login = new Update_Car();
+            FindVehicle login = new FindVehicle();
             login.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Update_Car login = new Update_Car();
+            FindVehicle login = new FindVehicle();
             login.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Update_Car login = new Update_Car();
+            FindVehicle login = new FindVehicle();
             login.Show();
         }
 

@@ -52,7 +52,7 @@ namespace Car_Rental_Agency
         private void Employee_click(object sender, EventArgs e)
         {
 
-            EmployeeLogin employeeLogin = new EmployeeLogin();
+            EmployeeLogin employeeLogin = new EmployeeLogin(mysqlConnection);
             employeeLogin.Show();
             this.Text = "Button One Clicked";
         }
