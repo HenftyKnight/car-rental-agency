@@ -41,7 +41,8 @@ namespace Car_Rental_Agency
 
         private void FindVehicleTypeBtn_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Not Yet Implemented!");
+            FindVehicleType findVehicleType = new FindVehicleType();
+            findVehicleType.Show();
         }
 
         private void FindVehicleBtn_Click(object sender, EventArgs e)
@@ -58,12 +59,14 @@ namespace Car_Rental_Agency
 
         private void UpdateVehicleTypebtn_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Not Yet Implemented!");
+            UpdateVehicleType updateVehicleType = new UpdateVehicleType();
+            updateVehicleType.Show();
         }
 
         private void UpdateVehiclebtn_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Not Yet Implemented!");
+            UpdateVehicle update = new UpdateVehicle();
+            update.Show();
         }
 
         private void UpdateBranchbtn_Click(object sender, EventArgs e)

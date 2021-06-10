@@ -56,8 +56,6 @@ namespace Car_Rental_Agency
         {
             BookingCustomer login = new BookingCustomer();
             login.Show();
-
-            mysqlCommand.CommandText = "INSERT INTO VehicleType values ('SUV',5,5,5,5,5)";
             try { 
                 mysqlCommand.ExecuteNonQuery();
             }
