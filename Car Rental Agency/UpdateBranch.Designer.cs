@@ -31,8 +31,8 @@ namespace Car_Rental_Agency
         {
             this.branchNameComboBox = new System.Windows.Forms.ComboBox();
             this.branchGroupBox = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.branchSearchBtn = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.branchInfoDataGridView = new System.Windows.Forms.DataGridView();
             this.brName = new System.Windows.Forms.Label();
             this.brStreet = new System.Windows.Forms.Label();
@@ -51,7 +51,7 @@ namespace Car_Rental_Agency
             this.updateBranchBtn = new System.Windows.Forms.Button();
             this.queryResultLabel = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.updatebranchpanel = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             this.branchGroupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.branchInfoDataGridView)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -59,6 +59,8 @@ namespace Car_Rental_Agency
             // 
             // branchNameComboBox
             // 
+            this.branchNameComboBox.BackColor = System.Drawing.Color.Black;
+            this.branchNameComboBox.ForeColor = System.Drawing.Color.White;
             this.branchNameComboBox.FormattingEnabled = true;
             this.branchNameComboBox.Location = new System.Drawing.Point(100, 50);
             this.branchNameComboBox.Name = "branchNameComboBox";
@@ -71,22 +73,13 @@ namespace Car_Rental_Agency
             this.branchGroupBox.Controls.Add(this.label1);
             this.branchGroupBox.Controls.Add(this.branchNameComboBox);
             this.branchGroupBox.ForeColor = System.Drawing.Color.DimGray;
-            this.branchGroupBox.Location = new System.Drawing.Point(39, 82);
+            this.branchGroupBox.Location = new System.Drawing.Point(39, 87);
             this.branchGroupBox.Name = "branchGroupBox";
             this.branchGroupBox.Size = new System.Drawing.Size(243, 123);
             this.branchGroupBox.TabIndex = 1;
             this.branchGroupBox.TabStop = false;
             this.branchGroupBox.Text = "Find Branch";
             this.branchGroupBox.Enter += new System.EventHandler(this.branchGroupBox_Enter);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 53);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(72, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Branch Name";
             // 
             // branchSearchBtn
             // 
@@ -98,12 +91,22 @@ namespace Car_Rental_Agency
             this.branchSearchBtn.Text = "Select";
             this.branchSearchBtn.UseVisualStyleBackColor = true;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(6, 53);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(72, 13);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Branch Name";
+            // 
             // branchInfoDataGridView
             // 
+            this.branchInfoDataGridView.BackgroundColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.branchInfoDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.branchInfoDataGridView.Location = new System.Drawing.Point(486, 87);
+            this.branchInfoDataGridView.Location = new System.Drawing.Point(519, 115);
             this.branchInfoDataGridView.Name = "branchInfoDataGridView";
-            this.branchInfoDataGridView.Size = new System.Drawing.Size(601, 457);
+            this.branchInfoDataGridView.Size = new System.Drawing.Size(677, 457);
             this.branchInfoDataGridView.TabIndex = 2;
             // 
             // brName
@@ -178,6 +181,8 @@ namespace Car_Rental_Agency
             // 
             // brNameTbox
             // 
+            this.brNameTbox.BackColor = System.Drawing.Color.Black;
+            this.brNameTbox.ForeColor = System.Drawing.Color.White;
             this.brNameTbox.Location = new System.Drawing.Point(132, 32);
             this.brNameTbox.Multiline = true;
             this.brNameTbox.Name = "brNameTbox";
@@ -186,6 +191,8 @@ namespace Car_Rental_Agency
             // 
             // streetTbox
             // 
+            this.streetTbox.BackColor = System.Drawing.Color.Black;
+            this.streetTbox.ForeColor = System.Drawing.Color.White;
             this.streetTbox.Location = new System.Drawing.Point(132, 67);
             this.streetTbox.Multiline = true;
             this.streetTbox.Name = "streetTbox";
@@ -194,6 +201,8 @@ namespace Car_Rental_Agency
             // 
             // cityTextBox
             // 
+            this.cityTextBox.BackColor = System.Drawing.Color.Black;
+            this.cityTextBox.ForeColor = System.Drawing.Color.White;
             this.cityTextBox.Location = new System.Drawing.Point(132, 100);
             this.cityTextBox.Multiline = true;
             this.cityTextBox.Name = "cityTextBox";
@@ -202,6 +211,8 @@ namespace Car_Rental_Agency
             // 
             // stateTBox
             // 
+            this.stateTBox.BackColor = System.Drawing.Color.Black;
+            this.stateTBox.ForeColor = System.Drawing.Color.White;
             this.stateTBox.Location = new System.Drawing.Point(132, 133);
             this.stateTBox.Multiline = true;
             this.stateTBox.Name = "stateTBox";
@@ -210,6 +221,8 @@ namespace Car_Rental_Agency
             // 
             // countryTBox
             // 
+            this.countryTBox.BackColor = System.Drawing.Color.Black;
+            this.countryTBox.ForeColor = System.Drawing.Color.White;
             this.countryTBox.Location = new System.Drawing.Point(132, 166);
             this.countryTBox.Multiline = true;
             this.countryTBox.Name = "countryTBox";
@@ -218,6 +231,8 @@ namespace Car_Rental_Agency
             // 
             // postalCodeTbox
             // 
+            this.postalCodeTbox.BackColor = System.Drawing.Color.Black;
+            this.postalCodeTbox.ForeColor = System.Drawing.Color.White;
             this.postalCodeTbox.Location = new System.Drawing.Point(132, 199);
             this.postalCodeTbox.Multiline = true;
             this.postalCodeTbox.Name = "postalCodeTbox";
@@ -226,6 +241,8 @@ namespace Car_Rental_Agency
             // 
             // phoneTbox
             // 
+            this.phoneTbox.BackColor = System.Drawing.Color.Black;
+            this.phoneTbox.ForeColor = System.Drawing.Color.White;
             this.phoneTbox.Location = new System.Drawing.Point(132, 232);
             this.phoneTbox.Multiline = true;
             this.phoneTbox.Name = "phoneTbox";
@@ -246,7 +263,7 @@ namespace Car_Rental_Agency
             // queryResultLabel
             // 
             this.queryResultLabel.AutoSize = true;
-            this.queryResultLabel.Location = new System.Drawing.Point(752, 547);
+            this.queryResultLabel.Location = new System.Drawing.Point(750, 592);
             this.queryResultLabel.Name = "queryResultLabel";
             this.queryResultLabel.Size = new System.Drawing.Size(35, 13);
             this.queryResultLabel.TabIndex = 20;
@@ -270,29 +287,30 @@ namespace Car_Rental_Agency
             this.groupBox1.Controls.Add(this.brNameTbox);
             this.groupBox1.Controls.Add(this.streetTbox);
             this.groupBox1.ForeColor = System.Drawing.Color.DimGray;
-            this.groupBox1.Location = new System.Drawing.Point(39, 227);
+            this.groupBox1.Location = new System.Drawing.Point(39, 226);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(431, 329);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Update Branch Data";
             // 
-            // updatebranchpanel
+            // label2
             // 
-            this.updatebranchpanel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.updatebranchpanel.Location = new System.Drawing.Point(39, 25);
-            this.updatebranchpanel.Name = "updatebranchpanel";
-            this.updatebranchpanel.Size = new System.Drawing.Size(972, 41);
-            this.updatebranchpanel.TabIndex = 21;
-            this.updatebranchpanel.Paint += new System.Windows.Forms.PaintEventHandler(this.updatebranchpanel_Paint);
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(465, 29);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(219, 32);
+            this.label2.TabIndex = 21;
+            this.label2.Text = "Update Branch ";
             // 
             // UpdateBranch
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(1099, 585);
-            this.Controls.Add(this.updatebranchpanel);
+            this.BackColor = System.Drawing.Color.Black;
+            this.ClientSize = new System.Drawing.Size(1236, 649);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.queryResultLabel);
             this.Controls.Add(this.branchInfoDataGridView);
@@ -335,6 +353,6 @@ namespace Car_Rental_Agency
         private System.Windows.Forms.Button updateBranchBtn;
         private System.Windows.Forms.Label queryResultLabel;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Panel updatebranchpanel;
+        private System.Windows.Forms.Label label2;
     }
 }

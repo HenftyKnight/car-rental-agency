@@ -86,6 +86,8 @@ namespace Car_Rental_Agency
             // 
             // vehicleIDTextBox
             // 
+            this.vehicleIDTextBox.BackColor = System.Drawing.Color.Black;
+            this.vehicleIDTextBox.ForeColor = System.Drawing.Color.White;
             this.vehicleIDTextBox.Location = new System.Drawing.Point(113, 37);
             this.vehicleIDTextBox.Multiline = true;
             this.vehicleIDTextBox.Name = "vehicleIDTextBox";
@@ -170,6 +172,8 @@ namespace Car_Rental_Agency
             // 
             // milesTextBox
             // 
+            this.milesTextBox.BackColor = System.Drawing.Color.Black;
+            this.milesTextBox.ForeColor = System.Drawing.Color.White;
             this.milesTextBox.Location = new System.Drawing.Point(113, 37);
             this.milesTextBox.Multiline = true;
             this.milesTextBox.Name = "milesTextBox";
@@ -202,6 +206,8 @@ namespace Car_Rental_Agency
             // 
             // BranchTextBox
             // 
+            this.BranchTextBox.BackColor = System.Drawing.Color.Black;
+            this.BranchTextBox.ForeColor = System.Drawing.Color.White;
             this.BranchTextBox.Location = new System.Drawing.Point(113, 37);
             this.BranchTextBox.Multiline = true;
             this.BranchTextBox.Name = "BranchTextBox";
@@ -234,6 +240,8 @@ namespace Car_Rental_Agency
             // 
             // seatsTextBox
             // 
+            this.seatsTextBox.BackColor = System.Drawing.Color.Black;
+            this.seatsTextBox.ForeColor = System.Drawing.Color.White;
             this.seatsTextBox.Location = new System.Drawing.Point(113, 37);
             this.seatsTextBox.Multiline = true;
             this.seatsTextBox.Name = "seatsTextBox";
@@ -266,6 +274,8 @@ namespace Car_Rental_Agency
             // 
             // vehicleTypeTextBox
             // 
+            this.vehicleTypeTextBox.BackColor = System.Drawing.Color.Black;
+            this.vehicleTypeTextBox.ForeColor = System.Drawing.Color.White;
             this.vehicleTypeTextBox.Location = new System.Drawing.Point(113, 37);
             this.vehicleTypeTextBox.Multiline = true;
             this.vehicleTypeTextBox.Name = "vehicleTypeTextBox";
@@ -274,6 +284,7 @@ namespace Car_Rental_Agency
             // 
             // findVehicleDataGridView
             // 
+            this.findVehicleDataGridView.BackgroundColor = System.Drawing.Color.Black;
             this.findVehicleDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.findVehicleDataGridView.Location = new System.Drawing.Point(294, 95);
             this.findVehicleDataGridView.Name = "findVehicleDataGridView";

@@ -11,7 +11,8 @@ using System.Windows.Forms;
 namespace Car_Rental_Agency
 {
     public partial class UpdateBranch : Form
-    {
+    {   
+        string id;
         public UpdateBranch()
         {
             InitializeComponent();
@@ -31,6 +32,8 @@ namespace Car_Rental_Agency
         private void BranchInfoDataGridView_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             branchInfoDataGridView.CurrentRow.Selected = true;
+
+            id = branchInfoDataGridView.Rows[e.RowIndex].Cells["branchID"].Value.ToString();
             brNameTbox.Text = branchInfoDataGridView.Rows[e.RowIndex].Cells["branchName"].Value.ToString();
             streetTbox.Text = branchInfoDataGridView.Rows[e.RowIndex].Cells["street"].Value.ToString();
             cityTextBox.Text = branchInfoDataGridView.Rows[e.RowIndex].Cells["city"].Value.ToString();
@@ -96,7 +99,7 @@ namespace Car_Rental_Agency
 
             else 
             {
-                String query = $"UPDATE Branch SET branchName = '{branchName}', street = '{street}', city = '{city}',state = '{state}', country = '{country}', postalcode = '{postalcode}', phone = '{phone}' WHERE branchName = '{branchName}';";
+                String query = $"UPDATE Branch SET branchName = '{branchName}', street = '{street}', city = '{city}',state = '{state}', country = '{country}', postalcode = '{postalcode}', phone = '{phone}' WHERE branchId = '{id}';";
                 Database.runQuery(query);
                 Bind_Data();
             }

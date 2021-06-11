@@ -60,5 +60,10 @@ namespace Car_Rental_Agency
 
             vehicleTypeNameTextbox.Text = "";
         }
+
+        private void queryResultLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -49,6 +49,7 @@ namespace Car_Rental_Agency
             this.label1 = new System.Windows.Forms.Label();
             this.VehicleTypeDataGridView = new System.Windows.Forms.DataGridView();
             this.queryResultlabel = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.VehicleTypeDataGridView)).BeginInit();
@@ -60,7 +61,7 @@ namespace Car_Rental_Agency
             this.groupBox2.Controls.Add(this.vehicleTypeComboBox);
             this.groupBox2.Controls.Add(this.label7);
             this.groupBox2.ForeColor = System.Drawing.Color.White;
-            this.groupBox2.Location = new System.Drawing.Point(12, 26);
+            this.groupBox2.Location = new System.Drawing.Point(12, 82);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(273, 117);
             this.groupBox2.TabIndex = 16;
@@ -80,6 +81,8 @@ namespace Car_Rental_Agency
             // 
             // vehicleTypeComboBox
             // 
+            this.vehicleTypeComboBox.BackColor = System.Drawing.Color.Black;
+            this.vehicleTypeComboBox.ForeColor = System.Drawing.Color.White;
             this.vehicleTypeComboBox.FormattingEnabled = true;
             this.vehicleTypeComboBox.Location = new System.Drawing.Point(81, 38);
             this.vehicleTypeComboBox.Name = "vehicleTypeComboBox";
@@ -98,6 +101,7 @@ namespace Car_Rental_Agency
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.Black;
             this.groupBox1.Controls.Add(this.updateVtype);
             this.groupBox1.Controls.Add(this.cBranchFeeTextBox);
             this.groupBox1.Controls.Add(this.lateFeeTextBox);
@@ -112,7 +116,7 @@ namespace Car_Rental_Agency
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.ForeColor = System.Drawing.Color.White;
-            this.groupBox1.Location = new System.Drawing.Point(12, 161);
+            this.groupBox1.Location = new System.Drawing.Point(12, 220);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(273, 282);
             this.groupBox1.TabIndex = 15;
@@ -121,6 +125,7 @@ namespace Car_Rental_Agency
             // 
             // updateVtype
             // 
+            this.updateVtype.ForeColor = System.Drawing.Color.Black;
             this.updateVtype.Location = new System.Drawing.Point(93, 247);
             this.updateVtype.Name = "updateVtype";
             this.updateVtype.Size = new System.Drawing.Size(75, 23);
@@ -131,6 +136,8 @@ namespace Car_Rental_Agency
             // 
             // cBranchFeeTextBox
             // 
+            this.cBranchFeeTextBox.BackColor = System.Drawing.Color.Black;
+            this.cBranchFeeTextBox.ForeColor = System.Drawing.Color.White;
             this.cBranchFeeTextBox.Location = new System.Drawing.Point(130, 210);
             this.cBranchFeeTextBox.Multiline = true;
             this.cBranchFeeTextBox.Name = "cBranchFeeTextBox";
@@ -139,6 +146,8 @@ namespace Car_Rental_Agency
             // 
             // lateFeeTextBox
             // 
+            this.lateFeeTextBox.BackColor = System.Drawing.Color.Black;
+            this.lateFeeTextBox.ForeColor = System.Drawing.Color.White;
             this.lateFeeTextBox.Location = new System.Drawing.Point(130, 180);
             this.lateFeeTextBox.Multiline = true;
             this.lateFeeTextBox.Name = "lateFeeTextBox";
@@ -147,6 +156,8 @@ namespace Car_Rental_Agency
             // 
             // MonthlyFee
             // 
+            this.MonthlyFee.BackColor = System.Drawing.Color.Black;
+            this.MonthlyFee.ForeColor = System.Drawing.Color.White;
             this.MonthlyFee.Location = new System.Drawing.Point(130, 149);
             this.MonthlyFee.Multiline = true;
             this.MonthlyFee.Name = "MonthlyFee";
@@ -155,6 +166,8 @@ namespace Car_Rental_Agency
             // 
             // WeeklyFeeTextBox
             // 
+            this.WeeklyFeeTextBox.BackColor = System.Drawing.Color.Black;
+            this.WeeklyFeeTextBox.ForeColor = System.Drawing.Color.White;
             this.WeeklyFeeTextBox.Location = new System.Drawing.Point(130, 112);
             this.WeeklyFeeTextBox.Multiline = true;
             this.WeeklyFeeTextBox.Name = "WeeklyFeeTextBox";
@@ -163,6 +176,8 @@ namespace Car_Rental_Agency
             // 
             // DailyFee
             // 
+            this.DailyFee.BackColor = System.Drawing.Color.Black;
+            this.DailyFee.ForeColor = System.Drawing.Color.White;
             this.DailyFee.Location = new System.Drawing.Point(130, 75);
             this.DailyFee.Multiline = true;
             this.DailyFee.Name = "DailyFee";
@@ -171,6 +186,8 @@ namespace Car_Rental_Agency
             // 
             // vehicleTypeTextBox
             // 
+            this.vehicleTypeTextBox.BackColor = System.Drawing.Color.Black;
+            this.vehicleTypeTextBox.ForeColor = System.Drawing.Color.White;
             this.vehicleTypeTextBox.Location = new System.Drawing.Point(130, 37);
             this.vehicleTypeTextBox.Multiline = true;
             this.vehicleTypeTextBox.Name = "vehicleTypeTextBox";
@@ -241,7 +258,7 @@ namespace Car_Rental_Agency
             // 
             this.VehicleTypeDataGridView.BackgroundColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.VehicleTypeDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.VehicleTypeDataGridView.Location = new System.Drawing.Point(321, 67);
+            this.VehicleTypeDataGridView.Location = new System.Drawing.Point(360, 120);
             this.VehicleTypeDataGridView.Name = "VehicleTypeDataGridView";
             this.VehicleTypeDataGridView.Size = new System.Drawing.Size(674, 334);
             this.VehicleTypeDataGridView.TabIndex = 17;
@@ -255,12 +272,24 @@ namespace Car_Rental_Agency
             this.queryResultlabel.TabIndex = 3;
             this.queryResultlabel.Text = "label";
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.White;
+            this.label8.Location = new System.Drawing.Point(368, 23);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(282, 32);
+            this.label8.TabIndex = 18;
+            this.label8.Text = "Update Vehicle Type";
+            // 
             // UpdateVehicleType
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(1122, 450);
+            this.ClientSize = new System.Drawing.Size(1122, 514);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.queryResultlabel);
             this.Controls.Add(this.VehicleTypeDataGridView);
             this.Controls.Add(this.groupBox2);
@@ -300,5 +329,6 @@ namespace Car_Rental_Agency
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView VehicleTypeDataGridView;
         private System.Windows.Forms.Label queryResultlabel;
+        private System.Windows.Forms.Label label8;
     }
 }

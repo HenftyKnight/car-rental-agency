@@ -35,6 +35,7 @@ namespace Car_Rental_Agency
             this.vehicleTypeNameTextbox = new System.Windows.Forms.TextBox();
             this.vehicleTypeNameLabel = new System.Windows.Forms.Label();
             this.queryResultLabel = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.vehicleTypeDataGridView)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -43,9 +44,9 @@ namespace Car_Rental_Agency
             // 
             this.vehicleTypeDataGridView.BackgroundColor = System.Drawing.Color.Black;
             this.vehicleTypeDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.vehicleTypeDataGridView.Location = new System.Drawing.Point(324, 51);
+            this.vehicleTypeDataGridView.Location = new System.Drawing.Point(324, 86);
             this.vehicleTypeDataGridView.Name = "vehicleTypeDataGridView";
-            this.vehicleTypeDataGridView.Size = new System.Drawing.Size(706, 386);
+            this.vehicleTypeDataGridView.Size = new System.Drawing.Size(706, 338);
             this.vehicleTypeDataGridView.TabIndex = 7;
             // 
             // groupBox1
@@ -74,6 +75,8 @@ namespace Car_Rental_Agency
             // 
             // vehicleTypeNameTextbox
             // 
+            this.vehicleTypeNameTextbox.BackColor = System.Drawing.Color.Black;
+            this.vehicleTypeNameTextbox.ForeColor = System.Drawing.Color.White;
             this.vehicleTypeNameTextbox.Location = new System.Drawing.Point(112, 26);
             this.vehicleTypeNameTextbox.Multiline = true;
             this.vehicleTypeNameTextbox.Name = "vehicleTypeNameTextbox";
@@ -93,11 +96,23 @@ namespace Car_Rental_Agency
             // queryResultLabel
             // 
             this.queryResultLabel.AutoSize = true;
-            this.queryResultLabel.Location = new System.Drawing.Point(94, 319);
+            this.queryResultLabel.Location = new System.Drawing.Point(94, 356);
             this.queryResultLabel.Name = "queryResultLabel";
             this.queryResultLabel.Size = new System.Drawing.Size(35, 13);
             this.queryResultLabel.TabIndex = 9;
             this.queryResultLabel.Text = "label1";
+            this.queryResultLabel.Click += new System.EventHandler(this.queryResultLabel_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(281, 35);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(225, 29);
+            this.label1.TabIndex = 10;
+            this.label1.Text = "Enter Vehicle Type";
             // 
             // FindVehicleType
             // 
@@ -105,6 +120,7 @@ namespace Car_Rental_Agency
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1057, 473);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.queryResultLabel);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.vehicleTypeDataGridView);
@@ -127,5 +143,6 @@ namespace Car_Rental_Agency
         private System.Windows.Forms.TextBox vehicleTypeNameTextbox;
         private System.Windows.Forms.Label vehicleTypeNameLabel;
         private System.Windows.Forms.Label queryResultLabel;
+        private System.Windows.Forms.Label label1;
     }
 }

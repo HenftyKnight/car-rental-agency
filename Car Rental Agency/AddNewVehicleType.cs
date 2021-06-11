@@ -59,6 +59,13 @@ namespace Car_Rental_Agency
                     MessageBox.Show(e2.ToString());
                 }
             }
+            carTypeTextBox.Text = "";
+            dailyFeeTextBox.Text = "";
+            weeklyFeeTextBox.Text = "";
+            monthlyFeeTextBox.Text = "";
+            lateFeeTextBox.Text = "";
+            changeBranchTextBox.Text = "";
+
 
         }
 

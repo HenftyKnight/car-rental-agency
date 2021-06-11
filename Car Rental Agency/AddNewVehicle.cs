@@ -71,6 +71,14 @@ namespace Car_Rental_Agency
 
                 Database.runQuery(query);
             }
+            makeTextBox.Text = "";
+            modelTextBox.Text = "";
+            seatsTextBox.Text = "";
+            milesTextBox.Text = "";
+            yearTextBox.Text = "";
+
+
+
 
         }
 
@@ -95,6 +103,46 @@ namespace Car_Rental_Agency
                 string val = table.Rows[i][colName].ToString();
                 cb.Items.Add(val);
             }
+        }
+
+        private void vehicleTypeComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void branchNameCombobox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void makeTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void modelTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void seatsTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void milesTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void yearTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void availabilityComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

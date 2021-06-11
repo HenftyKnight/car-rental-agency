@@ -30,9 +30,9 @@ namespace Car_Rental_Agency
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.searchBranchTextBox = new System.Windows.Forms.TextBox();
-            this.branchNameLabel = new System.Windows.Forms.Label();
             this.searchBranchbtn = new System.Windows.Forms.Button();
+            this.branchNameLabel = new System.Windows.Forms.Label();
+            this.searchBranchTextBox = new System.Windows.Forms.TextBox();
             this.branchInfodataGridView = new System.Windows.Forms.DataGridView();
             this.label2 = new System.Windows.Forms.Label();
             this.branchNameResultLabel = new System.Windows.Forms.Label();
@@ -62,23 +62,6 @@ namespace Car_Rental_Agency
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Branch Name";
             // 
-            // searchBranchTextBox
-            // 
-            this.searchBranchTextBox.Location = new System.Drawing.Point(112, 57);
-            this.searchBranchTextBox.Multiline = true;
-            this.searchBranchTextBox.Name = "searchBranchTextBox";
-            this.searchBranchTextBox.Size = new System.Drawing.Size(163, 24);
-            this.searchBranchTextBox.TabIndex = 0;
-            // 
-            // branchNameLabel
-            // 
-            this.branchNameLabel.AutoSize = true;
-            this.branchNameLabel.Location = new System.Drawing.Point(6, 57);
-            this.branchNameLabel.Name = "branchNameLabel";
-            this.branchNameLabel.Size = new System.Drawing.Size(106, 20);
-            this.branchNameLabel.TabIndex = 1;
-            this.branchNameLabel.Text = "Branch Name";
-            // 
             // searchBranchbtn
             // 
             this.searchBranchbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -89,6 +72,25 @@ namespace Car_Rental_Agency
             this.searchBranchbtn.TabIndex = 2;
             this.searchBranchbtn.Text = "Search";
             this.searchBranchbtn.UseVisualStyleBackColor = true;
+            // 
+            // branchNameLabel
+            // 
+            this.branchNameLabel.AutoSize = true;
+            this.branchNameLabel.Location = new System.Drawing.Point(6, 57);
+            this.branchNameLabel.Name = "branchNameLabel";
+            this.branchNameLabel.Size = new System.Drawing.Size(106, 20);
+            this.branchNameLabel.TabIndex = 1;
+            this.branchNameLabel.Text = "Branch Name";
+            // 
+            // searchBranchTextBox
+            // 
+            this.searchBranchTextBox.BackColor = System.Drawing.Color.Black;
+            this.searchBranchTextBox.ForeColor = System.Drawing.Color.White;
+            this.searchBranchTextBox.Location = new System.Drawing.Point(112, 57);
+            this.searchBranchTextBox.Multiline = true;
+            this.searchBranchTextBox.Name = "searchBranchTextBox";
+            this.searchBranchTextBox.Size = new System.Drawing.Size(163, 24);
+            this.searchBranchTextBox.TabIndex = 0;
             // 
             // branchInfodataGridView
             // 
@@ -159,6 +161,8 @@ namespace Car_Rental_Agency
             // 
             // branchIDtextbox
             // 
+            this.branchIDtextbox.BackColor = System.Drawing.Color.Black;
+            this.branchIDtextbox.ForeColor = System.Drawing.Color.White;
             this.branchIDtextbox.Location = new System.Drawing.Point(100, 50);
             this.branchIDtextbox.Multiline = true;
             this.branchIDtextbox.Name = "branchIDtextbox";
@@ -193,7 +197,7 @@ namespace Car_Rental_Agency
             this.branchIDResultlabel.Size = new System.Drawing.Size(0, 29);
             this.branchIDResultlabel.TabIndex = 7;
             // 
-            // UpdateBranch
+            // FindBranch
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -207,7 +211,7 @@ namespace Car_Rental_Agency
             this.Controls.Add(this.label2);
             this.Controls.Add(this.branchInfodataGridView);
             this.Controls.Add(this.groupBox1);
-            this.Name = "UpdateBranch";
+            this.Name = "FindBranch";
             this.Text = "UpdateBranch";
             this.Load += new System.EventHandler(this.UpdateBranch_Load);
             this.groupBox1.ResumeLayout(false);

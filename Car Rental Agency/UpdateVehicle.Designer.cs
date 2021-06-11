@@ -48,20 +48,26 @@ namespace Car_Rental_Agency
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.VehicleinfodatagridView)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // VehicleinfodatagridView
             // 
+            this.VehicleinfodatagridView.BackgroundColor = System.Drawing.Color.Black;
             this.VehicleinfodatagridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.VehicleinfodatagridView.Location = new System.Drawing.Point(431, 106);
+            this.VehicleinfodatagridView.Location = new System.Drawing.Point(452, 71);
             this.VehicleinfodatagridView.Name = "VehicleinfodatagridView";
-            this.VehicleinfodatagridView.Size = new System.Drawing.Size(357, 266);
+            this.VehicleinfodatagridView.Size = new System.Drawing.Size(634, 357);
             this.VehicleinfodatagridView.TabIndex = 0;
             // 
             // availabilityTextBox
             // 
-            this.availabilityTextBox.Location = new System.Drawing.Point(149, 345);
+            this.availabilityTextBox.BackColor = System.Drawing.Color.Black;
+            this.availabilityTextBox.ForeColor = System.Drawing.Color.White;
+            this.availabilityTextBox.Location = new System.Drawing.Point(134, 278);
             this.availabilityTextBox.Multiline = true;
             this.availabilityTextBox.Name = "availabilityTextBox";
             this.availabilityTextBox.Size = new System.Drawing.Size(259, 27);
@@ -69,7 +75,9 @@ namespace Car_Rental_Agency
             // 
             // vehicleTypeTextBox
             // 
-            this.vehicleTypeTextBox.Location = new System.Drawing.Point(149, 145);
+            this.vehicleTypeTextBox.BackColor = System.Drawing.Color.Black;
+            this.vehicleTypeTextBox.ForeColor = System.Drawing.Color.White;
+            this.vehicleTypeTextBox.Location = new System.Drawing.Point(134, 78);
             this.vehicleTypeTextBox.Multiline = true;
             this.vehicleTypeTextBox.Name = "vehicleTypeTextBox";
             this.vehicleTypeTextBox.Size = new System.Drawing.Size(259, 27);
@@ -77,7 +85,9 @@ namespace Car_Rental_Agency
             // 
             // currentBranchTB
             // 
-            this.currentBranchTB.Location = new System.Drawing.Point(149, 108);
+            this.currentBranchTB.BackColor = System.Drawing.Color.Black;
+            this.currentBranchTB.ForeColor = System.Drawing.Color.White;
+            this.currentBranchTB.Location = new System.Drawing.Point(134, 41);
             this.currentBranchTB.Multiline = true;
             this.currentBranchTB.Name = "currentBranchTB";
             this.currentBranchTB.Size = new System.Drawing.Size(259, 27);
@@ -86,7 +96,9 @@ namespace Car_Rental_Agency
             // 
             // milesTextBox
             // 
-            this.milesTextBox.Location = new System.Drawing.Point(149, 308);
+            this.milesTextBox.BackColor = System.Drawing.Color.Black;
+            this.milesTextBox.ForeColor = System.Drawing.Color.White;
+            this.milesTextBox.Location = new System.Drawing.Point(134, 241);
             this.milesTextBox.Multiline = true;
             this.milesTextBox.Name = "milesTextBox";
             this.milesTextBox.Size = new System.Drawing.Size(259, 27);
@@ -95,7 +107,8 @@ namespace Car_Rental_Agency
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(215, 388);
+            this.button1.ForeColor = System.Drawing.Color.Black;
+            this.button1.Location = new System.Drawing.Point(200, 321);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(98, 24);
             this.button1.TabIndex = 36;
@@ -105,7 +118,9 @@ namespace Car_Rental_Agency
             // 
             // seatsTextBox
             // 
-            this.seatsTextBox.Location = new System.Drawing.Point(149, 275);
+            this.seatsTextBox.BackColor = System.Drawing.Color.Black;
+            this.seatsTextBox.ForeColor = System.Drawing.Color.White;
+            this.seatsTextBox.Location = new System.Drawing.Point(134, 208);
             this.seatsTextBox.Multiline = true;
             this.seatsTextBox.Name = "seatsTextBox";
             this.seatsTextBox.Size = new System.Drawing.Size(259, 27);
@@ -116,7 +131,7 @@ namespace Car_Rental_Agency
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.DimGray;
-            this.label8.Location = new System.Drawing.Point(21, 106);
+            this.label8.Location = new System.Drawing.Point(6, 39);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(121, 19);
             this.label8.TabIndex = 30;
@@ -124,7 +139,9 @@ namespace Car_Rental_Agency
             // 
             // makeYearTextBox
             // 
-            this.makeYearTextBox.Location = new System.Drawing.Point(149, 242);
+            this.makeYearTextBox.BackColor = System.Drawing.Color.Black;
+            this.makeYearTextBox.ForeColor = System.Drawing.Color.White;
+            this.makeYearTextBox.Location = new System.Drawing.Point(134, 175);
             this.makeYearTextBox.Multiline = true;
             this.makeYearTextBox.Name = "makeYearTextBox";
             this.makeYearTextBox.Size = new System.Drawing.Size(259, 27);
@@ -135,7 +152,7 @@ namespace Car_Rental_Agency
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.DimGray;
-            this.label1.Location = new System.Drawing.Point(26, 144);
+            this.label1.Location = new System.Drawing.Point(11, 77);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(105, 19);
             this.label1.TabIndex = 23;
@@ -143,7 +160,9 @@ namespace Car_Rental_Agency
             // 
             // modelTextBox
             // 
-            this.modelTextBox.Location = new System.Drawing.Point(149, 209);
+            this.modelTextBox.BackColor = System.Drawing.Color.Black;
+            this.modelTextBox.ForeColor = System.Drawing.Color.White;
+            this.modelTextBox.Location = new System.Drawing.Point(134, 142);
             this.modelTextBox.Multiline = true;
             this.modelTextBox.Name = "modelTextBox";
             this.modelTextBox.Size = new System.Drawing.Size(259, 27);
@@ -154,7 +173,7 @@ namespace Car_Rental_Agency
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.DimGray;
-            this.label2.Location = new System.Drawing.Point(28, 178);
+            this.label2.Location = new System.Drawing.Point(13, 111);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(49, 19);
             this.label2.TabIndex = 24;
@@ -162,7 +181,9 @@ namespace Car_Rental_Agency
             // 
             // makeTextBox
             // 
-            this.makeTextBox.Location = new System.Drawing.Point(149, 176);
+            this.makeTextBox.BackColor = System.Drawing.Color.Black;
+            this.makeTextBox.ForeColor = System.Drawing.Color.White;
+            this.makeTextBox.Location = new System.Drawing.Point(134, 109);
             this.makeTextBox.Multiline = true;
             this.makeTextBox.Name = "makeTextBox";
             this.makeTextBox.Size = new System.Drawing.Size(259, 27);
@@ -173,7 +194,7 @@ namespace Car_Rental_Agency
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.DimGray;
-            this.label3.Location = new System.Drawing.Point(28, 211);
+            this.label3.Location = new System.Drawing.Point(13, 144);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(55, 19);
             this.label3.TabIndex = 25;
@@ -184,7 +205,7 @@ namespace Car_Rental_Agency
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.DimGray;
-            this.label4.Location = new System.Drawing.Point(28, 244);
+            this.label4.Location = new System.Drawing.Point(13, 177);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(42, 19);
             this.label4.TabIndex = 26;
@@ -195,7 +216,7 @@ namespace Car_Rental_Agency
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.DimGray;
-            this.label5.Location = new System.Drawing.Point(26, 277);
+            this.label5.Location = new System.Drawing.Point(11, 210);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(52, 19);
             this.label5.TabIndex = 27;
@@ -206,7 +227,7 @@ namespace Car_Rental_Agency
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.DimGray;
-            this.label6.Location = new System.Drawing.Point(28, 310);
+            this.label6.Location = new System.Drawing.Point(13, 243);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(48, 19);
             this.label6.TabIndex = 28;
@@ -217,7 +238,7 @@ namespace Car_Rental_Agency
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.DimGray;
-            this.label7.Location = new System.Drawing.Point(28, 343);
+            this.label7.Location = new System.Drawing.Point(13, 276);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(90, 19);
             this.label7.TabIndex = 29;
@@ -226,41 +247,68 @@ namespace Car_Rental_Agency
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(360, 415);
+            this.label9.Location = new System.Drawing.Point(189, 470);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(35, 13);
             this.label9.TabIndex = 40;
             this.label9.Text = "label9";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Black;
+            this.label10.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.White;
+            this.label10.Location = new System.Drawing.Point(396, 22);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(211, 32);
+            this.label10.TabIndex = 41;
+            this.label10.Text = "Update Vehicle";
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.label8);
+            this.groupBox1.Controls.Add(this.label7);
+            this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.availabilityTextBox);
+            this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Controls.Add(this.vehicleTypeTextBox);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.currentBranchTB);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.milesTextBox);
+            this.groupBox1.Controls.Add(this.makeTextBox);
+            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.seatsTextBox);
+            this.groupBox1.Controls.Add(this.modelTextBox);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.makeYearTextBox);
+            this.groupBox1.ForeColor = System.Drawing.Color.White;
+            this.groupBox1.Location = new System.Drawing.Point(12, 71);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(420, 357);
+            this.groupBox1.TabIndex = 42;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Select Vehicle to Update";
             // 
             // UpdateVehicle
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1093, 509);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.availabilityTextBox);
-            this.Controls.Add(this.vehicleTypeTextBox);
-            this.Controls.Add(this.currentBranchTB);
-            this.Controls.Add(this.milesTextBox);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.seatsTextBox);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.makeYearTextBox);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.modelTextBox);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.makeTextBox);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label7);
             this.Controls.Add(this.VehicleinfodatagridView);
             this.Name = "UpdateVehicle";
             this.Text = "UpdateVehicle";
             this.Load += new System.EventHandler(this.UpdateVehicle_Load);
             ((System.ComponentModel.ISupportInitialize)(this.VehicleinfodatagridView)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -287,5 +335,7 @@ namespace Car_Rental_Agency
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }

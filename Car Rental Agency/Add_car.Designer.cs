@@ -49,6 +49,7 @@ namespace Car_Rental_Agency
             this.addVehicleBtn = new System.Windows.Forms.Button();
             this.queryResultLabel = new System.Windows.Forms.Label();
             this.queryResult = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -126,6 +127,8 @@ namespace Car_Rental_Agency
             // 
             // availabilityComboBox
             // 
+            this.availabilityComboBox.BackColor = System.Drawing.Color.Black;
+            this.availabilityComboBox.ForeColor = System.Drawing.Color.White;
             this.availabilityComboBox.FormattingEnabled = true;
             this.availabilityComboBox.Items.AddRange(new object[] {
             "Yes",
@@ -134,58 +137,80 @@ namespace Car_Rental_Agency
             this.availabilityComboBox.Name = "availabilityComboBox";
             this.availabilityComboBox.Size = new System.Drawing.Size(259, 27);
             this.availabilityComboBox.TabIndex = 9;
+            this.availabilityComboBox.SelectedIndexChanged += new System.EventHandler(this.availabilityComboBox_SelectedIndexChanged);
             // 
             // vehicleTypeComboBox
             // 
+            this.vehicleTypeComboBox.BackColor = System.Drawing.Color.Black;
+            this.vehicleTypeComboBox.ForeColor = System.Drawing.Color.White;
             this.vehicleTypeComboBox.FormattingEnabled = true;
             this.vehicleTypeComboBox.Location = new System.Drawing.Point(233, 58);
             this.vehicleTypeComboBox.Name = "vehicleTypeComboBox";
             this.vehicleTypeComboBox.Size = new System.Drawing.Size(259, 27);
             this.vehicleTypeComboBox.TabIndex = 10;
+            this.vehicleTypeComboBox.SelectedIndexChanged += new System.EventHandler(this.vehicleTypeComboBox_SelectedIndexChanged);
             // 
             // branchNameCombobox
             // 
+            this.branchNameCombobox.BackColor = System.Drawing.Color.Black;
+            this.branchNameCombobox.ForeColor = System.Drawing.Color.White;
             this.branchNameCombobox.FormattingEnabled = true;
             this.branchNameCombobox.Location = new System.Drawing.Point(233, 108);
             this.branchNameCombobox.Name = "branchNameCombobox";
             this.branchNameCombobox.Size = new System.Drawing.Size(259, 27);
             this.branchNameCombobox.TabIndex = 11;
+            this.branchNameCombobox.SelectedIndexChanged += new System.EventHandler(this.branchNameCombobox_SelectedIndexChanged);
             // 
             // seatsTextBox
             // 
+            this.seatsTextBox.BackColor = System.Drawing.Color.Black;
+            this.seatsTextBox.ForeColor = System.Drawing.Color.White;
             this.seatsTextBox.Location = new System.Drawing.Point(233, 268);
             this.seatsTextBox.Name = "seatsTextBox";
             this.seatsTextBox.Size = new System.Drawing.Size(259, 26);
             this.seatsTextBox.TabIndex = 13;
+            this.seatsTextBox.TextChanged += new System.EventHandler(this.seatsTextBox_TextChanged);
             // 
             // modelTextBox
             // 
+            this.modelTextBox.BackColor = System.Drawing.Color.Black;
+            this.modelTextBox.ForeColor = System.Drawing.Color.White;
             this.modelTextBox.Location = new System.Drawing.Point(233, 213);
             this.modelTextBox.Name = "modelTextBox";
             this.modelTextBox.Size = new System.Drawing.Size(259, 26);
             this.modelTextBox.TabIndex = 14;
+            this.modelTextBox.TextChanged += new System.EventHandler(this.modelTextBox_TextChanged);
             // 
             // milesTextBox
             // 
+            this.milesTextBox.BackColor = System.Drawing.Color.Black;
+            this.milesTextBox.ForeColor = System.Drawing.Color.White;
             this.milesTextBox.Location = new System.Drawing.Point(233, 331);
             this.milesTextBox.Name = "milesTextBox";
             this.milesTextBox.Size = new System.Drawing.Size(259, 26);
             this.milesTextBox.TabIndex = 15;
+            this.milesTextBox.TextChanged += new System.EventHandler(this.milesTextBox_TextChanged);
             // 
             // makeTextBox
             // 
+            this.makeTextBox.BackColor = System.Drawing.Color.Black;
+            this.makeTextBox.ForeColor = System.Drawing.Color.White;
             this.makeTextBox.Location = new System.Drawing.Point(233, 158);
             this.makeTextBox.Multiline = true;
             this.makeTextBox.Name = "makeTextBox";
             this.makeTextBox.Size = new System.Drawing.Size(259, 27);
             this.makeTextBox.TabIndex = 12;
+            this.makeTextBox.TextChanged += new System.EventHandler(this.makeTextBox_TextChanged);
             // 
             // yearTextBox
             // 
+            this.yearTextBox.BackColor = System.Drawing.Color.Black;
+            this.yearTextBox.ForeColor = System.Drawing.Color.White;
             this.yearTextBox.Location = new System.Drawing.Point(233, 391);
             this.yearTextBox.Name = "yearTextBox";
             this.yearTextBox.Size = new System.Drawing.Size(259, 26);
             this.yearTextBox.TabIndex = 16;
+            this.yearTextBox.TextChanged += new System.EventHandler(this.yearTextBox_TextChanged);
             // 
             // groupBox1
             // 
@@ -208,9 +233,9 @@ namespace Car_Rental_Agency
             this.groupBox1.Controls.Add(this.Type);
             this.groupBox1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.White;
-            this.groupBox1.Location = new System.Drawing.Point(41, 21);
+            this.groupBox1.Location = new System.Drawing.Point(131, 54);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(570, 533);
+            this.groupBox1.Size = new System.Drawing.Size(570, 527);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Add New Vehicle";
@@ -220,7 +245,7 @@ namespace Car_Rental_Agency
             // 
             this.addVehicleBtn.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.addVehicleBtn.ForeColor = System.Drawing.Color.White;
-            this.addVehicleBtn.Location = new System.Drawing.Point(292, 487);
+            this.addVehicleBtn.Location = new System.Drawing.Point(289, 477);
             this.addVehicleBtn.Name = "addVehicleBtn";
             this.addVehicleBtn.Size = new System.Drawing.Size(154, 38);
             this.addVehicleBtn.TabIndex = 1;
@@ -231,7 +256,7 @@ namespace Car_Rental_Agency
             // 
             this.queryResultLabel.AutoSize = true;
             this.queryResultLabel.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.queryResultLabel.Location = new System.Drawing.Point(269, 571);
+            this.queryResultLabel.Location = new System.Drawing.Point(352, 604);
             this.queryResultLabel.Name = "queryResultLabel";
             this.queryResultLabel.Size = new System.Drawing.Size(0, 29);
             this.queryResultLabel.TabIndex = 1;
@@ -240,21 +265,33 @@ namespace Car_Rental_Agency
             // 
             this.queryResult.AutoSize = true;
             this.queryResult.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.queryResult.Location = new System.Drawing.Point(275, 571);
+            this.queryResult.Location = new System.Drawing.Point(358, 604);
             this.queryResult.Name = "queryResult";
             this.queryResult.Size = new System.Drawing.Size(0, 29);
             this.queryResult.TabIndex = 2;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.White;
+            this.label8.Location = new System.Drawing.Point(294, 19);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(260, 32);
+            this.label8.TabIndex = 3;
+            this.label8.Text = "Add A New Vehicle";
             // 
             // AddNewVehicle
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ControlText;
-            this.ClientSize = new System.Drawing.Size(806, 609);
+            this.BackColor = System.Drawing.Color.Black;
+            this.ClientSize = new System.Drawing.Size(833, 642);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.queryResult);
             this.Controls.Add(this.queryResultLabel);
             this.Controls.Add(this.groupBox1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "AddNewVehicle";
             this.Text = "Add New Vehicle";
             this.Load += new System.EventHandler(this.add_car_Load);
@@ -287,5 +324,6 @@ namespace Car_Rental_Agency
         private System.Windows.Forms.Button addVehicleBtn;
         private System.Windows.Forms.Label queryResultLabel;
         private System.Windows.Forms.Label queryResult;
+        private System.Windows.Forms.Label label8;
     }
 }

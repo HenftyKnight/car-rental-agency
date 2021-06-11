@@ -71,7 +71,7 @@ namespace Car_Rental_Agency
             this.groupBox1.ForeColor = System.Drawing.Color.White;
             this.groupBox1.Location = new System.Drawing.Point(152, 85);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(524, 337);
+            this.groupBox1.Size = new System.Drawing.Size(524, 355);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Branch";
@@ -88,6 +88,8 @@ namespace Car_Rental_Agency
             // 
             // branchPhoneTextbox
             // 
+            this.branchPhoneTextbox.BackColor = System.Drawing.Color.Black;
+            this.branchPhoneTextbox.ForeColor = System.Drawing.Color.White;
             this.branchPhoneTextbox.Location = new System.Drawing.Point(167, 248);
             this.branchPhoneTextbox.Multiline = true;
             this.branchPhoneTextbox.Name = "branchPhoneTextbox";
@@ -96,6 +98,8 @@ namespace Car_Rental_Agency
             // 
             // branchPostalcodeTextbox
             // 
+            this.branchPostalcodeTextbox.BackColor = System.Drawing.Color.Black;
+            this.branchPostalcodeTextbox.ForeColor = System.Drawing.Color.White;
             this.branchPostalcodeTextbox.Location = new System.Drawing.Point(167, 215);
             this.branchPostalcodeTextbox.Multiline = true;
             this.branchPostalcodeTextbox.Name = "branchPostalcodeTextbox";
@@ -104,6 +108,8 @@ namespace Car_Rental_Agency
             // 
             // branchCountryTextbox
             // 
+            this.branchCountryTextbox.BackColor = System.Drawing.Color.Black;
+            this.branchCountryTextbox.ForeColor = System.Drawing.Color.White;
             this.branchCountryTextbox.Location = new System.Drawing.Point(167, 182);
             this.branchCountryTextbox.Multiline = true;
             this.branchCountryTextbox.Name = "branchCountryTextbox";
@@ -112,6 +118,8 @@ namespace Car_Rental_Agency
             // 
             // branchStateTextbox
             // 
+            this.branchStateTextbox.BackColor = System.Drawing.Color.Black;
+            this.branchStateTextbox.ForeColor = System.Drawing.Color.White;
             this.branchStateTextbox.Location = new System.Drawing.Point(167, 149);
             this.branchStateTextbox.Multiline = true;
             this.branchStateTextbox.Name = "branchStateTextbox";
@@ -120,6 +128,8 @@ namespace Car_Rental_Agency
             // 
             // branchCityTextbox
             // 
+            this.branchCityTextbox.BackColor = System.Drawing.Color.Black;
+            this.branchCityTextbox.ForeColor = System.Drawing.Color.White;
             this.branchCityTextbox.Location = new System.Drawing.Point(167, 116);
             this.branchCityTextbox.Multiline = true;
             this.branchCityTextbox.Name = "branchCityTextbox";
@@ -128,6 +138,8 @@ namespace Car_Rental_Agency
             // 
             // branchStreetTextbox
             // 
+            this.branchStreetTextbox.BackColor = System.Drawing.Color.Black;
+            this.branchStreetTextbox.ForeColor = System.Drawing.Color.White;
             this.branchStreetTextbox.Location = new System.Drawing.Point(167, 82);
             this.branchStreetTextbox.Multiline = true;
             this.branchStreetTextbox.Name = "branchStreetTextbox";
@@ -136,6 +148,8 @@ namespace Car_Rental_Agency
             // 
             // branchNameTextbox
             // 
+            this.branchNameTextbox.BackColor = System.Drawing.Color.Black;
+            this.branchNameTextbox.ForeColor = System.Drawing.Color.White;
             this.branchNameTextbox.Location = new System.Drawing.Point(167, 49);
             this.branchNameTextbox.Multiline = true;
             this.branchNameTextbox.Name = "branchNameTextbox";
@@ -218,8 +232,9 @@ namespace Car_Rental_Agency
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.White;
+            this.label1.BackColor = System.Drawing.Color.Black;
             this.label1.Font = new System.Drawing.Font("Arial", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(274, 29);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(323, 41);

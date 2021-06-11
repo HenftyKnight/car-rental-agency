@@ -60,6 +60,14 @@ namespace Car_Rental_Agency
                 {
                     MessageBox.Show(e2.ToString());
                 }
+
+                branchNameTextbox.Text = "";
+                branchStreetTextbox.Text = "";
+                branchCityTextbox.Text = "";
+                branchStateTextbox.Text = "";
+                branchCountryTextbox.Text = "";
+                branchPostalcodeTextbox.Text = "";
+                branchPhoneTextbox.Text = "";
             }
 
         }
