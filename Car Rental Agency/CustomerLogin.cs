@@ -175,13 +175,13 @@ namespace Car_Rental_Agency
                 this.DialogResult = DialogResult.OK;
 
                 // Load user details from database
-                string query = String.Format("SELECT userID, fName, MembershipType,balance FROM Users WHERE email = '{0}';", email);
+                string query = String.Format("SELECT userID, fName, MembershipType, balance FROM Users WHERE email = '{0}';", email);
                 DataTable table = Database.SqlQuery(query);
                 this.User = new Customer();
                 this.User.ID = Int32.Parse(table.Rows[0][0].ToString());
-                this.User.FirstName = table.Rows[0][3].ToString();
-                this.User.MembershipType = table.Rows[0][13].ToString(); // Handle
-                this.User.Balance = table.Rows[0][15].ToString();
+                this.User.FirstName = table.Rows[0][1].ToString();
+                this.User.MembershipType = table.Rows[0][2].ToString(); // Handle
+                this.User.Balance = table.Rows[0][3].ToString();
 
                 Console.WriteLine("" +
                     "ID = {0}, " +
@@ -198,10 +198,10 @@ namespace Car_Rental_Agency
 
                 this.Close();
 
-                //StartReservation startreservation = new StartReservation(this.User);
-                //this.Opacity = 0.0;
-                //startreservation.ShowDialog();
-                //this.Opacity = 100.0;
+                BookingCustomer booking = new BookingCustomer(this.User);
+                this.Opacity = 0.0;
+                booking.ShowDialog();
+                this.Opacity = 100.0;
 
             }
 
@@ -262,10 +262,10 @@ namespace Car_Rental_Agency
                     this.User = cx;
                     this.Close();
 
-                    //StartReservation startreservation = new StartReservation(this.User);
-                    //this.Opacity = 0.0;
-                    //startreservation.ShowDialog();
-                    //this.Opacity = 100.0;
+                    BookingCustomer booking = new BookingCustomer(this.User);
+                    this.Opacity = 0.0;
+                    booking.ShowDialog();
+                    this.Opacity = 100.0;
                 }
             }
             catch (Exception ex)

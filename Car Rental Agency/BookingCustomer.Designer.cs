@@ -29,7 +29,7 @@ namespace Car_Rental_Agency
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.VehicleInfoDataGridView = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.checkavailability = new System.Windows.Forms.Button();
@@ -44,25 +44,30 @@ namespace Car_Rental_Agency
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.seatsComboBox = new System.Windows.Forms.TextBox();
-            this.seatsBox = new System.Windows.Forms.ComboBox();
             this.welcomeLabel = new System.Windows.Forms.Label();
             this.infolabel = new System.Windows.Forms.Label();
             this.errorLabel = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.seatsTextBox = new System.Windows.Forms.TextBox();
+            this.SearchagainBtn = new System.Windows.Forms.Button();
+            this.backUpDataGridView = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.VehicleInfoDataGridView)).BeginInit();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.backUpDataGridView)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // VehicleInfoDataGridView
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(475, 86);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(615, 374);
-            this.dataGridView1.TabIndex = 18;
+            this.VehicleInfoDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.VehicleInfoDataGridView.Location = new System.Drawing.Point(475, 86);
+            this.VehicleInfoDataGridView.Name = "VehicleInfoDataGridView";
+            this.VehicleInfoDataGridView.Size = new System.Drawing.Size(615, 143);
+            this.VehicleInfoDataGridView.TabIndex = 18;
+            this.VehicleInfoDataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.VehicleInfoDataGridView_CellContentClick);
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.seatsBox);
+            this.groupBox1.Controls.Add(this.SearchagainBtn);
+            this.groupBox1.Controls.Add(this.seatsTextBox);
             this.groupBox1.Controls.Add(this.seatsComboBox);
             this.groupBox1.Controls.Add(this.textBox3);
             this.groupBox1.Controls.Add(this.checkavailability);
@@ -102,7 +107,7 @@ namespace Car_Rental_Agency
             this.checkavailability.BackColor = System.Drawing.SystemColors.Info;
             this.checkavailability.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkavailability.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.checkavailability.Location = new System.Drawing.Point(89, 303);
+            this.checkavailability.Location = new System.Drawing.Point(22, 305);
             this.checkavailability.Margin = new System.Windows.Forms.Padding(2);
             this.checkavailability.Name = "checkavailability";
             this.checkavailability.Size = new System.Drawing.Size(175, 31);
@@ -242,17 +247,6 @@ namespace Car_Rental_Agency
             this.seatsComboBox.TabIndex = 14;
             this.seatsComboBox.Text = "Seats";
             // 
-            // seatsBox
-            // 
-            this.seatsBox.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.seatsBox.FormattingEnabled = true;
-            this.seatsBox.Location = new System.Drawing.Point(230, 210);
-            this.seatsBox.Margin = new System.Windows.Forms.Padding(2);
-            this.seatsBox.Name = "seatsBox";
-            this.seatsBox.Size = new System.Drawing.Size(114, 27);
-            this.seatsBox.TabIndex = 15;
-            this.seatsBox.Text = "All";
-            // 
             // welcomeLabel
             // 
             this.welcomeLabel.AutoSize = true;
@@ -283,24 +277,56 @@ namespace Car_Rental_Agency
             this.errorLabel.TabIndex = 21;
             this.errorLabel.Text = "Error Label";
             // 
+            // seatsTextBox
+            // 
+            this.seatsTextBox.Location = new System.Drawing.Point(230, 210);
+            this.seatsTextBox.Multiline = true;
+            this.seatsTextBox.Name = "seatsTextBox";
+            this.seatsTextBox.Size = new System.Drawing.Size(168, 20);
+            this.seatsTextBox.TabIndex = 15;
+            // 
+            // SearchagainBtn
+            // 
+            this.SearchagainBtn.BackColor = System.Drawing.SystemColors.Info;
+            this.SearchagainBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SearchagainBtn.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.SearchagainBtn.Location = new System.Drawing.Point(230, 305);
+            this.SearchagainBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.SearchagainBtn.Name = "SearchagainBtn";
+            this.SearchagainBtn.Size = new System.Drawing.Size(175, 31);
+            this.SearchagainBtn.TabIndex = 16;
+            this.SearchagainBtn.Text = "Search Again";
+            this.SearchagainBtn.UseVisualStyleBackColor = false;
+            this.SearchagainBtn.Click += new System.EventHandler(this.SearchagainBtn_Click);
+            // 
+            // backUpDataGridView
+            // 
+            this.backUpDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.backUpDataGridView.Location = new System.Drawing.Point(475, 274);
+            this.backUpDataGridView.Name = "backUpDataGridView";
+            this.backUpDataGridView.Size = new System.Drawing.Size(615, 150);
+            this.backUpDataGridView.TabIndex = 22;
+            // 
             // BookingCustomer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(1135, 494);
+            this.Controls.Add(this.backUpDataGridView);
             this.Controls.Add(this.errorLabel);
             this.Controls.Add(this.infolabel);
             this.Controls.Add(this.welcomeLabel);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.VehicleInfoDataGridView);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.textBox2);
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "BookingCustomer";
             this.Text = "BookingCustomer";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.VehicleInfoDataGridView)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.backUpDataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -308,9 +334,8 @@ namespace Car_Rental_Agency
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView VehicleInfoDataGridView;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.ComboBox seatsBox;
         private System.Windows.Forms.TextBox seatsComboBox;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Button checkavailability;
@@ -327,5 +352,8 @@ namespace Car_Rental_Agency
         private System.Windows.Forms.Label welcomeLabel;
         private System.Windows.Forms.Label infolabel;
         private System.Windows.Forms.Label errorLabel;
+        private System.Windows.Forms.TextBox seatsTextBox;
+        private System.Windows.Forms.Button SearchagainBtn;
+        private System.Windows.Forms.DataGridView backUpDataGridView;
     }
 }
