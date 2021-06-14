@@ -79,5 +79,10 @@ namespace Car_Rental_Agency
 
 
             }
-     }
+
+        private void AddNewVehicleType_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
  }

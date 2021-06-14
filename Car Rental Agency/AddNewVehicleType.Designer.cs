@@ -68,9 +68,11 @@ namespace Car_Rental_Agency
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.White;
-            this.groupBox1.Location = new System.Drawing.Point(45, 90);
+            this.groupBox1.Location = new System.Drawing.Point(68, 138);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(707, 331);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox1.Size = new System.Drawing.Size(1060, 509);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Vehicle Type";
@@ -79,9 +81,10 @@ namespace Car_Rental_Agency
             // submitBtn
             // 
             this.submitBtn.ForeColor = System.Drawing.Color.Black;
-            this.submitBtn.Location = new System.Drawing.Point(331, 288);
+            this.submitBtn.Location = new System.Drawing.Point(496, 443);
+            this.submitBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.submitBtn.Name = "submitBtn";
-            this.submitBtn.Size = new System.Drawing.Size(127, 32);
+            this.submitBtn.Size = new System.Drawing.Size(190, 49);
             this.submitBtn.TabIndex = 13;
             this.submitBtn.Text = "Add Type";
             this.submitBtn.UseVisualStyleBackColor = true;
@@ -90,113 +93,125 @@ namespace Car_Rental_Agency
             // 
             this.changeBranchTextBox.BackColor = System.Drawing.Color.Black;
             this.changeBranchTextBox.ForeColor = System.Drawing.Color.White;
-            this.changeBranchTextBox.Location = new System.Drawing.Point(267, 242);
+            this.changeBranchTextBox.Location = new System.Drawing.Point(400, 372);
+            this.changeBranchTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.changeBranchTextBox.Multiline = true;
             this.changeBranchTextBox.Name = "changeBranchTextBox";
-            this.changeBranchTextBox.Size = new System.Drawing.Size(259, 27);
+            this.changeBranchTextBox.Size = new System.Drawing.Size(386, 39);
             this.changeBranchTextBox.TabIndex = 11;
             // 
             // lateFeeTextBox
             // 
             this.lateFeeTextBox.BackColor = System.Drawing.Color.Black;
             this.lateFeeTextBox.ForeColor = System.Drawing.Color.White;
-            this.lateFeeTextBox.Location = new System.Drawing.Point(267, 199);
+            this.lateFeeTextBox.Location = new System.Drawing.Point(400, 306);
+            this.lateFeeTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lateFeeTextBox.Multiline = true;
             this.lateFeeTextBox.Name = "lateFeeTextBox";
-            this.lateFeeTextBox.Size = new System.Drawing.Size(259, 27);
+            this.lateFeeTextBox.Size = new System.Drawing.Size(386, 39);
             this.lateFeeTextBox.TabIndex = 10;
             // 
             // monthlyFeeTextBox
             // 
             this.monthlyFeeTextBox.BackColor = System.Drawing.Color.Black;
             this.monthlyFeeTextBox.ForeColor = System.Drawing.Color.White;
-            this.monthlyFeeTextBox.Location = new System.Drawing.Point(267, 161);
+            this.monthlyFeeTextBox.Location = new System.Drawing.Point(400, 248);
+            this.monthlyFeeTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.monthlyFeeTextBox.Multiline = true;
             this.monthlyFeeTextBox.Name = "monthlyFeeTextBox";
-            this.monthlyFeeTextBox.Size = new System.Drawing.Size(259, 27);
+            this.monthlyFeeTextBox.Size = new System.Drawing.Size(386, 39);
             this.monthlyFeeTextBox.TabIndex = 9;
             // 
             // dailyFeeTextBox
             // 
             this.dailyFeeTextBox.BackColor = System.Drawing.Color.Black;
             this.dailyFeeTextBox.ForeColor = System.Drawing.Color.White;
-            this.dailyFeeTextBox.Location = new System.Drawing.Point(267, 80);
+            this.dailyFeeTextBox.Location = new System.Drawing.Point(400, 123);
+            this.dailyFeeTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dailyFeeTextBox.Multiline = true;
             this.dailyFeeTextBox.Name = "dailyFeeTextBox";
-            this.dailyFeeTextBox.Size = new System.Drawing.Size(259, 27);
+            this.dailyFeeTextBox.Size = new System.Drawing.Size(386, 39);
             this.dailyFeeTextBox.TabIndex = 8;
             // 
             // weeklyFeeTextBox
             // 
             this.weeklyFeeTextBox.BackColor = System.Drawing.Color.Black;
             this.weeklyFeeTextBox.ForeColor = System.Drawing.Color.White;
-            this.weeklyFeeTextBox.Location = new System.Drawing.Point(267, 120);
+            this.weeklyFeeTextBox.Location = new System.Drawing.Point(400, 185);
+            this.weeklyFeeTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.weeklyFeeTextBox.Multiline = true;
             this.weeklyFeeTextBox.Name = "weeklyFeeTextBox";
-            this.weeklyFeeTextBox.Size = new System.Drawing.Size(259, 27);
+            this.weeklyFeeTextBox.Size = new System.Drawing.Size(386, 39);
             this.weeklyFeeTextBox.TabIndex = 7;
             // 
             // carTypeTextBox
             // 
             this.carTypeTextBox.BackColor = System.Drawing.Color.Black;
             this.carTypeTextBox.ForeColor = System.Drawing.Color.White;
-            this.carTypeTextBox.Location = new System.Drawing.Point(267, 40);
+            this.carTypeTextBox.Location = new System.Drawing.Point(400, 62);
+            this.carTypeTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.carTypeTextBox.Multiline = true;
             this.carTypeTextBox.Name = "carTypeTextBox";
-            this.carTypeTextBox.Size = new System.Drawing.Size(259, 27);
+            this.carTypeTextBox.Size = new System.Drawing.Size(386, 39);
             this.carTypeTextBox.TabIndex = 6;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(30, 242);
+            this.label6.Location = new System.Drawing.Point(45, 372);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(161, 19);
+            this.label6.Size = new System.Drawing.Size(238, 29);
             this.label6.TabIndex = 5;
             this.label6.Text = "Change Branch Fee";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(30, 199);
+            this.label5.Location = new System.Drawing.Point(45, 306);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(74, 19);
+            this.label5.Size = new System.Drawing.Size(110, 29);
             this.label5.TabIndex = 4;
             this.label5.Text = "Late Fee";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(30, 161);
+            this.label4.Location = new System.Drawing.Point(45, 248);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(102, 19);
+            this.label4.Size = new System.Drawing.Size(155, 29);
             this.label4.TabIndex = 3;
             this.label4.Text = "Monthly Fee";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(30, 120);
+            this.label3.Location = new System.Drawing.Point(45, 185);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(96, 19);
+            this.label3.Size = new System.Drawing.Size(143, 29);
             this.label3.TabIndex = 2;
             this.label3.Text = "Weekly Fee";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(30, 80);
+            this.label2.Location = new System.Drawing.Point(45, 123);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(79, 19);
+            this.label2.Size = new System.Drawing.Size(118, 29);
             this.label2.TabIndex = 1;
             this.label2.Text = "Daily Fee";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(30, 40);
+            this.label1.Location = new System.Drawing.Point(45, 62);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(105, 19);
+            this.label1.Size = new System.Drawing.Size(157, 29);
             this.label1.TabIndex = 0;
             this.label1.Text = "Vehicle Type";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -205,9 +220,10 @@ namespace Car_Rental_Agency
             // 
             this.panel1.Controls.Add(this.label7);
             this.panel1.ForeColor = System.Drawing.Color.White;
-            this.panel1.Location = new System.Drawing.Point(-2, 2);
+            this.panel1.Location = new System.Drawing.Point(-3, 3);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(800, 71);
+            this.panel1.Size = new System.Drawing.Size(1200, 109);
             this.panel1.TabIndex = 1;
             // 
             // label7
@@ -215,32 +231,36 @@ namespace Car_Rental_Agency
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Arial", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(245, 21);
+            this.label7.Location = new System.Drawing.Point(368, 32);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(297, 41);
+            this.label7.Size = new System.Drawing.Size(457, 62);
             this.label7.TabIndex = 2;
             this.label7.Text = "Add Vehicle Type";
             // 
             // queryResult
             // 
             this.queryResult.AutoSize = true;
-            this.queryResult.Location = new System.Drawing.Point(309, 428);
+            this.queryResult.Location = new System.Drawing.Point(464, 658);
+            this.queryResult.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.queryResult.Name = "queryResult";
-            this.queryResult.Size = new System.Drawing.Size(35, 13);
+            this.queryResult.Size = new System.Drawing.Size(51, 20);
             this.queryResult.TabIndex = 2;
             this.queryResult.Text = "label8";
             // 
             // AddNewVehicleType
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1200, 692);
             this.Controls.Add(this.queryResult);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.groupBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "AddNewVehicleType";
             this.Text = "AddNewVehicleType";
+            this.Load += new System.EventHandler(this.AddNewVehicleType_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.panel1.ResumeLayout(false);

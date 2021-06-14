@@ -226,5 +226,10 @@ namespace Car_Rental_Agency
         {
 
         }
+
+        private void FindVehicle_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

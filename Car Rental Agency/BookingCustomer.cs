@@ -64,7 +64,7 @@ namespace Car_Rental_Agency
                 this.User.FirstName = "Guest";
             }
 
-            con = new SqlConnection("server=SYNAPSE;" +
+            con = new SqlConnection("server=DESKTOP-FN58B5T;" +
                                        "Trusted_Connection=yes;" +
                                        "database=car-rental-agency; " +
                                        "connection timeout=30");
@@ -199,7 +199,7 @@ namespace Car_Rental_Agency
 
             else 
             {
-                con = new SqlConnection("server=SYNAPSE;" +
+                con = new SqlConnection("server=DESKTOP-FN58B5T;" +
                                        "Trusted_Connection=yes;" +
                                        "database=car-rental-agency; " +
                                        "connection timeout=30");

@@ -20,7 +20,7 @@ namespace Car_Rental_Agency
             this.Text = "Car Rental Agency";
             Customer.Click += Customer_click;
             Employee.Click += Employee_click;
-            mysqlConnection = new SqlConnection("server=SYNAPSE;" +
+            mysqlConnection = new SqlConnection("server=DESKTOP-FN58B5T;" +
                                        "Trusted_Connection=yes;" +
                                        "database=car-rental-agency; " +
                                        "connection timeout=30");
@@ -46,6 +46,7 @@ namespace Car_Rental_Agency
             CustomerLogin login = new CustomerLogin(mysqlConnection);
             login.Show();
             this.Text = "Button One Clicked";
+            this.Hide();
         }
 
         /* Login to Employee Portal */
@@ -55,6 +56,7 @@ namespace Car_Rental_Agency
             EmployeeLogin employeeLogin = new EmployeeLogin(mysqlConnection);
             employeeLogin.Show();
             this.Text = "Button One Clicked";
+            this.Hide();
         }
     }
 }

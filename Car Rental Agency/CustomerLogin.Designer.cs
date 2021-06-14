@@ -21,6 +21,9 @@ namespace Car_Rental_Agency
             base.Dispose(disposing);
         }
 
+
+
+
         #region Windows Form Designer generated code
 
         /// <summary>
@@ -513,5 +516,6 @@ namespace Car_Rental_Agency
         private System.Windows.Forms.Label dlisenceType;
         private System.Windows.Forms.DateTimePicker agedateTimePicker;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label queryResult;
     }
 }

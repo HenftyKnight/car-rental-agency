@@ -11,7 +11,7 @@ namespace Car_Rental_Agency
 {
     class Database
     {
-        private static readonly string DBString = "server=SYNAPSE;" +
+        private static readonly string DBString = "server=DESKTOP-FN58B5T;" +
                                                   "Trusted_Connection=yes;" +
                                                   "database=car-rental-agency; " +
                                                   "connection timeout=30";

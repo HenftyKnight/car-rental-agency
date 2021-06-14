@@ -76,6 +76,25 @@ namespace Car_Rental_Agency
             
         }
 
+         private void delVehicleTypebtn_Click(object sender, EventArgs e)
+        {
+            UpdateVehicleType updateVehicleType = new UpdateVehicleType();
+            updateVehicleType.Show();
+        }
+
+        private void delVehiclebtn_Click(object sender, EventArgs e)
+        {
+            UpdateVehicle update = new UpdateVehicle();
+            update.Show();
+        }
+
+        private void delBranchbtn_Click(object sender, EventArgs e)
+        {
+            UpdateBranch updateBranch = new UpdateBranch();
+            updateBranch.Show();
+            
+        }
+
         private void AddNewVehicleTypeButton_Click(object sender, EventArgs e)
         {
             AddNewVehicleType addNewVehicleType = new AddNewVehicleType(mysqlConnection);

@@ -41,10 +41,14 @@ namespace Car_Rental_Agency
             this.findBranchBtn = new System.Windows.Forms.Button();
             this.findVehicleTypeBtn = new System.Windows.Forms.Button();
             this.findVehicleBtn = new System.Windows.Forms.Button();
+            
             this.addGroupBox.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            
             this.SuspendLayout();
+           // 
+         
             // 
             // addNewVehicleButton
             // 
@@ -205,5 +209,6 @@ namespace Car_Rental_Agency
         private System.Windows.Forms.Button findBranchBtn;
         private System.Windows.Forms.Button findVehicleTypeBtn;
         private System.Windows.Forms.Button findVehicleBtn;
+       
     }
 }

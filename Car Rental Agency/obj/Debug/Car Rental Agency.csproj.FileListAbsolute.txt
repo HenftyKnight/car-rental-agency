@@ -13,7 +13,6 @@ C:\Users\rusve\source\repos\Car Rental Agency\obj\Debug\Car_Rental_Agency.Employ
 C:\Users\Sana\Source\Repos\car-rental-agency\Car Rental Agency\bin\Debug\Car Rental Agency.exe.config
 C:\Users\Sana\Source\Repos\car-rental-agency\Car Rental Agency\bin\Debug\Car Rental Agency.exe
 C:\Users\Sana\Source\Repos\car-rental-agency\Car Rental Agency\bin\Debug\Car Rental Agency.pdb
-C:\Users\Sana\Source\Repos\car-rental-agency\Car Rental Agency\obj\Debug\Car Rental Agency.csprojAssemblyReference.cache
 C:\Users\Sana\Source\Repos\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.CustomerLogin.resources
 C:\Users\Sana\Source\Repos\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.EmployeeLogin.resources
 C:\Users\Sana\Source\Repos\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.Main.resources
@@ -22,7 +21,6 @@ C:\Users\Sana\Source\Repos\car-rental-agency\Car Rental Agency\obj\Debug\Car Ren
 C:\Users\Sana\Source\Repos\car-rental-agency\Car Rental Agency\obj\Debug\Car Rental Agency.csproj.CoreCompileInputs.cache
 C:\Users\Sana\Source\Repos\car-rental-agency\Car Rental Agency\obj\Debug\Car Rental Agency.exe
 C:\Users\Sana\Source\Repos\car-rental-agency\Car Rental Agency\obj\Debug\Car Rental Agency.pdb
-C:\Users\Sana\Source\Repos\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.add_car.resources
 C:\Users\Sana\Source\Repos\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.BookingCustomer.resources
 C:\Users\Sana\Source\Repos\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.Confirmation.resources
 C:\Users\Sana\Source\Repos\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.Employee_vehicles.resources
@@ -32,9 +30,7 @@ C:\Users\Sana\Source\Repos\car-rental-agency\Car Rental Agency\obj\Debug\Car_Ren
 C:\Users\Sana\Source\Repos\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.Delete_confirm.resources
 C:\Users\Sana\Source\Repos\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.Employee_booking.resources
 C:\Users\Sana\Source\Repos\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.Employee_customers.resources
-C:\Users\Sana\Source\Repos\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.Update_Car.resources
 C:\Users\Sana\Source\Repos\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.update_confirm.resources
-C:\Users\Sana\Source\Repos\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.EmployeeMain.resources
 R:\CMPT\CMPT291\car-rental-agency\Car Rental Agency\bin\Debug\Car Rental Agency.exe.config
 R:\CMPT\CMPT291\car-rental-agency\Car Rental Agency\bin\Debug\Car Rental Agency.exe
 R:\CMPT\CMPT291\car-rental-agency\Car Rental Agency\bin\Debug\Car Rental Agency.pdb
@@ -96,3 +92,14 @@ R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\obj\Debug\Car
 R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.UpdateVehicle.resources
 R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.UpdateVehicleType.resources
 R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.FindVehicleType.resources
+C:\Users\Sana\Source\Repos\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.AddNewBranch.resources
+C:\Users\Sana\Source\Repos\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.AddNewVehicleType.resources
+C:\Users\Sana\Source\Repos\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.AddNewVehicle.resources
+C:\Users\Sana\Source\Repos\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.FindVehicleType.resources
+C:\Users\Sana\Source\Repos\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.AddingtoDB.resources
+C:\Users\Sana\Source\Repos\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.FindBranch.resources
+C:\Users\Sana\Source\Repos\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.FindVehicle.resources
+C:\Users\Sana\Source\Repos\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.UpdateBranch.resources
+C:\Users\Sana\Source\Repos\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.UpdateVehicle.resources
+C:\Users\Sana\Source\Repos\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.UpdateVehicleType.resources
+C:\Users\Sana\Source\Repos\car-rental-agency\Car Rental Agency\obj\Debug\Car Rental Agency.csproj.AssemblyReference.cache

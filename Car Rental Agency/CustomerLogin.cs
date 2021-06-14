@@ -28,6 +28,7 @@ namespace Car_Rental_Agency
             agedateTimePicker.MinDate = new DateTime(1900, 1, 1);
             agedateTimePicker.MaxDate = new DateTime(2002, 1, 1);
             agedateTimePicker.Value = new DateTime(1990, 1, 1);
+            signupBtn.Click += button1_Click;
 
             
         }
@@ -71,18 +72,11 @@ namespace Car_Rental_Agency
 
         private void SignUp_Enter(object sender, EventArgs e)
         {
-            //BookingCustomer login = new BookingCustomer();
-            //login.Show();
-            //try { 
-            //    mysqlCommand.ExecuteNonQuery();
-            //}
-
-            //catch(Exception e2) { 
-            //    MessageBox.Show(e2.ToString());
-            //}
+         
 
 
-        }
+            }
+        
         public static bool IsValidEmail(string email)
         {
             try
@@ -171,9 +165,9 @@ namespace Car_Rental_Agency
             string pass = loginpasswordTbox.Text;
 
             if (CustomerAuth(email, pass))
-            {
+            {  
                 this.DialogResult = DialogResult.OK;
-
+                
                 // Load user details from database
                 string query = String.Format("SELECT userID, fName, MembershipType, balance FROM Users WHERE email = '{0}';", email);
                 DataTable table = Database.SqlQuery(query);
@@ -197,11 +191,12 @@ namespace Car_Rental_Agency
                 //this.User.cardNumber);
 
                 this.Close();
-
-                BookingCustomer booking = new BookingCustomer(this.User);
-                this.Opacity = 0.0;
+                  BookingCustomer booking = new BookingCustomer(this.User);
+                
                 booking.ShowDialog();
-                this.Opacity = 100.0;
+                this.Opacity = 50.0;
+                 booking.Show();
+              
 
             }
 
@@ -266,6 +261,8 @@ namespace Car_Rental_Agency
                     this.Opacity = 0.0;
                     booking.ShowDialog();
                     this.Opacity = 100.0;
+                   
+            booking.Show();
                 }
             }
             catch (Exception ex)
