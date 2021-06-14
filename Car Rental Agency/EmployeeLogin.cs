@@ -33,11 +33,37 @@ namespace Car_Rental_Agency
         {
 
         }
+        public static bool IsValidEmail(string email)
+        {
+            try
+            {
+                var addr = new System.Net.Mail.MailAddress(email);
+                return addr.Address == email;
+            }
+            catch
+            {
+                return false;
+            }
+        }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            AddingtoDB login = new AddingtoDB(mysqlConnection);
-            login.Show();
+            errorLabel.Visible = true;
+            String employeeEmail = employeeTextBox.Text.TrimEnd();
+            String ePassword = employeepassword.Text.TrimEnd();
+
+            if (employeeEmail == "employee@CRA.ca" && ePassword == "employee")
+            {
+                AddingtoDB login = new AddingtoDB(mysqlConnection);
+                login.Show();
+            }
+
+            else if (employeepassword.Text == "" && employeeEmail == "")
+            {
+
+                errorLabel.Text = "Email or Password cannot be empty, Please enter a valid email or password";
+            }
+            
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)

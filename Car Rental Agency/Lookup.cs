@@ -119,5 +119,22 @@ namespace Car_Rental_Agency
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            AddNewBooking newBooking = new AddNewBooking();
+            newBooking.ShowDialog();
+        }
+
+        private void findVehicleTypeBtn_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            FindCustomer findCustomer = new FindCustomer();
+            findCustomer.ShowDialog();
+        }
     }
 }

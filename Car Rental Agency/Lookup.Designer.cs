@@ -41,6 +41,8 @@ namespace Car_Rental_Agency
             this.findBranchBtn = new System.Windows.Forms.Button();
             this.findVehicleTypeBtn = new System.Windows.Forms.Button();
             this.findVehicleBtn = new System.Windows.Forms.Button();
+            this.addNewBookingBtn = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.addGroupBox.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -48,7 +50,7 @@ namespace Car_Rental_Agency
             // 
             // addNewVehicleButton
             // 
-            this.addNewVehicleButton.Location = new System.Drawing.Point(17, 153);
+            this.addNewVehicleButton.Location = new System.Drawing.Point(17, 122);
             this.addNewVehicleButton.Name = "addNewVehicleButton";
             this.addNewVehicleButton.Size = new System.Drawing.Size(263, 44);
             this.addNewVehicleButton.TabIndex = 0;
@@ -58,7 +60,7 @@ namespace Car_Rental_Agency
             // 
             // addNewVehicleTypeButton
             // 
-            this.addNewVehicleTypeButton.Location = new System.Drawing.Point(17, 82);
+            this.addNewVehicleTypeButton.Location = new System.Drawing.Point(17, 60);
             this.addNewVehicleTypeButton.Name = "addNewVehicleTypeButton";
             this.addNewVehicleTypeButton.Size = new System.Drawing.Size(263, 44);
             this.addNewVehicleTypeButton.TabIndex = 1;
@@ -67,7 +69,7 @@ namespace Car_Rental_Agency
             // 
             // addNewBranchButton
             // 
-            this.addNewBranchButton.Location = new System.Drawing.Point(17, 233);
+            this.addNewBranchButton.Location = new System.Drawing.Point(17, 199);
             this.addNewBranchButton.Name = "addNewBranchButton";
             this.addNewBranchButton.Size = new System.Drawing.Size(263, 44);
             this.addNewBranchButton.TabIndex = 5;
@@ -76,6 +78,7 @@ namespace Car_Rental_Agency
             // 
             // addGroupBox
             // 
+            this.addGroupBox.Controls.Add(this.addNewBookingBtn);
             this.addGroupBox.Controls.Add(this.addNewBranchButton);
             this.addGroupBox.Controls.Add(this.addNewVehicleTypeButton);
             this.addGroupBox.Controls.Add(this.addNewVehicleButton);
@@ -132,6 +135,7 @@ namespace Car_Rental_Agency
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.button1);
             this.groupBox3.Controls.Add(this.findBranchBtn);
             this.groupBox3.Controls.Add(this.findVehicleTypeBtn);
             this.groupBox3.Controls.Add(this.findVehicleBtn);
@@ -147,7 +151,7 @@ namespace Car_Rental_Agency
             // 
             // findBranchBtn
             // 
-            this.findBranchBtn.Location = new System.Drawing.Point(17, 233);
+            this.findBranchBtn.Location = new System.Drawing.Point(17, 186);
             this.findBranchBtn.Name = "findBranchBtn";
             this.findBranchBtn.Size = new System.Drawing.Size(263, 44);
             this.findBranchBtn.TabIndex = 5;
@@ -156,21 +160,42 @@ namespace Car_Rental_Agency
             // 
             // findVehicleTypeBtn
             // 
-            this.findVehicleTypeBtn.Location = new System.Drawing.Point(17, 82);
+            this.findVehicleTypeBtn.Location = new System.Drawing.Point(17, 42);
             this.findVehicleTypeBtn.Name = "findVehicleTypeBtn";
             this.findVehicleTypeBtn.Size = new System.Drawing.Size(263, 44);
             this.findVehicleTypeBtn.TabIndex = 1;
             this.findVehicleTypeBtn.Text = "Find Vehicle Type";
             this.findVehicleTypeBtn.UseVisualStyleBackColor = true;
+            this.findVehicleTypeBtn.Click += new System.EventHandler(this.findVehicleTypeBtn_Click_1);
             // 
             // findVehicleBtn
             // 
-            this.findVehicleBtn.Location = new System.Drawing.Point(17, 153);
+            this.findVehicleBtn.Location = new System.Drawing.Point(17, 110);
             this.findVehicleBtn.Name = "findVehicleBtn";
             this.findVehicleBtn.Size = new System.Drawing.Size(263, 44);
             this.findVehicleBtn.TabIndex = 0;
             this.findVehicleBtn.Text = "Find Vehicle";
             this.findVehicleBtn.UseVisualStyleBackColor = true;
+            // 
+            // addNewBookingBtn
+            // 
+            this.addNewBookingBtn.Location = new System.Drawing.Point(17, 263);
+            this.addNewBookingBtn.Name = "addNewBookingBtn";
+            this.addNewBookingBtn.Size = new System.Drawing.Size(263, 44);
+            this.addNewBookingBtn.TabIndex = 11;
+            this.addNewBookingBtn.Text = "Add New Booking";
+            this.addNewBookingBtn.UseVisualStyleBackColor = true;
+            this.addNewBookingBtn.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(17, 249);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(263, 44);
+            this.button1.TabIndex = 12;
+            this.button1.Text = "Find Customer";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // AddingtoDB
             // 
@@ -205,5 +230,7 @@ namespace Car_Rental_Agency
         private System.Windows.Forms.Button findBranchBtn;
         private System.Windows.Forms.Button findVehicleTypeBtn;
         private System.Windows.Forms.Button findVehicleBtn;
+        private System.Windows.Forms.Button addNewBookingBtn;
+        private System.Windows.Forms.Button button1;
     }
 }

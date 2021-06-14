@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddNewBooking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewBooking.Designer.cs">
+      <DependentUpon>AddNewBooking.cs</DependentUpon>
+    </Compile>
     <Compile Include="AddNewBranch.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -122,11 +128,11 @@
     <Compile Include="Employee_booking.Designer.cs">
       <DependentUpon>Employee_booking.cs</DependentUpon>
     </Compile>
-    <Compile Include="Employee_customers.cs">
+    <Compile Include="FindCustomer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Employee_customers.Designer.cs">
-      <DependentUpon>Employee_customers.cs</DependentUpon>
+    <Compile Include="FindCustomer.Designer.cs">
+      <DependentUpon>FindCustomer.cs</DependentUpon>
     </Compile>
     <Compile Include="Employee_vehicles.cs">
       <SubType>Form</SubType>
@@ -190,6 +196,9 @@
     <Compile Include="Vehicles.Designer.cs">
       <DependentUpon>Vehicles.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddNewBooking.resx">
+      <DependentUpon>AddNewBooking.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AddNewBranch.resx">
       <DependentUpon>AddNewBranch.cs</DependentUpon>
     </EmbeddedResource>
@@ -226,8 +235,8 @@
     <EmbeddedResource Include="Employee_booking.resx">
       <DependentUpon>Employee_booking.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Employee_customers.resx">
-      <DependentUpon>Employee_customers.cs</DependentUpon>
+    <EmbeddedResource Include="FindCustomer.resx">
+      <DependentUpon>FindCustomer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Employee_vehicles.resx">
       <DependentUpon>Employee_vehicles.cs</DependentUpon>

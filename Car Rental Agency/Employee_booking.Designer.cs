@@ -159,10 +159,11 @@ namespace Car_Rental_Agency
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox3.ForeColor = System.Drawing.SystemColors.Window;
-            this.textBox3.Location = new System.Drawing.Point(3, 43);
+            this.textBox3.Location = new System.Drawing.Point(2, 28);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(470, 72);
+            this.textBox3.Size = new System.Drawing.Size(313, 47);
             this.textBox3.TabIndex = 125;
             this.textBox3.Text = "Bookings";
             this.textBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -174,9 +175,10 @@ namespace Car_Rental_Agency
             this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button6.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button6.Location = new System.Drawing.Point(1145, 75);
+            this.button6.Location = new System.Drawing.Point(763, 49);
+            this.button6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(169, 40);
+            this.button6.Size = new System.Drawing.Size(113, 26);
             this.button6.TabIndex = 124;
             this.button6.Text = "All Customers";
             this.button6.TextAlign = System.Drawing.ContentAlignment.TopLeft;
@@ -190,9 +192,10 @@ namespace Car_Rental_Agency
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button5.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button5.Location = new System.Drawing.Point(994, 75);
+            this.button5.Location = new System.Drawing.Point(663, 49);
+            this.button5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(145, 40);
+            this.button5.Size = new System.Drawing.Size(97, 26);
             this.button5.TabIndex = 123;
             this.button5.Text = "All Bookings";
             this.button5.TextAlign = System.Drawing.ContentAlignment.TopLeft;
@@ -206,9 +209,10 @@ namespace Car_Rental_Agency
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button4.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button4.Location = new System.Drawing.Point(861, 75);
+            this.button4.Location = new System.Drawing.Point(574, 49);
+            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(122, 40);
+            this.button4.Size = new System.Drawing.Size(81, 26);
             this.button4.TabIndex = 122;
             this.button4.Text = "All Cars";
             this.button4.UseVisualStyleBackColor = false;
@@ -219,10 +223,11 @@ namespace Car_Rental_Agency
             this.textBox2.BackColor = System.Drawing.SystemColors.InfoText;
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox2.Location = new System.Drawing.Point(10, 177);
+            this.textBox2.Location = new System.Drawing.Point(7, 115);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(149, 36);
+            this.textBox2.Size = new System.Drawing.Size(101, 25);
             this.textBox2.TabIndex = 121;
             this.textBox2.Text = "Filtered for: ";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -230,9 +235,10 @@ namespace Car_Rental_Agency
             // comboBox3
             // 
             this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(165, 177);
+            this.comboBox3.Location = new System.Drawing.Point(110, 115);
+            this.comboBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(141, 28);
+            this.comboBox3.Size = new System.Drawing.Size(95, 21);
             this.comboBox3.TabIndex = 120;
             this.comboBox3.Text = "Edmonton";
             // 
@@ -241,9 +247,10 @@ namespace Car_Rental_Agency
             this.textBox1.BackColor = System.Drawing.SystemColors.InfoText;
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.SystemColors.Window;
-            this.textBox1.Location = new System.Drawing.Point(951, 12);
+            this.textBox1.Location = new System.Drawing.Point(634, 8);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(368, 44);
+            this.textBox1.Size = new System.Drawing.Size(247, 32);
             this.textBox1.TabIndex = 119;
             this.textBox1.Text = "Welcome Employee";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -254,10 +261,11 @@ namespace Car_Rental_Agency
             this.textBox12.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox12.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox12.Location = new System.Drawing.Point(48, 595);
+            this.textBox12.Location = new System.Drawing.Point(32, 387);
+            this.textBox12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox12.Multiline = true;
             this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(239, 36);
+            this.textBox12.Size = new System.Drawing.Size(159, 23);
             this.textBox12.TabIndex = 139;
             this.textBox12.Text = "Customer: Finch Jack";
             this.textBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -268,10 +276,11 @@ namespace Car_Rental_Agency
             this.textBox11.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox11.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.textBox11.Location = new System.Drawing.Point(187, 563);
+            this.textBox11.Location = new System.Drawing.Point(125, 366);
+            this.textBox11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox11.Multiline = true;
             this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(100, 26);
+            this.textBox11.Size = new System.Drawing.Size(67, 17);
             this.textBox11.TabIndex = 138;
             this.textBox11.Text = "$140";
             this.textBox11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -281,10 +290,11 @@ namespace Car_Rental_Agency
             this.textBox6.BackColor = System.Drawing.SystemColors.InfoText;
             this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox6.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox6.Location = new System.Drawing.Point(73, 527);
+            this.textBox6.Location = new System.Drawing.Point(49, 343);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox6.Multiline = true;
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(174, 30);
+            this.textBox6.Size = new System.Drawing.Size(117, 21);
             this.textBox6.TabIndex = 135;
             this.textBox6.Text = "To: Jun 20 2021";
             this.textBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -294,10 +304,11 @@ namespace Car_Rental_Agency
             this.textBox4.BackColor = System.Drawing.SystemColors.InfoText;
             this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox4.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox4.Location = new System.Drawing.Point(65, 491);
+            this.textBox4.Location = new System.Drawing.Point(43, 319);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(194, 30);
+            this.textBox4.Size = new System.Drawing.Size(131, 21);
             this.textBox4.TabIndex = 134;
             this.textBox4.Text = "From: Jun 17 2021";
             this.textBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -308,10 +319,11 @@ namespace Car_Rental_Agency
             this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox9.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox9.Location = new System.Drawing.Point(239, 452);
+            this.textBox9.Location = new System.Drawing.Point(159, 294);
+            this.textBox9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox9.Multiline = true;
             this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(80, 33);
+            this.textBox9.Size = new System.Drawing.Size(53, 21);
             this.textBox9.TabIndex = 133;
             this.textBox9.Text = "8 Seats";
             // 
@@ -321,10 +333,11 @@ namespace Car_Rental_Agency
             this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox8.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox8.Location = new System.Drawing.Point(165, 452);
+            this.textBox8.Location = new System.Drawing.Point(110, 294);
+            this.textBox8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox8.Multiline = true;
             this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(68, 33);
+            this.textBox8.Size = new System.Drawing.Size(45, 21);
             this.textBox8.TabIndex = 132;
             this.textBox8.Text = "Toyota";
             this.textBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -335,10 +348,11 @@ namespace Car_Rental_Agency
             this.textBox7.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox7.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox7.Location = new System.Drawing.Point(89, 452);
+            this.textBox7.Location = new System.Drawing.Point(59, 294);
+            this.textBox7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox7.Multiline = true;
             this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(70, 33);
+            this.textBox7.Size = new System.Drawing.Size(47, 21);
             this.textBox7.TabIndex = 131;
             this.textBox7.Text = "Miles";
             this.textBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -349,10 +363,11 @@ namespace Car_Rental_Agency
             this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox5.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox5.Location = new System.Drawing.Point(19, 452);
+            this.textBox5.Location = new System.Drawing.Point(13, 294);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox5.Multiline = true;
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(60, 33);
+            this.textBox5.Size = new System.Drawing.Size(40, 21);
             this.textBox5.TabIndex = 130;
             this.textBox5.Text = "Model";
             this.textBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -363,9 +378,10 @@ namespace Car_Rental_Agency
             this.textBox13.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox13.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox13.Location = new System.Drawing.Point(85, 418);
+            this.textBox13.Location = new System.Drawing.Point(57, 272);
+            this.textBox13.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(174, 28);
+            this.textBox13.Size = new System.Drawing.Size(116, 19);
             this.textBox13.TabIndex = 129;
             this.textBox13.Text = "Corolla Medium";
             // 
@@ -375,11 +391,12 @@ namespace Car_Rental_Agency
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.GridColor = System.Drawing.SystemColors.ControlLightLight;
-            this.dataGridView1.Location = new System.Drawing.Point(10, 292);
+            this.dataGridView1.Location = new System.Drawing.Point(7, 190);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(323, 355);
+            this.dataGridView1.Size = new System.Drawing.Size(215, 231);
             this.dataGridView1.TabIndex = 127;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -389,27 +406,30 @@ namespace Car_Rental_Agency
             this.textBox14.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox14.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox14.Location = new System.Drawing.Point(10, 240);
+            this.textBox14.Location = new System.Drawing.Point(7, 156);
+            this.textBox14.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(249, 37);
+            this.textBox14.Size = new System.Drawing.Size(166, 25);
             this.textBox14.TabIndex = 126;
             this.textBox14.Text = "All Booking List";
             // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(477, 177);
+            this.comboBox1.Location = new System.Drawing.Point(318, 115);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(141, 28);
+            this.comboBox1.Size = new System.Drawing.Size(95, 21);
             this.comboBox1.TabIndex = 140;
             this.comboBox1.Text = "Vehicle";
             // 
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(321, 177);
+            this.comboBox2.Location = new System.Drawing.Point(214, 115);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(141, 28);
+            this.comboBox2.Size = new System.Drawing.Size(95, 21);
             this.comboBox2.TabIndex = 141;
             this.comboBox2.Text = "Vehicle Type";
             // 
@@ -419,10 +439,11 @@ namespace Car_Rental_Agency
             this.textBox15.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox15.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox15.Location = new System.Drawing.Point(61, 559);
+            this.textBox15.Location = new System.Drawing.Point(41, 363);
+            this.textBox15.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox15.Multiline = true;
             this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(120, 30);
+            this.textBox15.Size = new System.Drawing.Size(80, 19);
             this.textBox15.TabIndex = 142;
             this.textBox15.Text = "Paid Amount:";
             this.textBox15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -433,10 +454,11 @@ namespace Car_Rental_Agency
             this.textBox10.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox10.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox10.Location = new System.Drawing.Point(70, 928);
+            this.textBox10.Location = new System.Drawing.Point(47, 603);
+            this.textBox10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox10.Multiline = true;
             this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(120, 30);
+            this.textBox10.Size = new System.Drawing.Size(80, 19);
             this.textBox10.TabIndex = 154;
             this.textBox10.Text = "Paid Amount:";
             this.textBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -447,10 +469,11 @@ namespace Car_Rental_Agency
             this.textBox16.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox16.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox16.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox16.Location = new System.Drawing.Point(57, 964);
+            this.textBox16.Location = new System.Drawing.Point(38, 627);
+            this.textBox16.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox16.Multiline = true;
             this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(239, 36);
+            this.textBox16.Size = new System.Drawing.Size(159, 23);
             this.textBox16.TabIndex = 153;
             this.textBox16.Text = "Customer: Alex Jill";
             this.textBox16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -461,10 +484,11 @@ namespace Car_Rental_Agency
             this.textBox17.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox17.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox17.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.textBox17.Location = new System.Drawing.Point(196, 932);
+            this.textBox17.Location = new System.Drawing.Point(131, 606);
+            this.textBox17.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox17.Multiline = true;
             this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(100, 26);
+            this.textBox17.Size = new System.Drawing.Size(67, 17);
             this.textBox17.TabIndex = 152;
             this.textBox17.Text = "$140";
             this.textBox17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -474,10 +498,11 @@ namespace Car_Rental_Agency
             this.textBox18.BackColor = System.Drawing.SystemColors.InfoText;
             this.textBox18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox18.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox18.Location = new System.Drawing.Point(82, 896);
+            this.textBox18.Location = new System.Drawing.Point(55, 582);
+            this.textBox18.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox18.Multiline = true;
             this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(174, 30);
+            this.textBox18.Size = new System.Drawing.Size(117, 21);
             this.textBox18.TabIndex = 151;
             this.textBox18.Text = "To: Jun 20 2021";
             this.textBox18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -487,10 +512,11 @@ namespace Car_Rental_Agency
             this.textBox19.BackColor = System.Drawing.SystemColors.InfoText;
             this.textBox19.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox19.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox19.Location = new System.Drawing.Point(74, 860);
+            this.textBox19.Location = new System.Drawing.Point(49, 559);
+            this.textBox19.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox19.Multiline = true;
             this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(194, 30);
+            this.textBox19.Size = new System.Drawing.Size(131, 21);
             this.textBox19.TabIndex = 150;
             this.textBox19.Text = "From: Jun 17 2021";
             this.textBox19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -501,10 +527,11 @@ namespace Car_Rental_Agency
             this.textBox20.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox20.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox20.Location = new System.Drawing.Point(248, 821);
+            this.textBox20.Location = new System.Drawing.Point(165, 534);
+            this.textBox20.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox20.Multiline = true;
             this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(80, 33);
+            this.textBox20.Size = new System.Drawing.Size(53, 21);
             this.textBox20.TabIndex = 149;
             this.textBox20.Text = "8 Seats";
             // 
@@ -514,10 +541,11 @@ namespace Car_Rental_Agency
             this.textBox21.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox21.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox21.Location = new System.Drawing.Point(174, 821);
+            this.textBox21.Location = new System.Drawing.Point(116, 534);
+            this.textBox21.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox21.Multiline = true;
             this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(68, 33);
+            this.textBox21.Size = new System.Drawing.Size(45, 21);
             this.textBox21.TabIndex = 148;
             this.textBox21.Text = "Toyota";
             this.textBox21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -528,10 +556,11 @@ namespace Car_Rental_Agency
             this.textBox22.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox22.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox22.Location = new System.Drawing.Point(98, 821);
+            this.textBox22.Location = new System.Drawing.Point(65, 534);
+            this.textBox22.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox22.Multiline = true;
             this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(70, 33);
+            this.textBox22.Size = new System.Drawing.Size(47, 21);
             this.textBox22.TabIndex = 147;
             this.textBox22.Text = "Miles";
             this.textBox22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -542,10 +571,11 @@ namespace Car_Rental_Agency
             this.textBox23.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox23.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox23.Location = new System.Drawing.Point(28, 821);
+            this.textBox23.Location = new System.Drawing.Point(19, 534);
+            this.textBox23.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox23.Multiline = true;
             this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(60, 33);
+            this.textBox23.Size = new System.Drawing.Size(40, 21);
             this.textBox23.TabIndex = 146;
             this.textBox23.Text = "Model";
             this.textBox23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -556,9 +586,10 @@ namespace Car_Rental_Agency
             this.textBox24.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox24.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox24.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox24.Location = new System.Drawing.Point(94, 787);
+            this.textBox24.Location = new System.Drawing.Point(63, 512);
+            this.textBox24.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(174, 28);
+            this.textBox24.Size = new System.Drawing.Size(116, 19);
             this.textBox24.TabIndex = 145;
             this.textBox24.Text = "Toyota";
             // 
@@ -568,11 +599,12 @@ namespace Car_Rental_Agency
             this.dataGridView2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.GridColor = System.Drawing.SystemColors.ControlLightLight;
-            this.dataGridView2.Location = new System.Drawing.Point(12, 661);
+            this.dataGridView2.Location = new System.Drawing.Point(8, 430);
+            this.dataGridView2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowHeadersWidth = 62;
             this.dataGridView2.RowTemplate.Height = 28;
-            this.dataGridView2.Size = new System.Drawing.Size(323, 364);
+            this.dataGridView2.Size = new System.Drawing.Size(215, 237);
             this.dataGridView2.TabIndex = 143;
             // 
             // textBox25
@@ -581,10 +613,11 @@ namespace Car_Rental_Agency
             this.textBox25.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox25.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox25.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox25.Location = new System.Drawing.Point(399, 559);
+            this.textBox25.Location = new System.Drawing.Point(266, 363);
+            this.textBox25.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox25.Multiline = true;
             this.textBox25.Name = "textBox25";
-            this.textBox25.Size = new System.Drawing.Size(120, 30);
+            this.textBox25.Size = new System.Drawing.Size(80, 19);
             this.textBox25.TabIndex = 166;
             this.textBox25.Text = "Paid Amount:";
             this.textBox25.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -595,10 +628,11 @@ namespace Car_Rental_Agency
             this.textBox26.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox26.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox26.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox26.Location = new System.Drawing.Point(395, 595);
+            this.textBox26.Location = new System.Drawing.Point(263, 387);
+            this.textBox26.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox26.Multiline = true;
             this.textBox26.Name = "textBox26";
-            this.textBox26.Size = new System.Drawing.Size(239, 36);
+            this.textBox26.Size = new System.Drawing.Size(159, 23);
             this.textBox26.TabIndex = 165;
             this.textBox26.Text = "Customer: Phobe Mike";
             this.textBox26.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -609,10 +643,11 @@ namespace Car_Rental_Agency
             this.textBox27.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox27.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox27.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.textBox27.Location = new System.Drawing.Point(525, 563);
+            this.textBox27.Location = new System.Drawing.Point(350, 366);
+            this.textBox27.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox27.Multiline = true;
             this.textBox27.Name = "textBox27";
-            this.textBox27.Size = new System.Drawing.Size(100, 26);
+            this.textBox27.Size = new System.Drawing.Size(67, 17);
             this.textBox27.TabIndex = 164;
             this.textBox27.Text = "$140";
             this.textBox27.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -622,10 +657,11 @@ namespace Car_Rental_Agency
             this.textBox28.BackColor = System.Drawing.SystemColors.InfoText;
             this.textBox28.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox28.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox28.Location = new System.Drawing.Point(411, 527);
+            this.textBox28.Location = new System.Drawing.Point(274, 343);
+            this.textBox28.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox28.Multiline = true;
             this.textBox28.Name = "textBox28";
-            this.textBox28.Size = new System.Drawing.Size(174, 30);
+            this.textBox28.Size = new System.Drawing.Size(117, 21);
             this.textBox28.TabIndex = 163;
             this.textBox28.Text = "To: Jun 20 2021";
             this.textBox28.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -635,10 +671,11 @@ namespace Car_Rental_Agency
             this.textBox29.BackColor = System.Drawing.SystemColors.InfoText;
             this.textBox29.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox29.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox29.Location = new System.Drawing.Point(403, 491);
+            this.textBox29.Location = new System.Drawing.Point(269, 319);
+            this.textBox29.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox29.Multiline = true;
             this.textBox29.Name = "textBox29";
-            this.textBox29.Size = new System.Drawing.Size(194, 30);
+            this.textBox29.Size = new System.Drawing.Size(131, 21);
             this.textBox29.TabIndex = 162;
             this.textBox29.Text = "From: Jun 17 2021";
             this.textBox29.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -649,10 +686,11 @@ namespace Car_Rental_Agency
             this.textBox30.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox30.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox30.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox30.Location = new System.Drawing.Point(577, 452);
+            this.textBox30.Location = new System.Drawing.Point(385, 294);
+            this.textBox30.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox30.Multiline = true;
             this.textBox30.Name = "textBox30";
-            this.textBox30.Size = new System.Drawing.Size(80, 33);
+            this.textBox30.Size = new System.Drawing.Size(53, 21);
             this.textBox30.TabIndex = 161;
             this.textBox30.Text = "8 Seats";
             // 
@@ -662,10 +700,11 @@ namespace Car_Rental_Agency
             this.textBox31.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox31.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox31.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox31.Location = new System.Drawing.Point(503, 452);
+            this.textBox31.Location = new System.Drawing.Point(335, 294);
+            this.textBox31.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox31.Multiline = true;
             this.textBox31.Name = "textBox31";
-            this.textBox31.Size = new System.Drawing.Size(68, 33);
+            this.textBox31.Size = new System.Drawing.Size(45, 21);
             this.textBox31.TabIndex = 160;
             this.textBox31.Text = "Toyota";
             this.textBox31.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -676,10 +715,11 @@ namespace Car_Rental_Agency
             this.textBox32.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox32.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox32.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox32.Location = new System.Drawing.Point(427, 452);
+            this.textBox32.Location = new System.Drawing.Point(285, 294);
+            this.textBox32.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox32.Multiline = true;
             this.textBox32.Name = "textBox32";
-            this.textBox32.Size = new System.Drawing.Size(70, 33);
+            this.textBox32.Size = new System.Drawing.Size(47, 21);
             this.textBox32.TabIndex = 159;
             this.textBox32.Text = "Miles";
             this.textBox32.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -690,10 +730,11 @@ namespace Car_Rental_Agency
             this.textBox33.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox33.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox33.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox33.Location = new System.Drawing.Point(357, 452);
+            this.textBox33.Location = new System.Drawing.Point(238, 294);
+            this.textBox33.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox33.Multiline = true;
             this.textBox33.Name = "textBox33";
-            this.textBox33.Size = new System.Drawing.Size(60, 33);
+            this.textBox33.Size = new System.Drawing.Size(40, 21);
             this.textBox33.TabIndex = 158;
             this.textBox33.Text = "Model";
             this.textBox33.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -704,9 +745,10 @@ namespace Car_Rental_Agency
             this.textBox34.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox34.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox34.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox34.Location = new System.Drawing.Point(423, 418);
+            this.textBox34.Location = new System.Drawing.Point(282, 272);
+            this.textBox34.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox34.Name = "textBox34";
-            this.textBox34.Size = new System.Drawing.Size(174, 28);
+            this.textBox34.Size = new System.Drawing.Size(116, 19);
             this.textBox34.TabIndex = 157;
             this.textBox34.Text = "Rav 4";
             // 
@@ -716,11 +758,12 @@ namespace Car_Rental_Agency
             this.dataGridView3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView3.GridColor = System.Drawing.SystemColors.ControlLightLight;
-            this.dataGridView3.Location = new System.Drawing.Point(348, 292);
+            this.dataGridView3.Location = new System.Drawing.Point(232, 190);
+            this.dataGridView3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView3.Name = "dataGridView3";
             this.dataGridView3.RowHeadersWidth = 62;
             this.dataGridView3.RowTemplate.Height = 28;
-            this.dataGridView3.Size = new System.Drawing.Size(323, 355);
+            this.dataGridView3.Size = new System.Drawing.Size(215, 231);
             this.dataGridView3.TabIndex = 155;
             // 
             // textBox35
@@ -729,10 +772,11 @@ namespace Car_Rental_Agency
             this.textBox35.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox35.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox35.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox35.Location = new System.Drawing.Point(728, 559);
+            this.textBox35.Location = new System.Drawing.Point(485, 363);
+            this.textBox35.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox35.Multiline = true;
             this.textBox35.Name = "textBox35";
-            this.textBox35.Size = new System.Drawing.Size(120, 30);
+            this.textBox35.Size = new System.Drawing.Size(80, 19);
             this.textBox35.TabIndex = 178;
             this.textBox35.Text = "Paid Amount:";
             this.textBox35.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -743,10 +787,11 @@ namespace Car_Rental_Agency
             this.textBox36.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox36.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox36.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox36.Location = new System.Drawing.Point(715, 595);
+            this.textBox36.Location = new System.Drawing.Point(477, 387);
+            this.textBox36.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox36.Multiline = true;
             this.textBox36.Name = "textBox36";
-            this.textBox36.Size = new System.Drawing.Size(239, 36);
+            this.textBox36.Size = new System.Drawing.Size(159, 23);
             this.textBox36.TabIndex = 177;
             this.textBox36.Text = "Customer: Lion Bill";
             this.textBox36.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -757,10 +802,11 @@ namespace Car_Rental_Agency
             this.textBox37.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox37.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox37.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.textBox37.Location = new System.Drawing.Point(854, 563);
+            this.textBox37.Location = new System.Drawing.Point(569, 366);
+            this.textBox37.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox37.Multiline = true;
             this.textBox37.Name = "textBox37";
-            this.textBox37.Size = new System.Drawing.Size(100, 26);
+            this.textBox37.Size = new System.Drawing.Size(67, 17);
             this.textBox37.TabIndex = 176;
             this.textBox37.Text = "$140";
             this.textBox37.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -770,10 +816,11 @@ namespace Car_Rental_Agency
             this.textBox38.BackColor = System.Drawing.SystemColors.InfoText;
             this.textBox38.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox38.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox38.Location = new System.Drawing.Point(740, 527);
+            this.textBox38.Location = new System.Drawing.Point(493, 343);
+            this.textBox38.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox38.Multiline = true;
             this.textBox38.Name = "textBox38";
-            this.textBox38.Size = new System.Drawing.Size(174, 30);
+            this.textBox38.Size = new System.Drawing.Size(117, 21);
             this.textBox38.TabIndex = 175;
             this.textBox38.Text = "To: Jun 20 2021";
             this.textBox38.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -783,10 +830,11 @@ namespace Car_Rental_Agency
             this.textBox39.BackColor = System.Drawing.SystemColors.InfoText;
             this.textBox39.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox39.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox39.Location = new System.Drawing.Point(732, 491);
+            this.textBox39.Location = new System.Drawing.Point(488, 319);
+            this.textBox39.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox39.Multiline = true;
             this.textBox39.Name = "textBox39";
-            this.textBox39.Size = new System.Drawing.Size(194, 30);
+            this.textBox39.Size = new System.Drawing.Size(131, 21);
             this.textBox39.TabIndex = 174;
             this.textBox39.Text = "From: Jun 17 2021";
             this.textBox39.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -797,10 +845,11 @@ namespace Car_Rental_Agency
             this.textBox40.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox40.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox40.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox40.Location = new System.Drawing.Point(906, 452);
+            this.textBox40.Location = new System.Drawing.Point(604, 294);
+            this.textBox40.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox40.Multiline = true;
             this.textBox40.Name = "textBox40";
-            this.textBox40.Size = new System.Drawing.Size(80, 33);
+            this.textBox40.Size = new System.Drawing.Size(53, 21);
             this.textBox40.TabIndex = 173;
             this.textBox40.Text = "8 Seats";
             // 
@@ -810,10 +859,11 @@ namespace Car_Rental_Agency
             this.textBox41.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox41.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox41.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox41.Location = new System.Drawing.Point(832, 452);
+            this.textBox41.Location = new System.Drawing.Point(555, 294);
+            this.textBox41.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox41.Multiline = true;
             this.textBox41.Name = "textBox41";
-            this.textBox41.Size = new System.Drawing.Size(68, 33);
+            this.textBox41.Size = new System.Drawing.Size(45, 21);
             this.textBox41.TabIndex = 172;
             this.textBox41.Text = "Toyota";
             this.textBox41.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -824,10 +874,11 @@ namespace Car_Rental_Agency
             this.textBox42.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox42.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox42.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox42.Location = new System.Drawing.Point(756, 452);
+            this.textBox42.Location = new System.Drawing.Point(504, 294);
+            this.textBox42.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox42.Multiline = true;
             this.textBox42.Name = "textBox42";
-            this.textBox42.Size = new System.Drawing.Size(70, 33);
+            this.textBox42.Size = new System.Drawing.Size(47, 21);
             this.textBox42.TabIndex = 171;
             this.textBox42.Text = "Miles";
             this.textBox42.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -838,10 +889,11 @@ namespace Car_Rental_Agency
             this.textBox43.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox43.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox43.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox43.Location = new System.Drawing.Point(686, 452);
+            this.textBox43.Location = new System.Drawing.Point(457, 294);
+            this.textBox43.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox43.Multiline = true;
             this.textBox43.Name = "textBox43";
-            this.textBox43.Size = new System.Drawing.Size(60, 33);
+            this.textBox43.Size = new System.Drawing.Size(40, 21);
             this.textBox43.TabIndex = 170;
             this.textBox43.Text = "Model";
             this.textBox43.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -852,9 +904,10 @@ namespace Car_Rental_Agency
             this.textBox44.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox44.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox44.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox44.Location = new System.Drawing.Point(752, 418);
+            this.textBox44.Location = new System.Drawing.Point(501, 272);
+            this.textBox44.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox44.Name = "textBox44";
-            this.textBox44.Size = new System.Drawing.Size(174, 28);
+            this.textBox44.Size = new System.Drawing.Size(116, 19);
             this.textBox44.TabIndex = 169;
             this.textBox44.Text = "Mercedes";
             // 
@@ -864,11 +917,12 @@ namespace Car_Rental_Agency
             this.dataGridView4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView4.GridColor = System.Drawing.SystemColors.ControlLightLight;
-            this.dataGridView4.Location = new System.Drawing.Point(677, 292);
+            this.dataGridView4.Location = new System.Drawing.Point(451, 190);
+            this.dataGridView4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView4.Name = "dataGridView4";
             this.dataGridView4.RowHeadersWidth = 62;
             this.dataGridView4.RowTemplate.Height = 28;
-            this.dataGridView4.Size = new System.Drawing.Size(323, 355);
+            this.dataGridView4.Size = new System.Drawing.Size(215, 231);
             this.dataGridView4.TabIndex = 167;
             // 
             // textBox45
@@ -877,10 +931,11 @@ namespace Car_Rental_Agency
             this.textBox45.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox45.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox45.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox45.Location = new System.Drawing.Point(1057, 559);
+            this.textBox45.Location = new System.Drawing.Point(705, 363);
+            this.textBox45.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox45.Multiline = true;
             this.textBox45.Name = "textBox45";
-            this.textBox45.Size = new System.Drawing.Size(120, 30);
+            this.textBox45.Size = new System.Drawing.Size(80, 19);
             this.textBox45.TabIndex = 190;
             this.textBox45.Text = "Paid Amount:";
             this.textBox45.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -891,10 +946,11 @@ namespace Car_Rental_Agency
             this.textBox46.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox46.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox46.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox46.Location = new System.Drawing.Point(1044, 595);
+            this.textBox46.Location = new System.Drawing.Point(696, 387);
+            this.textBox46.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox46.Multiline = true;
             this.textBox46.Name = "textBox46";
-            this.textBox46.Size = new System.Drawing.Size(239, 36);
+            this.textBox46.Size = new System.Drawing.Size(159, 23);
             this.textBox46.TabIndex = 189;
             this.textBox46.Text = "Customer: Alex Jill";
             this.textBox46.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -905,10 +961,11 @@ namespace Car_Rental_Agency
             this.textBox47.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox47.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox47.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.textBox47.Location = new System.Drawing.Point(1183, 563);
+            this.textBox47.Location = new System.Drawing.Point(789, 366);
+            this.textBox47.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox47.Multiline = true;
             this.textBox47.Name = "textBox47";
-            this.textBox47.Size = new System.Drawing.Size(100, 26);
+            this.textBox47.Size = new System.Drawing.Size(67, 17);
             this.textBox47.TabIndex = 188;
             this.textBox47.Text = "$140";
             this.textBox47.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -918,10 +975,11 @@ namespace Car_Rental_Agency
             this.textBox48.BackColor = System.Drawing.SystemColors.InfoText;
             this.textBox48.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox48.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox48.Location = new System.Drawing.Point(1069, 527);
+            this.textBox48.Location = new System.Drawing.Point(713, 343);
+            this.textBox48.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox48.Multiline = true;
             this.textBox48.Name = "textBox48";
-            this.textBox48.Size = new System.Drawing.Size(174, 30);
+            this.textBox48.Size = new System.Drawing.Size(117, 21);
             this.textBox48.TabIndex = 187;
             this.textBox48.Text = "To: Jun 20 2021";
             this.textBox48.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -931,10 +989,11 @@ namespace Car_Rental_Agency
             this.textBox49.BackColor = System.Drawing.SystemColors.InfoText;
             this.textBox49.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox49.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox49.Location = new System.Drawing.Point(1061, 491);
+            this.textBox49.Location = new System.Drawing.Point(707, 319);
+            this.textBox49.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox49.Multiline = true;
             this.textBox49.Name = "textBox49";
-            this.textBox49.Size = new System.Drawing.Size(194, 30);
+            this.textBox49.Size = new System.Drawing.Size(131, 21);
             this.textBox49.TabIndex = 186;
             this.textBox49.Text = "From: Jun 17 2021";
             this.textBox49.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -945,10 +1004,11 @@ namespace Car_Rental_Agency
             this.textBox50.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox50.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox50.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox50.Location = new System.Drawing.Point(1235, 452);
+            this.textBox50.Location = new System.Drawing.Point(823, 294);
+            this.textBox50.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox50.Multiline = true;
             this.textBox50.Name = "textBox50";
-            this.textBox50.Size = new System.Drawing.Size(80, 33);
+            this.textBox50.Size = new System.Drawing.Size(53, 21);
             this.textBox50.TabIndex = 185;
             this.textBox50.Text = "8 Seats";
             // 
@@ -958,10 +1018,11 @@ namespace Car_Rental_Agency
             this.textBox51.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox51.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox51.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox51.Location = new System.Drawing.Point(1161, 452);
+            this.textBox51.Location = new System.Drawing.Point(774, 294);
+            this.textBox51.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox51.Multiline = true;
             this.textBox51.Name = "textBox51";
-            this.textBox51.Size = new System.Drawing.Size(68, 33);
+            this.textBox51.Size = new System.Drawing.Size(45, 21);
             this.textBox51.TabIndex = 184;
             this.textBox51.Text = "Toyota";
             this.textBox51.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -972,10 +1033,11 @@ namespace Car_Rental_Agency
             this.textBox52.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox52.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox52.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox52.Location = new System.Drawing.Point(1085, 452);
+            this.textBox52.Location = new System.Drawing.Point(723, 294);
+            this.textBox52.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox52.Multiline = true;
             this.textBox52.Name = "textBox52";
-            this.textBox52.Size = new System.Drawing.Size(70, 33);
+            this.textBox52.Size = new System.Drawing.Size(47, 21);
             this.textBox52.TabIndex = 183;
             this.textBox52.Text = "Miles";
             this.textBox52.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -986,10 +1048,11 @@ namespace Car_Rental_Agency
             this.textBox53.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox53.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox53.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox53.Location = new System.Drawing.Point(1015, 452);
+            this.textBox53.Location = new System.Drawing.Point(677, 294);
+            this.textBox53.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox53.Multiline = true;
             this.textBox53.Name = "textBox53";
-            this.textBox53.Size = new System.Drawing.Size(60, 33);
+            this.textBox53.Size = new System.Drawing.Size(40, 21);
             this.textBox53.TabIndex = 182;
             this.textBox53.Text = "Model";
             this.textBox53.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1000,9 +1063,10 @@ namespace Car_Rental_Agency
             this.textBox54.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox54.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox54.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox54.Location = new System.Drawing.Point(1081, 418);
+            this.textBox54.Location = new System.Drawing.Point(721, 272);
+            this.textBox54.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox54.Name = "textBox54";
-            this.textBox54.Size = new System.Drawing.Size(174, 28);
+            this.textBox54.Size = new System.Drawing.Size(116, 19);
             this.textBox54.TabIndex = 181;
             this.textBox54.Text = "Standard SUV";
             // 
@@ -1012,11 +1076,12 @@ namespace Car_Rental_Agency
             this.dataGridView5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dataGridView5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView5.GridColor = System.Drawing.SystemColors.ControlLightLight;
-            this.dataGridView5.Location = new System.Drawing.Point(1006, 292);
+            this.dataGridView5.Location = new System.Drawing.Point(671, 190);
+            this.dataGridView5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView5.Name = "dataGridView5";
             this.dataGridView5.RowHeadersWidth = 62;
             this.dataGridView5.RowTemplate.Height = 28;
-            this.dataGridView5.Size = new System.Drawing.Size(323, 355);
+            this.dataGridView5.Size = new System.Drawing.Size(215, 231);
             this.dataGridView5.TabIndex = 179;
             // 
             // textBox55
@@ -1025,10 +1090,11 @@ namespace Car_Rental_Agency
             this.textBox55.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox55.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox55.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox55.Location = new System.Drawing.Point(408, 937);
+            this.textBox55.Location = new System.Drawing.Point(272, 609);
+            this.textBox55.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox55.Multiline = true;
             this.textBox55.Name = "textBox55";
-            this.textBox55.Size = new System.Drawing.Size(120, 30);
+            this.textBox55.Size = new System.Drawing.Size(80, 19);
             this.textBox55.TabIndex = 202;
             this.textBox55.Text = "Paid Amount:";
             this.textBox55.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1039,10 +1105,11 @@ namespace Car_Rental_Agency
             this.textBox56.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox56.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox56.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox56.Location = new System.Drawing.Point(395, 973);
+            this.textBox56.Location = new System.Drawing.Point(263, 632);
+            this.textBox56.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox56.Multiline = true;
             this.textBox56.Name = "textBox56";
-            this.textBox56.Size = new System.Drawing.Size(239, 36);
+            this.textBox56.Size = new System.Drawing.Size(159, 23);
             this.textBox56.TabIndex = 201;
             this.textBox56.Text = "Customer: Alex Jill";
             this.textBox56.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1053,10 +1120,11 @@ namespace Car_Rental_Agency
             this.textBox57.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox57.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox57.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.textBox57.Location = new System.Drawing.Point(534, 941);
+            this.textBox57.Location = new System.Drawing.Point(356, 612);
+            this.textBox57.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox57.Multiline = true;
             this.textBox57.Name = "textBox57";
-            this.textBox57.Size = new System.Drawing.Size(100, 26);
+            this.textBox57.Size = new System.Drawing.Size(67, 17);
             this.textBox57.TabIndex = 200;
             this.textBox57.Text = "$140";
             this.textBox57.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1066,10 +1134,11 @@ namespace Car_Rental_Agency
             this.textBox58.BackColor = System.Drawing.SystemColors.InfoText;
             this.textBox58.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox58.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox58.Location = new System.Drawing.Point(420, 905);
+            this.textBox58.Location = new System.Drawing.Point(280, 588);
+            this.textBox58.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox58.Multiline = true;
             this.textBox58.Name = "textBox58";
-            this.textBox58.Size = new System.Drawing.Size(174, 30);
+            this.textBox58.Size = new System.Drawing.Size(117, 21);
             this.textBox58.TabIndex = 199;
             this.textBox58.Text = "To: Jun 20 2021";
             this.textBox58.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1079,10 +1148,11 @@ namespace Car_Rental_Agency
             this.textBox59.BackColor = System.Drawing.SystemColors.InfoText;
             this.textBox59.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox59.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox59.Location = new System.Drawing.Point(412, 869);
+            this.textBox59.Location = new System.Drawing.Point(275, 565);
+            this.textBox59.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox59.Multiline = true;
             this.textBox59.Name = "textBox59";
-            this.textBox59.Size = new System.Drawing.Size(194, 30);
+            this.textBox59.Size = new System.Drawing.Size(131, 21);
             this.textBox59.TabIndex = 198;
             this.textBox59.Text = "From: Jun 17 2021";
             this.textBox59.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1093,10 +1163,11 @@ namespace Car_Rental_Agency
             this.textBox60.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox60.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox60.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox60.Location = new System.Drawing.Point(586, 830);
+            this.textBox60.Location = new System.Drawing.Point(391, 539);
+            this.textBox60.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox60.Multiline = true;
             this.textBox60.Name = "textBox60";
-            this.textBox60.Size = new System.Drawing.Size(80, 33);
+            this.textBox60.Size = new System.Drawing.Size(53, 21);
             this.textBox60.TabIndex = 197;
             this.textBox60.Text = "8 Seats";
             // 
@@ -1106,10 +1177,11 @@ namespace Car_Rental_Agency
             this.textBox61.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox61.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox61.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox61.Location = new System.Drawing.Point(512, 830);
+            this.textBox61.Location = new System.Drawing.Point(341, 539);
+            this.textBox61.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox61.Multiline = true;
             this.textBox61.Name = "textBox61";
-            this.textBox61.Size = new System.Drawing.Size(68, 33);
+            this.textBox61.Size = new System.Drawing.Size(45, 21);
             this.textBox61.TabIndex = 196;
             this.textBox61.Text = "Toyota";
             this.textBox61.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1120,10 +1192,11 @@ namespace Car_Rental_Agency
             this.textBox62.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox62.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox62.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox62.Location = new System.Drawing.Point(436, 830);
+            this.textBox62.Location = new System.Drawing.Point(291, 539);
+            this.textBox62.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox62.Multiline = true;
             this.textBox62.Name = "textBox62";
-            this.textBox62.Size = new System.Drawing.Size(70, 33);
+            this.textBox62.Size = new System.Drawing.Size(47, 21);
             this.textBox62.TabIndex = 195;
             this.textBox62.Text = "Miles";
             this.textBox62.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1134,10 +1207,11 @@ namespace Car_Rental_Agency
             this.textBox63.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox63.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox63.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox63.Location = new System.Drawing.Point(366, 830);
+            this.textBox63.Location = new System.Drawing.Point(244, 539);
+            this.textBox63.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox63.Multiline = true;
             this.textBox63.Name = "textBox63";
-            this.textBox63.Size = new System.Drawing.Size(60, 33);
+            this.textBox63.Size = new System.Drawing.Size(40, 21);
             this.textBox63.TabIndex = 194;
             this.textBox63.Text = "Model";
             this.textBox63.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1148,9 +1222,10 @@ namespace Car_Rental_Agency
             this.textBox64.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox64.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox64.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox64.Location = new System.Drawing.Point(432, 796);
+            this.textBox64.Location = new System.Drawing.Point(288, 517);
+            this.textBox64.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox64.Name = "textBox64";
-            this.textBox64.Size = new System.Drawing.Size(174, 28);
+            this.textBox64.Size = new System.Drawing.Size(116, 19);
             this.textBox64.TabIndex = 193;
             this.textBox64.Text = "Standard SUV";
             // 
@@ -1160,11 +1235,12 @@ namespace Car_Rental_Agency
             this.dataGridView6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dataGridView6.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView6.GridColor = System.Drawing.SystemColors.ControlLightLight;
-            this.dataGridView6.Location = new System.Drawing.Point(348, 661);
+            this.dataGridView6.Location = new System.Drawing.Point(232, 430);
+            this.dataGridView6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView6.Name = "dataGridView6";
             this.dataGridView6.RowHeadersWidth = 62;
             this.dataGridView6.RowTemplate.Height = 28;
-            this.dataGridView6.Size = new System.Drawing.Size(323, 355);
+            this.dataGridView6.Size = new System.Drawing.Size(215, 231);
             this.dataGridView6.TabIndex = 191;
             // 
             // textBox65
@@ -1173,10 +1249,11 @@ namespace Car_Rental_Agency
             this.textBox65.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox65.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox65.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox65.Location = new System.Drawing.Point(728, 932);
+            this.textBox65.Location = new System.Drawing.Point(485, 606);
+            this.textBox65.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox65.Multiline = true;
             this.textBox65.Name = "textBox65";
-            this.textBox65.Size = new System.Drawing.Size(120, 30);
+            this.textBox65.Size = new System.Drawing.Size(80, 19);
             this.textBox65.TabIndex = 214;
             this.textBox65.Text = "Paid Amount:";
             this.textBox65.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1187,10 +1264,11 @@ namespace Car_Rental_Agency
             this.textBox66.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox66.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox66.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox66.Location = new System.Drawing.Point(715, 964);
+            this.textBox66.Location = new System.Drawing.Point(477, 627);
+            this.textBox66.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox66.Multiline = true;
             this.textBox66.Name = "textBox66";
-            this.textBox66.Size = new System.Drawing.Size(239, 36);
+            this.textBox66.Size = new System.Drawing.Size(159, 23);
             this.textBox66.TabIndex = 213;
             this.textBox66.Text = "Customer: Sarah Lee";
             this.textBox66.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1202,10 +1280,11 @@ namespace Car_Rental_Agency
             this.textBox67.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox67.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox67.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.textBox67.Location = new System.Drawing.Point(854, 928);
+            this.textBox67.Location = new System.Drawing.Point(569, 603);
+            this.textBox67.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox67.Multiline = true;
             this.textBox67.Name = "textBox67";
-            this.textBox67.Size = new System.Drawing.Size(100, 26);
+            this.textBox67.Size = new System.Drawing.Size(67, 17);
             this.textBox67.TabIndex = 212;
             this.textBox67.Text = "$140";
             this.textBox67.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1215,10 +1294,11 @@ namespace Car_Rental_Agency
             this.textBox68.BackColor = System.Drawing.SystemColors.InfoText;
             this.textBox68.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox68.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox68.Location = new System.Drawing.Point(740, 896);
+            this.textBox68.Location = new System.Drawing.Point(493, 582);
+            this.textBox68.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox68.Multiline = true;
             this.textBox68.Name = "textBox68";
-            this.textBox68.Size = new System.Drawing.Size(174, 30);
+            this.textBox68.Size = new System.Drawing.Size(117, 21);
             this.textBox68.TabIndex = 211;
             this.textBox68.Text = "To: Jun 20 2021";
             this.textBox68.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1228,10 +1308,11 @@ namespace Car_Rental_Agency
             this.textBox69.BackColor = System.Drawing.SystemColors.InfoText;
             this.textBox69.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox69.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox69.Location = new System.Drawing.Point(732, 860);
+            this.textBox69.Location = new System.Drawing.Point(488, 559);
+            this.textBox69.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox69.Multiline = true;
             this.textBox69.Name = "textBox69";
-            this.textBox69.Size = new System.Drawing.Size(194, 30);
+            this.textBox69.Size = new System.Drawing.Size(131, 21);
             this.textBox69.TabIndex = 210;
             this.textBox69.Text = "From: Jun 17 2021";
             this.textBox69.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1242,10 +1323,11 @@ namespace Car_Rental_Agency
             this.textBox70.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox70.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox70.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox70.Location = new System.Drawing.Point(906, 821);
+            this.textBox70.Location = new System.Drawing.Point(604, 534);
+            this.textBox70.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox70.Multiline = true;
             this.textBox70.Name = "textBox70";
-            this.textBox70.Size = new System.Drawing.Size(80, 33);
+            this.textBox70.Size = new System.Drawing.Size(53, 21);
             this.textBox70.TabIndex = 209;
             this.textBox70.Text = "8 Seats";
             // 
@@ -1255,10 +1337,11 @@ namespace Car_Rental_Agency
             this.textBox71.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox71.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox71.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox71.Location = new System.Drawing.Point(832, 821);
+            this.textBox71.Location = new System.Drawing.Point(555, 534);
+            this.textBox71.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox71.Multiline = true;
             this.textBox71.Name = "textBox71";
-            this.textBox71.Size = new System.Drawing.Size(68, 33);
+            this.textBox71.Size = new System.Drawing.Size(45, 21);
             this.textBox71.TabIndex = 208;
             this.textBox71.Text = "Toyota";
             this.textBox71.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1269,10 +1352,11 @@ namespace Car_Rental_Agency
             this.textBox72.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox72.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox72.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox72.Location = new System.Drawing.Point(756, 821);
+            this.textBox72.Location = new System.Drawing.Point(504, 534);
+            this.textBox72.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox72.Multiline = true;
             this.textBox72.Name = "textBox72";
-            this.textBox72.Size = new System.Drawing.Size(70, 33);
+            this.textBox72.Size = new System.Drawing.Size(47, 21);
             this.textBox72.TabIndex = 207;
             this.textBox72.Text = "Miles";
             this.textBox72.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1283,10 +1367,11 @@ namespace Car_Rental_Agency
             this.textBox73.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox73.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox73.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox73.Location = new System.Drawing.Point(686, 821);
+            this.textBox73.Location = new System.Drawing.Point(457, 534);
+            this.textBox73.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox73.Multiline = true;
             this.textBox73.Name = "textBox73";
-            this.textBox73.Size = new System.Drawing.Size(60, 33);
+            this.textBox73.Size = new System.Drawing.Size(40, 21);
             this.textBox73.TabIndex = 206;
             this.textBox73.Text = "Model";
             this.textBox73.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1297,9 +1382,10 @@ namespace Car_Rental_Agency
             this.textBox74.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox74.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox74.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox74.Location = new System.Drawing.Point(752, 787);
+            this.textBox74.Location = new System.Drawing.Point(501, 512);
+            this.textBox74.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox74.Name = "textBox74";
-            this.textBox74.Size = new System.Drawing.Size(174, 28);
+            this.textBox74.Size = new System.Drawing.Size(116, 19);
             this.textBox74.TabIndex = 205;
             this.textBox74.Text = "Honda Civic";
             this.textBox74.TextChanged += new System.EventHandler(this.textBox74_TextChanged);
@@ -1310,11 +1396,12 @@ namespace Car_Rental_Agency
             this.dataGridView7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dataGridView7.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView7.GridColor = System.Drawing.SystemColors.ControlLightLight;
-            this.dataGridView7.Location = new System.Drawing.Point(672, 661);
+            this.dataGridView7.Location = new System.Drawing.Point(448, 430);
+            this.dataGridView7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView7.Name = "dataGridView7";
             this.dataGridView7.RowHeadersWidth = 62;
             this.dataGridView7.RowTemplate.Height = 28;
-            this.dataGridView7.Size = new System.Drawing.Size(323, 355);
+            this.dataGridView7.Size = new System.Drawing.Size(215, 231);
             this.dataGridView7.TabIndex = 203;
             // 
             // textBox75
@@ -1323,10 +1410,11 @@ namespace Car_Rental_Agency
             this.textBox75.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox75.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox75.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox75.Location = new System.Drawing.Point(1056, 928);
+            this.textBox75.Location = new System.Drawing.Point(704, 603);
+            this.textBox75.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox75.Multiline = true;
             this.textBox75.Name = "textBox75";
-            this.textBox75.Size = new System.Drawing.Size(120, 30);
+            this.textBox75.Size = new System.Drawing.Size(80, 19);
             this.textBox75.TabIndex = 226;
             this.textBox75.Text = "Paid Amount:";
             this.textBox75.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1337,10 +1425,11 @@ namespace Car_Rental_Agency
             this.textBox76.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox76.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox76.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox76.Location = new System.Drawing.Point(1043, 964);
+            this.textBox76.Location = new System.Drawing.Point(695, 627);
+            this.textBox76.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox76.Multiline = true;
             this.textBox76.Name = "textBox76";
-            this.textBox76.Size = new System.Drawing.Size(239, 36);
+            this.textBox76.Size = new System.Drawing.Size(159, 23);
             this.textBox76.TabIndex = 225;
             this.textBox76.Text = "Customer: Bill gates";
             this.textBox76.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1351,10 +1440,11 @@ namespace Car_Rental_Agency
             this.textBox77.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox77.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox77.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.textBox77.Location = new System.Drawing.Point(1182, 932);
+            this.textBox77.Location = new System.Drawing.Point(788, 606);
+            this.textBox77.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox77.Multiline = true;
             this.textBox77.Name = "textBox77";
-            this.textBox77.Size = new System.Drawing.Size(100, 26);
+            this.textBox77.Size = new System.Drawing.Size(67, 17);
             this.textBox77.TabIndex = 224;
             this.textBox77.Text = "$140";
             this.textBox77.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1364,10 +1454,11 @@ namespace Car_Rental_Agency
             this.textBox78.BackColor = System.Drawing.SystemColors.InfoText;
             this.textBox78.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox78.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox78.Location = new System.Drawing.Point(1068, 896);
+            this.textBox78.Location = new System.Drawing.Point(712, 582);
+            this.textBox78.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox78.Multiline = true;
             this.textBox78.Name = "textBox78";
-            this.textBox78.Size = new System.Drawing.Size(174, 30);
+            this.textBox78.Size = new System.Drawing.Size(117, 21);
             this.textBox78.TabIndex = 223;
             this.textBox78.Text = "To: Jun 20 2021";
             this.textBox78.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1377,10 +1468,11 @@ namespace Car_Rental_Agency
             this.textBox79.BackColor = System.Drawing.SystemColors.InfoText;
             this.textBox79.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox79.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox79.Location = new System.Drawing.Point(1060, 860);
+            this.textBox79.Location = new System.Drawing.Point(707, 559);
+            this.textBox79.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox79.Multiline = true;
             this.textBox79.Name = "textBox79";
-            this.textBox79.Size = new System.Drawing.Size(194, 30);
+            this.textBox79.Size = new System.Drawing.Size(131, 21);
             this.textBox79.TabIndex = 222;
             this.textBox79.Text = "From: Jun 17 2021";
             this.textBox79.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1391,10 +1483,11 @@ namespace Car_Rental_Agency
             this.textBox80.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox80.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox80.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox80.Location = new System.Drawing.Point(1234, 821);
+            this.textBox80.Location = new System.Drawing.Point(823, 534);
+            this.textBox80.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox80.Multiline = true;
             this.textBox80.Name = "textBox80";
-            this.textBox80.Size = new System.Drawing.Size(80, 33);
+            this.textBox80.Size = new System.Drawing.Size(53, 21);
             this.textBox80.TabIndex = 221;
             this.textBox80.Text = "8 Seats";
             // 
@@ -1404,10 +1497,11 @@ namespace Car_Rental_Agency
             this.textBox81.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox81.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox81.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox81.Location = new System.Drawing.Point(1160, 821);
+            this.textBox81.Location = new System.Drawing.Point(773, 534);
+            this.textBox81.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox81.Multiline = true;
             this.textBox81.Name = "textBox81";
-            this.textBox81.Size = new System.Drawing.Size(68, 33);
+            this.textBox81.Size = new System.Drawing.Size(45, 21);
             this.textBox81.TabIndex = 220;
             this.textBox81.Text = "Toyota";
             this.textBox81.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1418,10 +1512,11 @@ namespace Car_Rental_Agency
             this.textBox82.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox82.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox82.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox82.Location = new System.Drawing.Point(1084, 821);
+            this.textBox82.Location = new System.Drawing.Point(723, 534);
+            this.textBox82.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox82.Multiline = true;
             this.textBox82.Name = "textBox82";
-            this.textBox82.Size = new System.Drawing.Size(70, 33);
+            this.textBox82.Size = new System.Drawing.Size(47, 21);
             this.textBox82.TabIndex = 219;
             this.textBox82.Text = "Miles";
             this.textBox82.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1432,10 +1527,11 @@ namespace Car_Rental_Agency
             this.textBox83.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox83.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox83.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox83.Location = new System.Drawing.Point(1014, 821);
+            this.textBox83.Location = new System.Drawing.Point(676, 534);
+            this.textBox83.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox83.Multiline = true;
             this.textBox83.Name = "textBox83";
-            this.textBox83.Size = new System.Drawing.Size(60, 33);
+            this.textBox83.Size = new System.Drawing.Size(40, 21);
             this.textBox83.TabIndex = 218;
             this.textBox83.Text = "Model";
             this.textBox83.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1446,9 +1542,10 @@ namespace Car_Rental_Agency
             this.textBox84.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox84.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox84.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox84.Location = new System.Drawing.Point(1080, 787);
+            this.textBox84.Location = new System.Drawing.Point(720, 512);
+            this.textBox84.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox84.Name = "textBox84";
-            this.textBox84.Size = new System.Drawing.Size(174, 28);
+            this.textBox84.Size = new System.Drawing.Size(116, 19);
             this.textBox84.TabIndex = 217;
             this.textBox84.Text = "Compact SUV";
             // 
@@ -1458,19 +1555,21 @@ namespace Car_Rental_Agency
             this.dataGridView8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dataGridView8.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView8.GridColor = System.Drawing.SystemColors.ControlLightLight;
-            this.dataGridView8.Location = new System.Drawing.Point(1005, 661);
+            this.dataGridView8.Location = new System.Drawing.Point(670, 430);
+            this.dataGridView8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView8.Name = "dataGridView8";
             this.dataGridView8.RowHeadersWidth = 62;
             this.dataGridView8.RowTemplate.Height = 28;
-            this.dataGridView8.Size = new System.Drawing.Size(323, 355);
+            this.dataGridView8.Size = new System.Drawing.Size(215, 231);
             this.dataGridView8.TabIndex = 215;
             // 
             // pictureBox8
             // 
             this.pictureBox8.Image = global::Car_Rental_Agency.Properties.Resources.suv1;
-            this.pictureBox8.Location = new System.Drawing.Point(1068, 670);
+            this.pictureBox8.Location = new System.Drawing.Point(712, 435);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(173, 111);
+            this.pictureBox8.Size = new System.Drawing.Size(115, 72);
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 216;
             this.pictureBox8.TabStop = false;
@@ -1478,9 +1577,10 @@ namespace Car_Rental_Agency
             // pictureBox7
             // 
             this.pictureBox7.Image = global::Car_Rental_Agency.Properties.Resources.c51;
-            this.pictureBox7.Location = new System.Drawing.Point(740, 670);
+            this.pictureBox7.Location = new System.Drawing.Point(493, 435);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(173, 111);
+            this.pictureBox7.Size = new System.Drawing.Size(115, 72);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 204;
             this.pictureBox7.TabStop = false;
@@ -1488,9 +1588,10 @@ namespace Car_Rental_Agency
             // pictureBox6
             // 
             this.pictureBox6.Image = global::Car_Rental_Agency.Properties.Resources.c6;
-            this.pictureBox6.Location = new System.Drawing.Point(420, 679);
+            this.pictureBox6.Location = new System.Drawing.Point(280, 441);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(173, 111);
+            this.pictureBox6.Size = new System.Drawing.Size(115, 72);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 192;
             this.pictureBox6.TabStop = false;
@@ -1498,9 +1599,10 @@ namespace Car_Rental_Agency
             // pictureBox5
             // 
             this.pictureBox5.Image = global::Car_Rental_Agency.Properties.Resources.c2;
-            this.pictureBox5.Location = new System.Drawing.Point(1069, 301);
+            this.pictureBox5.Location = new System.Drawing.Point(713, 196);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(173, 111);
+            this.pictureBox5.Size = new System.Drawing.Size(115, 72);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 180;
             this.pictureBox5.TabStop = false;
@@ -1508,9 +1610,10 @@ namespace Car_Rental_Agency
             // pictureBox4
             // 
             this.pictureBox4.Image = global::Car_Rental_Agency.Properties.Resources.c31;
-            this.pictureBox4.Location = new System.Drawing.Point(740, 301);
+            this.pictureBox4.Location = new System.Drawing.Point(493, 196);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(173, 111);
+            this.pictureBox4.Size = new System.Drawing.Size(115, 72);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 168;
             this.pictureBox4.TabStop = false;
@@ -1518,9 +1621,10 @@ namespace Car_Rental_Agency
             // pictureBox3
             // 
             this.pictureBox3.Image = global::Car_Rental_Agency.Properties.Resources.c5;
-            this.pictureBox3.Location = new System.Drawing.Point(411, 301);
+            this.pictureBox3.Location = new System.Drawing.Point(274, 196);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(173, 111);
+            this.pictureBox3.Size = new System.Drawing.Size(115, 72);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 156;
             this.pictureBox3.TabStop = false;
@@ -1528,9 +1632,10 @@ namespace Car_Rental_Agency
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Car_Rental_Agency.Properties.Resources.c32;
-            this.pictureBox2.Location = new System.Drawing.Point(82, 670);
+            this.pictureBox2.Location = new System.Drawing.Point(55, 435);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(173, 111);
+            this.pictureBox2.Size = new System.Drawing.Size(115, 72);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 144;
             this.pictureBox2.TabStop = false;
@@ -1538,19 +1643,20 @@ namespace Car_Rental_Agency
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Car_Rental_Agency.Properties.Resources.c2;
-            this.pictureBox1.Location = new System.Drawing.Point(73, 301);
+            this.pictureBox1.Location = new System.Drawing.Point(49, 196);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(173, 111);
+            this.pictureBox1.Size = new System.Drawing.Size(115, 72);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 128;
             this.pictureBox1.TabStop = false;
             // 
             // Employee_booking
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(1340, 1050);
+            this.ClientSize = new System.Drawing.Size(896, 597);
             this.Controls.Add(this.textBox75);
             this.Controls.Add(this.textBox76);
             this.Controls.Add(this.textBox77);
@@ -1657,6 +1763,7 @@ namespace Car_Rental_Agency
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.textBox1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Employee_booking";
             this.Text = "Employee_booking";
             this.Load += new System.EventHandler(this.Employee_booking_Load);

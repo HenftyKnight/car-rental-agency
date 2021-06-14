@@ -37,7 +37,7 @@ namespace Car_Rental_Agency
 
         private void button6_Click(object sender, EventArgs e)
         {
-            Employee_customers login = new Employee_customers();
+            FindCustomer login = new FindCustomer();
             login.Show();
         }
 

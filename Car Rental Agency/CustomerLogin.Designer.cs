@@ -81,7 +81,7 @@ namespace Car_Rental_Agency
             this.groupBox1.ForeColor = System.Drawing.Color.White;
             this.groupBox1.Location = new System.Drawing.Point(4, 94);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(251, 307);
+            this.groupBox1.Size = new System.Drawing.Size(288, 307);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Sign In";
@@ -90,7 +90,7 @@ namespace Car_Rental_Agency
             // 
             this.loginBtn.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.loginBtn.ForeColor = System.Drawing.Color.Black;
-            this.loginBtn.Location = new System.Drawing.Point(21, 220);
+            this.loginBtn.Location = new System.Drawing.Point(56, 221);
             this.loginBtn.Name = "loginBtn";
             this.loginBtn.Size = new System.Drawing.Size(150, 41);
             this.loginBtn.TabIndex = 33;
@@ -100,10 +100,10 @@ namespace Car_Rental_Agency
             // 
             // loginpasswordTbox
             // 
-            this.loginpasswordTbox.Location = new System.Drawing.Point(21, 160);
+            this.loginpasswordTbox.Location = new System.Drawing.Point(21, 161);
             this.loginpasswordTbox.Multiline = true;
             this.loginpasswordTbox.Name = "loginpasswordTbox";
-            this.loginpasswordTbox.Size = new System.Drawing.Size(179, 26);
+            this.loginpasswordTbox.Size = new System.Drawing.Size(244, 26);
             this.loginpasswordTbox.TabIndex = 4;
             // 
             // loginemailTextBox
@@ -111,7 +111,7 @@ namespace Car_Rental_Agency
             this.loginemailTextBox.Location = new System.Drawing.Point(21, 71);
             this.loginemailTextBox.Multiline = true;
             this.loginemailTextBox.Name = "loginemailTextBox";
-            this.loginemailTextBox.Size = new System.Drawing.Size(215, 26);
+            this.loginemailTextBox.Size = new System.Drawing.Size(244, 26);
             this.loginemailTextBox.TabIndex = 3;
             // 
             // customerEmail
@@ -169,9 +169,9 @@ namespace Car_Rental_Agency
             this.SignUp.Controls.Add(this.fName);
             this.SignUp.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SignUp.ForeColor = System.Drawing.Color.White;
-            this.SignUp.Location = new System.Drawing.Point(261, 75);
+            this.SignUp.Location = new System.Drawing.Point(331, 94);
             this.SignUp.Name = "SignUp";
-            this.SignUp.Size = new System.Drawing.Size(658, 410);
+            this.SignUp.Size = new System.Drawing.Size(730, 478);
             this.SignUp.TabIndex = 1;
             this.SignUp.TabStop = false;
             this.SignUp.Text = "Sign Up";
@@ -181,7 +181,7 @@ namespace Car_Rental_Agency
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(224, 329);
+            this.label7.Location = new System.Drawing.Point(228, 329);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(89, 22);
             this.label7.TabIndex = 36;
@@ -189,9 +189,9 @@ namespace Car_Rental_Agency
             // 
             // agedateTimePicker
             // 
-            this.agedateTimePicker.Location = new System.Drawing.Point(214, 366);
+            this.agedateTimePicker.Location = new System.Drawing.Point(228, 360);
             this.agedateTimePicker.Name = "agedateTimePicker";
-            this.agedateTimePicker.Size = new System.Drawing.Size(200, 29);
+            this.agedateTimePicker.Size = new System.Drawing.Size(238, 29);
             this.agedateTimePicker.TabIndex = 35;
             // 
             // dlisenceTextBox
@@ -199,7 +199,7 @@ namespace Car_Rental_Agency
             this.dlisenceTextBox.Location = new System.Drawing.Point(16, 362);
             this.dlisenceTextBox.Multiline = true;
             this.dlisenceTextBox.Name = "dlisenceTextBox";
-            this.dlisenceTextBox.Size = new System.Drawing.Size(144, 26);
+            this.dlisenceTextBox.Size = new System.Drawing.Size(190, 27);
             this.dlisenceTextBox.TabIndex = 34;
             // 
             // dlisenceType
@@ -216,7 +216,7 @@ namespace Car_Rental_Agency
             // 
             this.signupBtn.BackColor = System.Drawing.Color.Gray;
             this.signupBtn.ForeColor = System.Drawing.Color.Black;
-            this.signupBtn.Location = new System.Drawing.Point(456, 362);
+            this.signupBtn.Location = new System.Drawing.Point(256, 415);
             this.signupBtn.Name = "signupBtn";
             this.signupBtn.Size = new System.Drawing.Size(150, 41);
             this.signupBtn.TabIndex = 32;
@@ -229,7 +229,7 @@ namespace Car_Rental_Agency
             this.DriLisence.Location = new System.Drawing.Point(16, 284);
             this.DriLisence.Multiline = true;
             this.DriLisence.Name = "DriLisence";
-            this.DriLisence.Size = new System.Drawing.Size(144, 26);
+            this.DriLisence.Size = new System.Drawing.Size(190, 27);
             this.DriLisence.TabIndex = 31;
             // 
             // dlisence
@@ -244,34 +244,34 @@ namespace Car_Rental_Agency
             // 
             // ConfirmPsswdTextBox
             // 
-            this.ConfirmPsswdTextBox.Location = new System.Drawing.Point(428, 284);
+            this.ConfirmPsswdTextBox.Location = new System.Drawing.Point(473, 284);
             this.ConfirmPsswdTextBox.Multiline = true;
             this.ConfirmPsswdTextBox.Name = "ConfirmPsswdTextBox";
-            this.ConfirmPsswdTextBox.Size = new System.Drawing.Size(144, 26);
+            this.ConfirmPsswdTextBox.Size = new System.Drawing.Size(190, 27);
             this.ConfirmPsswdTextBox.TabIndex = 29;
             // 
             // psswdTextBox
             // 
-            this.psswdTextBox.Location = new System.Drawing.Point(218, 284);
+            this.psswdTextBox.Location = new System.Drawing.Point(228, 284);
             this.psswdTextBox.Multiline = true;
             this.psswdTextBox.Name = "psswdTextBox";
-            this.psswdTextBox.Size = new System.Drawing.Size(144, 26);
+            this.psswdTextBox.Size = new System.Drawing.Size(190, 27);
             this.psswdTextBox.TabIndex = 28;
             // 
             // postalcode
             // 
-            this.postalcode.Location = new System.Drawing.Point(428, 205);
+            this.postalcode.Location = new System.Drawing.Point(473, 204);
             this.postalcode.Multiline = true;
             this.postalcode.Name = "postalcode";
-            this.postalcode.Size = new System.Drawing.Size(144, 26);
+            this.postalcode.Size = new System.Drawing.Size(190, 27);
             this.postalcode.TabIndex = 27;
             // 
             // country
             // 
-            this.country.Location = new System.Drawing.Point(214, 205);
+            this.country.Location = new System.Drawing.Point(228, 205);
             this.country.Multiline = true;
             this.country.Name = "country";
-            this.country.Size = new System.Drawing.Size(144, 26);
+            this.country.Size = new System.Drawing.Size(190, 27);
             this.country.TabIndex = 26;
             // 
             // state
@@ -279,23 +279,23 @@ namespace Car_Rental_Agency
             this.state.Location = new System.Drawing.Point(16, 205);
             this.state.Multiline = true;
             this.state.Name = "state";
-            this.state.Size = new System.Drawing.Size(144, 26);
+            this.state.Size = new System.Drawing.Size(190, 27);
             this.state.TabIndex = 25;
             // 
             // city
             // 
-            this.city.Location = new System.Drawing.Point(428, 138);
+            this.city.Location = new System.Drawing.Point(473, 132);
             this.city.Multiline = true;
             this.city.Name = "city";
-            this.city.Size = new System.Drawing.Size(144, 26);
+            this.city.Size = new System.Drawing.Size(190, 27);
             this.city.TabIndex = 24;
             // 
             // street
             // 
-            this.street.Location = new System.Drawing.Point(214, 136);
+            this.street.Location = new System.Drawing.Point(228, 136);
             this.street.Multiline = true;
             this.street.Name = "street";
-            this.street.Size = new System.Drawing.Size(144, 26);
+            this.street.Size = new System.Drawing.Size(190, 27);
             this.street.TabIndex = 23;
             // 
             // phone
@@ -303,14 +303,14 @@ namespace Car_Rental_Agency
             this.phone.Location = new System.Drawing.Point(16, 136);
             this.phone.Multiline = true;
             this.phone.Name = "phone";
-            this.phone.Size = new System.Drawing.Size(144, 26);
+            this.phone.Size = new System.Drawing.Size(190, 27);
             this.phone.TabIndex = 22;
             // 
             // ConPsswd
             // 
             this.ConPsswd.AutoSize = true;
             this.ConPsswd.BackColor = System.Drawing.Color.Black;
-            this.ConPsswd.Location = new System.Drawing.Point(424, 247);
+            this.ConPsswd.Location = new System.Drawing.Point(469, 247);
             this.ConPsswd.Name = "ConPsswd";
             this.ConPsswd.Size = new System.Drawing.Size(182, 22);
             this.ConPsswd.TabIndex = 20;
@@ -321,7 +321,7 @@ namespace Car_Rental_Agency
             // 
             this.password.AutoSize = true;
             this.password.BackColor = System.Drawing.Color.Black;
-            this.password.Location = new System.Drawing.Point(214, 247);
+            this.password.Location = new System.Drawing.Point(228, 247);
             this.password.Name = "password";
             this.password.Size = new System.Drawing.Size(103, 22);
             this.password.TabIndex = 19;
@@ -331,7 +331,7 @@ namespace Car_Rental_Agency
             // 
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(424, 180);
+            this.label10.Location = new System.Drawing.Point(469, 179);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(122, 22);
             this.label10.TabIndex = 17;
@@ -341,7 +341,7 @@ namespace Car_Rental_Agency
             // 
             this.label11.AutoSize = true;
             this.label11.BackColor = System.Drawing.Color.Black;
-            this.label11.Location = new System.Drawing.Point(210, 179);
+            this.label11.Location = new System.Drawing.Point(224, 179);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(85, 22);
             this.label11.TabIndex = 16;
@@ -361,7 +361,7 @@ namespace Car_Rental_Agency
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(424, 104);
+            this.label6.Location = new System.Drawing.Point(469, 104);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(46, 22);
             this.label6.TabIndex = 12;
@@ -371,7 +371,7 @@ namespace Car_Rental_Agency
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(210, 104);
+            this.label5.Location = new System.Drawing.Point(224, 104);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(65, 22);
             this.label5.TabIndex = 11;
@@ -389,17 +389,17 @@ namespace Car_Rental_Agency
             // 
             // emailTextBox
             // 
-            this.emailTextBox.Location = new System.Drawing.Point(428, 65);
+            this.emailTextBox.Location = new System.Drawing.Point(473, 65);
             this.emailTextBox.Multiline = true;
             this.emailTextBox.Name = "emailTextBox";
-            this.emailTextBox.Size = new System.Drawing.Size(211, 26);
+            this.emailTextBox.Size = new System.Drawing.Size(190, 27);
             this.emailTextBox.TabIndex = 9;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(424, 35);
+            this.label3.Location = new System.Drawing.Point(469, 35);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(61, 22);
             this.label3.TabIndex = 8;
@@ -409,7 +409,7 @@ namespace Car_Rental_Agency
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(210, 35);
+            this.label2.Location = new System.Drawing.Point(224, 35);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(107, 22);
             this.label2.TabIndex = 7;
@@ -427,10 +427,10 @@ namespace Car_Rental_Agency
             // 
             // lName
             // 
-            this.lName.Location = new System.Drawing.Point(214, 65);
+            this.lName.Location = new System.Drawing.Point(228, 65);
             this.lName.Multiline = true;
             this.lName.Name = "lName";
-            this.lName.Size = new System.Drawing.Size(144, 26);
+            this.lName.Size = new System.Drawing.Size(190, 27);
             this.lName.TabIndex = 5;
             this.lName.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
@@ -439,7 +439,7 @@ namespace Car_Rental_Agency
             this.fName.Location = new System.Drawing.Point(16, 65);
             this.fName.Multiline = true;
             this.fName.Name = "fName";
-            this.fName.Size = new System.Drawing.Size(144, 26);
+            this.fName.Size = new System.Drawing.Size(190, 27);
             this.fName.TabIndex = 4;
             // 
             // label13
@@ -458,7 +458,7 @@ namespace Car_Rental_Agency
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(913, 487);
+            this.ClientSize = new System.Drawing.Size(1073, 617);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.SignUp);
             this.Controls.Add(this.groupBox1);

@@ -50,6 +50,7 @@ namespace Car_Rental_Agency
             this.seatsTextBox = new System.Windows.Forms.TextBox();
             this.SearchagainBtn = new System.Windows.Forms.Button();
             this.backUpDataGridView = new System.Windows.Forms.DataGridView();
+            this.RentCarBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.VehicleInfoDataGridView)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.backUpDataGridView)).BeginInit();
@@ -156,10 +157,10 @@ namespace Car_Rental_Agency
             // pickDateTimePicker
             // 
             this.pickDateTimePicker.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pickDateTimePicker.Location = new System.Drawing.Point(22, 61);
+            this.pickDateTimePicker.Location = new System.Drawing.Point(22, 64);
             this.pickDateTimePicker.Margin = new System.Windows.Forms.Padding(2);
             this.pickDateTimePicker.Name = "pickDateTimePicker";
-            this.pickDateTimePicker.Size = new System.Drawing.Size(175, 26);
+            this.pickDateTimePicker.Size = new System.Drawing.Size(184, 26);
             this.pickDateTimePicker.TabIndex = 4;
             // 
             // dropoffDateTimePicker
@@ -307,12 +308,27 @@ namespace Car_Rental_Agency
             this.backUpDataGridView.Size = new System.Drawing.Size(615, 150);
             this.backUpDataGridView.TabIndex = 22;
             // 
+            // RentCarBtn
+            // 
+            this.RentCarBtn.BackColor = System.Drawing.SystemColors.Info;
+            this.RentCarBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RentCarBtn.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.RentCarBtn.Location = new System.Drawing.Point(915, 490);
+            this.RentCarBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.RentCarBtn.Name = "RentCarBtn";
+            this.RentCarBtn.Size = new System.Drawing.Size(175, 31);
+            this.RentCarBtn.TabIndex = 23;
+            this.RentCarBtn.Text = "Rent Car";
+            this.RentCarBtn.UseVisualStyleBackColor = false;
+            this.RentCarBtn.Click += new System.EventHandler(this.RentCarBtn_Click);
+            // 
             // BookingCustomer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(1135, 494);
+            this.ClientSize = new System.Drawing.Size(1135, 588);
+            this.Controls.Add(this.RentCarBtn);
             this.Controls.Add(this.backUpDataGridView);
             this.Controls.Add(this.errorLabel);
             this.Controls.Add(this.infolabel);
@@ -355,5 +371,6 @@ namespace Car_Rental_Agency
         private System.Windows.Forms.TextBox seatsTextBox;
         private System.Windows.Forms.Button SearchagainBtn;
         private System.Windows.Forms.DataGridView backUpDataGridView;
+        private System.Windows.Forms.Button RentCarBtn;
     }
 }

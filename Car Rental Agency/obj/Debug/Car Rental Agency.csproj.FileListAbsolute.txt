@@ -67,7 +67,6 @@ R:\CMPT\CMPT291\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.
 R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\bin\Debug\Car Rental Agency.exe.config
 R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\bin\Debug\Car Rental Agency.exe
 R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\bin\Debug\Car Rental Agency.pdb
-R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\obj\Debug\Car Rental Agency.csprojAssemblyReference.cache
 R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.AddNewBranch.resources
 R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.AddNewVehicleType.resources
 R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.AddNewVehicle.resources
@@ -79,7 +78,6 @@ R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\obj\Debug\Car
 R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.AddingtoDB.resources
 R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.EmployeeLogin.resources
 R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.Employee_booking.resources
-R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.Employee_customers.resources
 R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.Employee_vehicles.resources
 R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.Main.resources
 R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.Payment.resources
@@ -96,3 +94,6 @@ R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\obj\Debug\Car
 R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.UpdateVehicle.resources
 R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.UpdateVehicleType.resources
 R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.FindVehicleType.resources
+R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.AddNewBooking.resources
+r:\cmpt\car-rental-agency 1006\car-rental-agency\car rental agency\obj\Debug\Car Rental Agency.csprojAssemblyReference.cache
+r:\cmpt\car-rental-agency 1006\car-rental-agency\car rental agency\obj\Debug\Car_Rental_Agency.FindCustomer.resources

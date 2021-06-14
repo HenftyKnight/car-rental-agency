@@ -71,17 +71,8 @@ namespace Car_Rental_Agency
 
         private void SignUp_Enter(object sender, EventArgs e)
         {
-            //BookingCustomer login = new BookingCustomer();
-            //login.Show();
-            //try { 
-            //    mysqlCommand.ExecuteNonQuery();
-            //}
-
-            //catch(Exception e2) { 
-            //    MessageBox.Show(e2.ToString());
-            //}
-
-
+            
+        
         }
         public static bool IsValidEmail(string email)
         {
@@ -186,8 +177,8 @@ namespace Car_Rental_Agency
                 Console.WriteLine("" +
                     "ID = {0}, " +
                     "FirstName = {1}, " +
-                    "Status = {2}, ",
-                    "Balance = {3}, " +
+                    "Status = {2}, " +
+                    "Balance = {3}",
                     //"Card Number = {4}",
                     this.User.ID,
                     this.User.FirstName,
@@ -197,6 +188,8 @@ namespace Car_Rental_Agency
                 //this.User.cardNumber);
 
                 this.Close();
+                
+                Console.WriteLine(this.User.MembershipType);
 
                 BookingCustomer booking = new BookingCustomer(this.User);
                 this.Opacity = 0.0;
@@ -273,6 +266,15 @@ namespace Car_Rental_Agency
                 MessageBox.Show(ex.Message, "Error");
             }
         }
+
+        private void allowOnlyNumericalValues(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
+
         public static bool insertCustomer(Customer cx)
         {
             string dbstring = Database.connectionString;
@@ -309,9 +311,13 @@ namespace Car_Rental_Agency
                     command.Parameters.Add("@passwd", SqlDbType.VarChar).Value = HashPassword(random.Next(0, 1000000000).ToString());
                 }
 
+                MessageBox.Show(insertvals);
                 connection.Open();
+                
                 command.ExecuteNonQuery();
+        
                 connection.Close();
+
             }
             return true;
         }

@@ -33,11 +33,12 @@ namespace Car_Rental_Agency
             this.label1 = new System.Windows.Forms.Label();
             this.empEmail = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.employeeTextBox = new System.Windows.Forms.TextBox();
+            this.employeepassword = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label3 = new System.Windows.Forms.Label();
+            this.errorLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -73,21 +74,21 @@ namespace Car_Rental_Agency
             this.label2.Text = "Password";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // textBox1
+            // employeeTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(507, 192);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(249, 28);
-            this.textBox1.TabIndex = 3;
+            this.employeeTextBox.Location = new System.Drawing.Point(507, 192);
+            this.employeeTextBox.Multiline = true;
+            this.employeeTextBox.Name = "employeeTextBox";
+            this.employeeTextBox.Size = new System.Drawing.Size(249, 28);
+            this.employeeTextBox.TabIndex = 3;
             // 
-            // textBox2
+            // employeepassword
             // 
-            this.textBox2.Location = new System.Drawing.Point(507, 300);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(249, 28);
-            this.textBox2.TabIndex = 4;
+            this.employeepassword.Location = new System.Drawing.Point(507, 300);
+            this.employeepassword.Multiline = true;
+            this.employeepassword.Name = "employeepassword";
+            this.employeepassword.Size = new System.Drawing.Size(249, 28);
+            this.employeepassword.TabIndex = 4;
             // 
             // button1
             // 
@@ -114,16 +115,27 @@ namespace Car_Rental_Agency
             this.label3.Text = "Employee \r\nLogin \r\nPortal";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
+            // errorLabel
+            // 
+            this.errorLabel.AutoSize = true;
+            this.errorLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.errorLabel.ForeColor = System.Drawing.Color.White;
+            this.errorLabel.Location = new System.Drawing.Point(180, 333);
+            this.errorLabel.Name = "errorLabel";
+            this.errorLabel.Size = new System.Drawing.Size(0, 20);
+            this.errorLabel.TabIndex = 7;
+            // 
             // EmployeeLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(831, 450);
+            this.Controls.Add(this.errorLabel);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.employeepassword);
+            this.Controls.Add(this.employeeTextBox);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.empEmail);
             this.Controls.Add(this.label1);
@@ -140,10 +152,11 @@ namespace Car_Rental_Agency
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label empEmail;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox employeeTextBox;
+        private System.Windows.Forms.TextBox employeepassword;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label errorLabel;
     }
 }
