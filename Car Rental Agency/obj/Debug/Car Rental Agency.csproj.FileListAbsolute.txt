@@ -103,3 +103,38 @@ C:\Users\Sana\Source\Repos\car-rental-agency\Car Rental Agency\obj\Debug\Car_Ren
 C:\Users\Sana\Source\Repos\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.UpdateVehicle.resources
 C:\Users\Sana\Source\Repos\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.UpdateVehicleType.resources
 C:\Users\Sana\Source\Repos\car-rental-agency\Car Rental Agency\obj\Debug\Car Rental Agency.csproj.AssemblyReference.cache
+C:\Users\Sana\source\repos\delete\Car Rental Agency\obj\Debug\Car Rental Agency.csproj.AssemblyReference.cache
+C:\Users\Sana\source\repos\delete\Car Rental Agency\obj\Debug\Car_Rental_Agency.AddNewBranch.resources
+C:\Users\Sana\source\repos\delete\Car Rental Agency\obj\Debug\Car_Rental_Agency.AddNewVehicleType.resources
+C:\Users\Sana\source\repos\delete\Car Rental Agency\obj\Debug\Car_Rental_Agency.AddNewVehicle.resources
+C:\Users\Sana\source\repos\delete\Car Rental Agency\obj\Debug\Car_Rental_Agency.BookingCustomer.resources
+C:\Users\Sana\source\repos\delete\Car Rental Agency\obj\Debug\Car_Rental_Agency.Confirmation.resources
+C:\Users\Sana\source\repos\delete\Car Rental Agency\obj\Debug\Car_Rental_Agency.Confirm_add.resources
+C:\Users\Sana\source\repos\delete\Car Rental Agency\obj\Debug\Car_Rental_Agency.CustomerLogin.resources
+C:\Users\Sana\source\repos\delete\Car Rental Agency\obj\Debug\Car_Rental_Agency.Delete_confirm.resources
+C:\Users\Sana\source\repos\delete\Car Rental Agency\obj\Debug\Car_Rental_Agency.FindVehicleType.resources
+C:\Users\Sana\source\repos\delete\Car Rental Agency\obj\Debug\Car_Rental_Agency.AddingtoDB.resources
+C:\Users\Sana\source\repos\delete\Car Rental Agency\obj\Debug\Car_Rental_Agency.EmployeeLogin.resources
+C:\Users\Sana\source\repos\delete\Car Rental Agency\obj\Debug\Car_Rental_Agency.Employee_booking.resources
+C:\Users\Sana\source\repos\delete\Car Rental Agency\obj\Debug\Car_Rental_Agency.Employee_customers.resources
+C:\Users\Sana\source\repos\delete\Car Rental Agency\obj\Debug\Car_Rental_Agency.Employee_vehicles.resources
+C:\Users\Sana\source\repos\delete\Car Rental Agency\obj\Debug\Car_Rental_Agency.Main.resources
+C:\Users\Sana\source\repos\delete\Car Rental Agency\obj\Debug\Car_Rental_Agency.Payment.resources
+C:\Users\Sana\source\repos\delete\Car Rental Agency\obj\Debug\Car_Rental_Agency.Properties.Resources.resources
+C:\Users\Sana\source\repos\delete\Car Rental Agency\obj\Debug\Car_Rental_Agency.FindBranch.resources
+C:\Users\Sana\source\repos\delete\Car Rental Agency\obj\Debug\Car_Rental_Agency.FindVehicle.resources
+C:\Users\Sana\source\repos\delete\Car Rental Agency\obj\Debug\Car_Rental_Agency.UpdateBranch.resources
+C:\Users\Sana\source\repos\delete\Car Rental Agency\obj\Debug\Car_Rental_Agency.UpdateVehicle.resources
+C:\Users\Sana\source\repos\delete\Car Rental Agency\obj\Debug\Car_Rental_Agency.UpdateVehicleType.resources
+C:\Users\Sana\source\repos\delete\Car Rental Agency\obj\Debug\Car_Rental_Agency.Update_confirm.resources
+C:\Users\Sana\source\repos\delete\Car Rental Agency\obj\Debug\Car_Rental_Agency.Vehicles.resources
+C:\Users\Sana\source\repos\delete\Car Rental Agency\obj\Debug\Car Rental Agency.csproj.GenerateResource.cache
+C:\Users\Sana\source\repos\delete\Car Rental Agency\obj\Debug\Car Rental Agency.csproj.CoreCompileInputs.cache
+C:\Users\Sana\source\repos\delete\Car Rental Agency\obj\Debug\Car Rental Agency.exe
+C:\Users\Sana\source\repos\delete\Car Rental Agency\obj\Debug\Car Rental Agency.pdb
+C:\Users\Sana\source\repos\delete\Car Rental Agency\bin\Debug\Car Rental Agency.exe.config
+C:\Users\Sana\source\repos\delete\Car Rental Agency\bin\Debug\Car Rental Agency.exe
+C:\Users\Sana\source\repos\delete\Car Rental Agency\bin\Debug\Car Rental Agency.pdb
+C:\Users\Sana\source\repos\delete\Car Rental Agency\obj\Debug\Car_Rental_Agency.delVehicleType.resources
+C:\Users\Sana\source\repos\delete\Car Rental Agency\obj\Debug\Car_Rental_Agency.delVehicle.resources
+C:\Users\Sana\source\repos\delete\Car Rental Agency\obj\Debug\Car_Rental_Agency.delBranch.resources

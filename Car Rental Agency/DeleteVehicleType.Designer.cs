@@ -1,7 +1,7 @@
 ﻿
 namespace Car_Rental_Agency
 {
-    partial class UpdateVehicleType
+    partial class delVehicleType
     {
         /// <summary>
         /// Required designer variable.
@@ -128,7 +128,7 @@ namespace Car_Rental_Agency
             this.groupBox1.Size = new System.Drawing.Size(410, 434);
             this.groupBox1.TabIndex = 15;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Update";
+            this.groupBox1.Text = "Delete";
             // 
             // updateVtype
             // 
@@ -138,7 +138,7 @@ namespace Car_Rental_Agency
             this.updateVtype.Name = "updateVtype";
             this.updateVtype.Size = new System.Drawing.Size(112, 35);
             this.updateVtype.TabIndex = 12;
-            this.updateVtype.Text = "Update";
+            this.updateVtype.Text = "Delete";
             this.updateVtype.UseVisualStyleBackColor = true;
             this.updateVtype.Click += new System.EventHandler(this.updateVtype_Click);
             // 
@@ -278,7 +278,7 @@ namespace Car_Rental_Agency
             // 
             this.VehicleTypeDataGridView.BackgroundColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.VehicleTypeDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.VehicleTypeDataGridView.Location = new System.Drawing.Point(584, 200);
+            this.VehicleTypeDataGridView.Location = new System.Drawing.Point(540, 185);
             this.VehicleTypeDataGridView.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.VehicleTypeDataGridView.Name = "VehicleTypeDataGridView";
             this.VehicleTypeDataGridView.RowHeadersWidth = 62;
@@ -304,9 +304,9 @@ namespace Car_Rental_Agency
             this.label8.Location = new System.Drawing.Point(552, 35);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(417, 47);
+            this.label8.Size = new System.Drawing.Size(401, 47);
             this.label8.TabIndex = 18;
-            this.label8.Text = "Update Vehicle Type";
+            this.label8.Text = "Delete Vehicle Type";
             // 
             // UpdateVehicleType
             // 
@@ -321,7 +321,7 @@ namespace Car_Rental_Agency
             this.Controls.Add(this.groupBox1);
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "UpdateVehicleType";
-            this.Text = "UpdateVehicleType";
+            this.Text = "DeleteVehicleType";
             this.Load += new System.EventHandler(this.UpdateVehicleType_Load);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();

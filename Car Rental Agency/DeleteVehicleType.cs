@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -10,9 +11,9 @@ using System.Windows.Forms;
 
 namespace Car_Rental_Agency
 {
-    public partial class UpdateVehicleType : Form
+    public partial class delVehicleType : Form
     {
-        public UpdateVehicleType()
+        public delVehicleType()
         {
             InitializeComponent();
             VehicleTypeDataGridView.CellClick += VehicleTypeDataGridView_CellClick;
@@ -60,30 +61,18 @@ namespace Car_Rental_Agency
             }
             else
             {
-
-
-                String query = $"UPDATE VehicleType SET VType = '{vehicleType}', dailyRate ='{dailyFee}', weeklyRate ='{weekyFee}' , monthlyRate = '{monthlyFee}', latefee = '{lateFee}', changeBranchFee = '{changeBranchFee}' WHERE Vtype = '{vehicleType}'";
-                try
-                {
-                    Database.runQuery(query);
-                    Bind_Data();
-                }
-
-                catch (Exception e2)
-                {
-                    MessageBox.Show(e2.ToString());
-                }
-
-                queryResultlabel.Text = "Added successfully to the database!";
+                deleteVtype();
+                Bind_Data();
+                queryResultlabel.Text = "deleted successfully to the database!";
                 queryResultlabel.ForeColor = Color.FromArgb(0, 192, 0);
             }
 
-            vehicleTypeTextBox.Text = "";
-            DailyFee.Text = "";
-            WeeklyFeeTextBox.Text = "";
-            MonthlyFee.Text = "";
-            lateFeeTextBox.Text = "";
-            cBranchFeeTextBox.Text = "";
+            //vehicleTypeTextBox.Text = "";
+            //DailyFee.Text = "";
+            //WeeklyFeeTextBox.Text = "";
+            //MonthlyFee.Text = "";
+            //lateFeeTextBox.Text = "";
+            //cBranchFeeTextBox.Text = "";
         }
         void Bind_Data()
         {
@@ -93,7 +82,44 @@ namespace Car_Rental_Agency
 
         }
 
-        private void UpdateVehicleType_Load(object sender, EventArgs e)
+
+
+        public void deleteVtype()
+        {
+            
+            try
+            {
+                using (SqlConnection connection = new SqlConnection("server=DESKTOP-FN58B5T;" +
+                                        "Trusted_Connection=yes;" +
+                                        "database=car-rental-agency; " +
+                                        "connection timeout=30"))
+                {
+                    connection.Open();
+                    String vehicleType = vehicleTypeTextBox.Text;
+            
+                    using (SqlCommand command = new SqlCommand("DELETE FROM  Vehicle  WHERE  Vtype  = '" + vehicleType + "'", connection))
+                    {
+                        command.ExecuteNonQuery();
+                    }
+                    using (SqlCommand command = new SqlCommand("DELETE FROM  VehicleType  WHERE  Vtype  = '" + vehicleType + "'", connection))
+                    {
+                        command.ExecuteNonQuery();
+                    }
+
+
+                    connection.Close();
+                }
+            }
+            catch (SystemException ex)
+            {
+                MessageBox.Show("Sorry Cannot delete");
+            }
+          
+        }
+
+
+
+    private void UpdateVehicleType_Load(object sender, EventArgs e)
         {
             Bind_Data();
         }
@@ -123,3 +149,4 @@ namespace Car_Rental_Agency
         }
     }
 }
+

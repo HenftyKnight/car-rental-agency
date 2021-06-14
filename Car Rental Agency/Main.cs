@@ -58,5 +58,10 @@ namespace Car_Rental_Agency
             this.Text = "Button One Clicked";
             this.Hide();
         }
+
+        private void Main_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

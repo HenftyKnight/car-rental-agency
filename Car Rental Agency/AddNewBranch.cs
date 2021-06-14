@@ -53,12 +53,18 @@ namespace Car_Rental_Agency
                                 $"VALUES('{branchName}','{streetName}','{cityName}','{stateName}','{countryName}','{postalcode}','{phone}');";
                 try
                 {
+                    mysqlCommand.Connection.Open();
                     mysqlCommand.ExecuteNonQuery();
+                    mysqlCommand.Connection.Close();
                 }
 
                 catch (Exception e2)
                 {
                     MessageBox.Show(e2.ToString());
+                }
+                finally
+                {
+                    mysqlCommand.Connection.Close();
                 }
 
                 branchNameTextbox.Text = "";

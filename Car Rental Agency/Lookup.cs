@@ -28,6 +28,11 @@ namespace Car_Rental_Agency
             updateVehiclebtn.Click += UpdateVehiclebtn_Click;
             updateVehicleTypebtn.Click += UpdateVehicleTypebtn_Click;
 
+             //delete From the DB
+            delBranchButton.Click += delBranchbtn_Click;
+            delVehicleButton.Click += delVehiclebtn_Click;
+            delVehicleTypeButton.Click += delVehicleTypebtn_Click;
+
             //Find
             findBranchBtn.Click += FindBranchBtn_Click;
             findVehicleBtn.Click += FindVehicleBtn_Click;
@@ -78,21 +83,20 @@ namespace Car_Rental_Agency
 
          private void delVehicleTypebtn_Click(object sender, EventArgs e)
         {
-            UpdateVehicleType updateVehicleType = new UpdateVehicleType();
-            updateVehicleType.Show();
+            delVehicleType delVehicleType = new delVehicleType();
+           delVehicleType.Show();
         }
 
         private void delVehiclebtn_Click(object sender, EventArgs e)
         {
-            UpdateVehicle update = new UpdateVehicle();
-            update.Show();
+            delVehicle delVehicle = new delVehicle();
+            delVehicle.Show();
         }
 
         private void delBranchbtn_Click(object sender, EventArgs e)
         {
-            UpdateBranch updateBranch = new UpdateBranch();
-            updateBranch.Show();
-            
+            delBranch deleteBranch = new delBranch();
+            deleteBranch.Show();
         }
 
         private void AddNewVehicleTypeButton_Click(object sender, EventArgs e)
@@ -129,12 +133,32 @@ namespace Car_Rental_Agency
 
         }
 
+        
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
+        }
+
         private void addGroupBox_Enter(object sender, EventArgs e)
         {
 
         }
 
         private void groupBox3_Enter(object sender, EventArgs e)
+        {
+
+        }
+         private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AddingtoDB_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
         {
 
         }
