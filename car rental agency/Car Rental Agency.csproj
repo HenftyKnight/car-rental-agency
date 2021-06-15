@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0ED70C91-0608-416A-8F8A-5537852F5142}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Car_Rental_Agency</RootNamespace>
+    <AssemblyName>Car Rental Agency</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddNewBooking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewBooking.Designer.cs">
+      <DependentUpon>AddNewBooking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddNewBranch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewBranch.Designer.cs">
+      <DependentUpon>AddNewBranch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddNewVehicle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewVehicleType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewVehicleType.Designer.cs">
+      <DependentUpon>AddNewVehicleType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_car.Designer.cs">
+      <DependentUpon>AddNewVehicle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Booking.cs" />
+    <Compile Include="BookingCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookingCustomer.Designer.cs">
+      <DependentUpon>BookingCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Confirmation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Confirmation.Designer.cs">
+      <DependentUpon>Confirmation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Confirm_add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Confirm_add.Designer.cs">
+      <DependentUpon>Confirm_add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer.cs" />
+    <Compile Include="CustomerLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerLogin.Designer.cs">
+      <DependentUpon>CustomerLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Database.cs" />
+    <Compile Include="Delete_confirm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delete_confirm.Designer.cs">
+      <DependentUpon>Delete_confirm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FindVehicleType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FindVehicleType.Designer.cs">
+      <DependentUpon>FindVehicleType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="General.cs" />
+    <Compile Include="Lookup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lookup.Designer.cs">
+      <DependentUpon>Lookup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeLogin.Designer.cs">
+      <DependentUpon>EmployeeLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employee_booking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee_booking.Designer.cs">
+      <DependentUpon>Employee_booking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FindCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FindCustomer.Designer.cs">
+      <DependentUpon>FindCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employee_vehicles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee_vehicles.Designer.cs">
+      <DependentUpon>Employee_vehicles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Payment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Payment.Designer.cs">
+      <DependentUpon>Payment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FindBranch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FindBranch.Designer.cs">
+      <DependentUpon>FindBranch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FindVehicle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FindVehicle.Designer.cs">
+      <DependentUpon>FindVehicle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Return.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Return.Designer.cs">
+      <DependentUpon>Return.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateBranch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateBranch.Designer.cs">
+      <DependentUpon>UpdateBranch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateVehicle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateVehicle.Designer.cs">
+      <DependentUpon>UpdateVehicle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateVehicleType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateVehicleType.Designer.cs">
+      <DependentUpon>UpdateVehicleType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Update_confirm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update_confirm.Designer.cs">
+      <DependentUpon>Update_confirm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vehicles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vehicles.Designer.cs">
+      <DependentUpon>Vehicles.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddNewBooking.resx">
+      <DependentUpon>AddNewBooking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddNewBranch.resx">
+      <DependentUpon>AddNewBranch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddNewVehicleType.resx">
+      <DependentUpon>AddNewVehicleType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_car.resx">
+      <DependentUpon>AddNewVehicle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookingCustomer.resx">
+      <DependentUpon>BookingCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Confirmation.resx">
+      <DependentUpon>Confirmation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Confirm_add.resx">
+      <DependentUpon>Confirm_add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerLogin.resx">
+      <DependentUpon>CustomerLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delete_confirm.resx">
+      <DependentUpon>Delete_confirm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FindVehicleType.resx">
+      <DependentUpon>FindVehicleType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lookup.resx">
+      <DependentUpon>Lookup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeLogin.resx">
+      <DependentUpon>EmployeeLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee_booking.resx">
+      <DependentUpon>Employee_booking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FindCustomer.resx">
+      <DependentUpon>FindCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee_vehicles.resx">
+      <DependentUpon>Employee_vehicles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payment.resx">
+      <DependentUpon>Payment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="FindBranch.resx">
+      <DependentUpon>FindBranch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FindVehicle.resx">
+      <DependentUpon>FindVehicle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateBranch.resx">
+      <DependentUpon>UpdateBranch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateVehicle.resx">
+      <DependentUpon>UpdateVehicle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateVehicleType.resx">
+      <DependentUpon>UpdateVehicleType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update_confirm.resx">
+      <DependentUpon>Update_confirm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vehicles.resx">
+      <DependentUpon>Vehicles.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c32.jpg" />
+    <None Include="Resources\c31.jpg" />
+    <None Include="Resources\c6.jpg" />
+    <None Include="Resources\c51.jpg" />
+    <None Include="Resources\suv1.jpg" />
+    <None Include="Resources\c5.jpg" />
+    <None Include="Resources\c3.jpg" />
+    <None Include="Resources\c2.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

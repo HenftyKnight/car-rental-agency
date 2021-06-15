@@ -509,43 +509,43 @@ namespace Car_Rental_Agency
                 VehicleInfoDataGridView.DataSource = null;
 
                 // Update this!
-                string getID = $"SELECT userID from Users Where fName = '{User.FirstName}' and lName = '{User.LastName}'";
+                //string getID = $"SELECT userID from Users Where fName = '{User.FirstName.ToString().TrimEnd()}';";
 
-                MessageBox.Show(getID);
+                //MessageBox.Show(getID);
                 con = new SqlConnection("server=SYNAPSE;" +
                                        "Trusted_Connection=yes;" +
                                        "database=car-rental-agency; " +
                                        "connection timeout=30");
 
                 con.Open();
-                cmd = new SqlCommand(getID, con);
-                dr = cmd.ExecuteReader();
-                dr.Read();
-                int uid = Int32.Parse(dr["userID"].ToString());
-                MessageBox.Show(uid.ToString());
-                dr.Close();
-                
+                //cmd = new SqlCommand(getID, con);
+                //dr = cmd.ExecuteReader();
+                //dr.Read();
+                //int uid = Int32.Parse(dr["userID"].ToString());
+                //MessageBox.Show(uid.ToString());
+                //dr.Close();
+
 
                 string sql = $"INSERT INTO [Booking] (CustomerID, VehicleID, PickUpBranchID, DropOffBranchID, FromDate, ToDate, Total, payment, status, TransactionDateAndTime) ";
-                //string values = "VALUES (@eCUID, @eVHID, @ePBID, @eDBID, @ePDT, @eDDT, @eTTL,@ePMTD, @ePSTS, @eTDT);";
-                String values = $"VALUES ({uid}, {entryCarID}, {entryPickupBranchID}, {entryDropBranchID}, CONVERT(DateTime,'{entryPickupDateTime.Date.ToString("d")}',103), CONVERT(DateTime,'{entryReturnDateTime.Date.ToString("d")}',103), {entryAmount},'{entryPaymentMethod}', '{entryStatus}', CONVERT(DateTime,'{entryTransactionDateTime.Date.ToString("d")}',103));";
+                string values = "VALUES (@eCUID, @eVHID, @ePBID, @eDBID, @ePDT, @eDDT, @eTTL,@ePMTD, @ePSTS, @eTDT);";
+                //String values = $"VALUES ({uid}, {entryCarID}, {entryPickupBranchID}, {entryDropBranchID}, CONVERT(DateTime,'{entryPickupDateTime.Date.ToString("d")}',103), CONVERT(DateTime,'{entryReturnDateTime.Date.ToString("d")}',103), {entryAmount},'{entryPaymentMethod}', '{entryStatus}', CONVERT(DateTime,'{entryTransactionDateTime.Date.ToString("d")}',103));";
                 string insertvals = sql + values;
                 //MessageBox.Show(entryPickupDateTime.Date.ToString("d"));
                 int returnStatus = 0;
                 
 
                 cmd = new SqlCommand(insertvals, con);
-
-                //cmd.Parameters.Add("@eCUID", SqlDbType.Int).Value = this.User.ID;
-                //cmd.Parameters.Add("@eVHID", SqlDbType.Int).Value = entryCarID;
-                //cmd.Parameters.Add("@ePBID", SqlDbType.Int).Value = entryPickupBranchID;
-                //cmd.Parameters.Add("@eDBID", SqlDbType.Int).Value = entryDropBranchID;
-                //cmd.Parameters.Add("@ePDT", SqlDbType.DateTime).Value = entryPickupDateTime;
-                //cmd.Parameters.Add("@eDDT", SqlDbType.DateTime).Value = entryReturnDateTime;
-                //cmd.Parameters.Add("@eTTL", SqlDbType.Decimal).Value = entryAmount;
-                //cmd.Parameters.Add("@ePMTD", SqlDbType.VarChar).Value = entryPaymentMethod;
-                //cmd.Parameters.Add("@ePSTS", SqlDbType.VarChar).Value = entryStatus;
-                //cmd.Parameters.Add("@eTDT", SqlDbType.DateTime).Value = entryTransactionDateTime;
+                //MessageBox.Show(entryUserID.ToString(), "Entry UserID");
+                cmd.Parameters.Add("@eCUID", SqlDbType.Int).Value = entryUserID.ToString();
+                cmd.Parameters.Add("@eVHID", SqlDbType.Int).Value = entryCarID;
+                cmd.Parameters.Add("@ePBID", SqlDbType.Int).Value = entryPickupBranchID;
+                cmd.Parameters.Add("@eDBID", SqlDbType.Int).Value = entryDropBranchID;
+                cmd.Parameters.Add("@ePDT", SqlDbType.DateTime).Value = entryPickupDateTime;
+                cmd.Parameters.Add("@eDDT", SqlDbType.DateTime).Value = entryReturnDateTime;
+                cmd.Parameters.Add("@eTTL", SqlDbType.Decimal).Value = entryAmount;
+                cmd.Parameters.Add("@ePMTD", SqlDbType.VarChar).Value = entryPaymentMethod;
+                cmd.Parameters.Add("@ePSTS", SqlDbType.VarChar).Value = entryStatus;
+                cmd.Parameters.Add("@eTDT", SqlDbType.DateTime).Value = entryTransactionDateTime;
 
                 MessageBox.Show(insertvals);
                 returnStatus = cmd.ExecuteNonQuery();
@@ -567,7 +567,7 @@ namespace Car_Rental_Agency
                         "select COUNT(Users.userID) as noTransactions " +
                         "from Users, [Booking] " +
                         "where Users.userID = [Booking].CustomerID " +
-                        "and Users.userID = " + uid.ToString() + " " +
+                        "and Users.userID = " + entryUserID.ToString() + " " +
                         "and status = 'Success' " +
                         "and YEAR(FromDate) = YEAR(getdate())";
                     
@@ -598,8 +598,8 @@ namespace Car_Rental_Agency
                         cmd.Connection = con;
                         Console.WriteLine("Inside the Gold");
 
-                        MessageBox.Show(uid.ToString());
-                        cmd.CommandText = "UPDATE Users SET MembershipType = 'Gold' Where userID = " + uid.ToString();
+                        MessageBox.Show(entryUserID.ToString(),"Inside Gold Entry User ID");
+                        cmd.CommandText = "UPDATE Users SET MembershipType = 'Gold' Where userID = " + entryUserID.ToString();
 
                         //this.User.ID
                         
