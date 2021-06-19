@@ -1,4 +1,3 @@
-# CRA
 # car-rental-agency
 Customer(	CustomerID, 
 		BranchID,
