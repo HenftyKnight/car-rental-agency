@@ -28,6 +28,8 @@ BookingID,
 Make,
 Availability
 
+---------------------------------------------------------------------------------------------------------
+
 Vehicle --- Branches : 
 
 If  Many to Many Relationships :
@@ -35,8 +37,7 @@ BranchHaveVehicles( BranchID, VehicleID, Have)
 BranchID is fK to Branches.
 VehicleID is fK to Vehicles.
 
-If Not Many to Many:
-
+---------------------------------------------------------------------------------------------------------
 
 VehicleType(  VTypeID,
 VehicleID,
@@ -50,6 +51,8 @@ year,
 seats,
 name
 
+---------------------------------------------------------------------------------------------------------
+
 Branches(	BranchID,
 BranchName,
 BookingID,
@@ -61,6 +64,8 @@ street,
 branchpostalcode
 phone)
 
+---------------------------------------------------------------------------------------------------------
+
 Employees(	EmpID,
 BranchID,
 fName,
@@ -71,6 +76,8 @@ state,
 country,
 email,
 phone
+)
+---------------------------------------------------------------------------------------------------------
 
 Transactions(  TransactionID,
 BookingID,
@@ -88,6 +95,7 @@ PickUpDate,
 ReservedDropOffDate,
 DropOffDate) 	
 
+---------------------------------------------------------------------------------------------------------
 
 1)	 Customer X Booking
 One to Many Relationships
