@@ -61,7 +61,7 @@ namespace Car_Rental_Agency
                 this.User.FirstName = "Guest";
             }
 
-            con = new SqlConnection("server=SYNAPSE;" +
+            con = new SqlConnection("server=DESKTOP-FN58B5T;" +
                                        "Trusted_Connection=yes;" +
                                        "database=car-rental-agency; " +
                                        "connection timeout=30");
@@ -230,7 +230,69 @@ namespace Car_Rental_Agency
 
         private void button1_Click_1(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             
+=======
+            errorLabel.Text = "";
+            TimeSpan rentalTime = dropoffDateTimePicker.Value.Subtract(pickDateTimePicker.Value);
+            int rentalDays = rentalTime.Days;
+
+            StringBuilder whereVehicleTypeString = new StringBuilder("");
+            StringBuilder whereSeatsString = new StringBuilder("");
+            //StringBuilder whereString = new StringBuilder("");
+            //StringBuilder whereTransmissionString = new StringBuilder("");
+
+            // Need to add more code for complex queries from here
+
+            if (pickupBranchComboBox.SelectedIndex == -1)
+            {
+                errorLabel.Text = "Pick Up Branch Information is empty. Please select a Pick Up Branch";
+            }
+
+            else if (dropoffBranchComboBox.SelectedIndex == -1)
+            {
+                errorLabel.Text = "Drop Off Branch Information is empty. Please select a Drop Off Branch";
+            }
+
+            else if (vehicleTypeComboBox.SelectedIndex == -1)
+            {
+                errorLabel.Text = "Vehicle Type Information is empty. Please select a Vehicle Type";
+            }
+
+            else if (seatsTextBox.Text == "")
+            {
+                errorLabel.Text = "Seats Information is empty. Please enter number of seats";
+            }
+
+            else if (rentalDays < 1)
+            {
+                errorLabel.Text = "Please select upto 1 day for rental.";
+            }
+
+            else 
+            {
+                con = new SqlConnection("server=DESKTOP-FN58B5T;" +
+                                       "Trusted_Connection=yes;" +
+                                       "database=car-rental-agency; " +
+                                       "connection timeout=30");
+                cmd = new SqlCommand();
+                con.Open();
+
+                String sqlAvailabilitystring =
+                    $"SELECT vehicleID, Vtype, make, model, seats, miles, makeYear FROM Branch, Vehicle WHERE Branch.branchID = Vehicle.currentBranchID AND branchName = '{pickupBranchComboBox.Text}' AND Vehicle.vehicleAvailability = 'Yes' AND  Vtype = '{vehicleTypeComboBox.Text}' AND Vehicle.seats = '{seatsTextBox.Text}';";          
+
+                Console.WriteLine(sqlAvailabilitystring);
+                SqlDataAdapter dataAdapter = new SqlDataAdapter(sqlAvailabilitystring, con);
+
+                DataTable dataTable = new DataTable();
+                dataAdapter.Fill(dataTable);
+                VehicleInfoDataGridView.DataSource = dataTable;
+                VehicleInfoDataGridView.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
+                VehicleInfoDataGridView.ColumnHeadersDefaultCellStyle.WrapMode = DataGridViewTriState.False;
+                con.Close();
+
+            }
+>>>>>>> d6558f2d1e9b9827101cabaddeab3702fa5a6d28
 
         }
 

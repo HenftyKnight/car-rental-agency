@@ -23,6 +23,7 @@ namespace Car_Rental_Agency
 
             mysqlCommand = new SqlCommand();
             mysqlCommand.Connection = mysqlConnection;
+          
         }
 
         private void SubmitBtn_Click(object sender, EventArgs e)
@@ -51,13 +52,20 @@ namespace Car_Rental_Agency
                                         $"VALUES('{vehicleType}','{dailyFee}','{weekyFee}','{monthlyFee}','{lateFee}','{changeBranchFee}')";
                 try
                 {
+                    mysqlCommand.Connection.Open();
                     mysqlCommand.ExecuteNonQuery();
+                    mysqlCommand.Connection.Close();
                 }
 
                 catch (Exception e2)
                 {
                     MessageBox.Show(e2.ToString());
                 }
+                finally
+                {
+                    mysqlCommand.Connection.Close();
+                }
+
             }
             carTypeTextBox.Text = "";
             dailyFeeTextBox.Text = "";
@@ -79,5 +87,15 @@ namespace Car_Rental_Agency
 
 
             }
-     }
+
+        private void AddNewVehicleType_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+    }
  }

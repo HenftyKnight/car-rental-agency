@@ -112,7 +112,7 @@ namespace Car_Rental_Agency
             {
                 String query = $"SELECT * FROM Branch WHERE branchName = '{branchName}';";
                 validTextboxEntry(branchIDResultlabel, query, branchInfodataGridView);
-            
+                
             }
         }
 

@@ -29,5 +29,10 @@ namespace Car_Rental_Agency
             else { dataGridView.DataSource = table; }
 
         }
+
+        internal static void validTextboxEntry(object queryResultLabel, string query, object branchInfoDataGridView)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

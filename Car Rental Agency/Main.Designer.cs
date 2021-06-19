@@ -36,18 +36,20 @@ namespace Car_Rental_Agency
             // 
             // Customer
             // 
-            this.Customer.Location = new System.Drawing.Point(325, 242);
+            this.Customer.Location = new System.Drawing.Point(488, 372);
+            this.Customer.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Customer.Name = "Customer";
-            this.Customer.Size = new System.Drawing.Size(165, 39);
+            this.Customer.Size = new System.Drawing.Size(248, 60);
             this.Customer.TabIndex = 0;
             this.Customer.Text = "Customer Login";
             this.Customer.UseVisualStyleBackColor = true;
             // 
             // Employee
             // 
-            this.Employee.Location = new System.Drawing.Point(325, 363);
+            this.Employee.Location = new System.Drawing.Point(488, 558);
+            this.Employee.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Employee.Name = "Employee";
-            this.Employee.Size = new System.Drawing.Size(165, 37);
+            this.Employee.Size = new System.Drawing.Size(248, 57);
             this.Employee.TabIndex = 1;
             this.Employee.Text = "Employee Portal";
             this.Employee.UseVisualStyleBackColor = true;
@@ -58,24 +60,27 @@ namespace Car_Rental_Agency
             this.label1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label1.Font = new System.Drawing.Font("MV Boli", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label1.Location = new System.Drawing.Point(187, 51);
+            this.label1.Location = new System.Drawing.Point(280, 78);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(458, 63);
+            this.label1.Size = new System.Drawing.Size(670, 95);
             this.label1.TabIndex = 2;
             this.label1.Text = "Car Rental Agency";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1200, 692);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Employee);
             this.Controls.Add(this.Customer);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Main";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Main_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

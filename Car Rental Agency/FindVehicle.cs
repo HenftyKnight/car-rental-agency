@@ -183,6 +183,7 @@ namespace Car_Rental_Agency
 
         }
 
+<<<<<<< HEAD
         private void label3_Click(object sender, EventArgs e)
         {
 
@@ -245,6 +246,9 @@ namespace Car_Rental_Agency
         }
 
         private void findVehicleDataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+=======
+        private void FindVehicle_Load(object sender, EventArgs e)
+>>>>>>> d6558f2d1e9b9827101cabaddeab3702fa5a6d28
         {
 
         }

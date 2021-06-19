@@ -116,5 +116,10 @@ namespace Car_Rental_Agency
                 General.validTextboxEntry(queryResultlabel, query, VehicleTypeDataGridView);
             }
         }
+
+        private void VehicleTypeDataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
