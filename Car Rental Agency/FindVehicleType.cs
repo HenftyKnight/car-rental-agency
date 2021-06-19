@@ -15,13 +15,10 @@ namespace Car_Rental_Agency
         public FindVehicleType()
         {
             InitializeComponent();
-            vehicleTypeDataGridView.CellClick += VehicleTypeDataGridView_CellClick;
+            //
         }
 
-        private void VehicleTypeDataGridView_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-            throw new NotImplementedException();
-        }
+        
         void Bind_Data()
         {
             String query = $"SELECT * FROM VehicleType;";

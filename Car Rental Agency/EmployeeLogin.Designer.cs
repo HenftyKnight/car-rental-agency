@@ -120,7 +120,7 @@ namespace Car_Rental_Agency
             this.errorLabel.AutoSize = true;
             this.errorLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.errorLabel.ForeColor = System.Drawing.Color.White;
-            this.errorLabel.Location = new System.Drawing.Point(180, 333);
+            this.errorLabel.Location = new System.Drawing.Point(43, 396);
             this.errorLabel.Name = "errorLabel";
             this.errorLabel.Size = new System.Drawing.Size(0, 20);
             this.errorLabel.TabIndex = 7;

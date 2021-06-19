@@ -77,18 +77,6 @@
     <Compile Include="BookingCustomer.Designer.cs">
       <DependentUpon>BookingCustomer.cs</DependentUpon>
     </Compile>
-    <Compile Include="Confirmation.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Confirmation.Designer.cs">
-      <DependentUpon>Confirmation.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Confirm_add.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Confirm_add.Designer.cs">
-      <DependentUpon>Confirm_add.cs</DependentUpon>
-    </Compile>
     <Compile Include="Customer.cs" />
     <Compile Include="CustomerLogin.cs">
       <SubType>Form</SubType>
@@ -97,11 +85,23 @@
       <DependentUpon>CustomerLogin.cs</DependentUpon>
     </Compile>
     <Compile Include="Database.cs" />
-    <Compile Include="Delete_confirm.cs">
+    <Compile Include="DeleteBranch.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Delete_confirm.Designer.cs">
-      <DependentUpon>Delete_confirm.cs</DependentUpon>
+    <Compile Include="DeleteBranch.Designer.cs">
+      <DependentUpon>DeleteBranch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteVehicle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteVehicle.Designer.cs">
+      <DependentUpon>DeleteVehicle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteVehicleType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteVehicleType.Designer.cs">
+      <DependentUpon>DeleteVehicleType.cs</DependentUpon>
     </Compile>
     <Compile Include="FindVehicleType.cs">
       <SubType>Form</SubType>
@@ -122,35 +122,17 @@
     <Compile Include="EmployeeLogin.Designer.cs">
       <DependentUpon>EmployeeLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Employee_booking.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Employee_booking.Designer.cs">
-      <DependentUpon>Employee_booking.cs</DependentUpon>
-    </Compile>
     <Compile Include="FindCustomer.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FindCustomer.Designer.cs">
       <DependentUpon>FindCustomer.cs</DependentUpon>
     </Compile>
-    <Compile Include="Employee_vehicles.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Employee_vehicles.Designer.cs">
-      <DependentUpon>Employee_vehicles.cs</DependentUpon>
-    </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Payment.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Payment.Designer.cs">
-      <DependentUpon>Payment.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -166,11 +148,35 @@
     <Compile Include="FindVehicle.Designer.cs">
       <DependentUpon>FindVehicle.cs</DependentUpon>
     </Compile>
-    <Compile Include="Return.cs">
+    <Compile Include="ReturnTransaction.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Return.Designer.cs">
-      <DependentUpon>Return.cs</DependentUpon>
+    <Compile Include="ReturnTransaction.Designer.cs">
+      <DependentUpon>ReturnTransaction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TopBranch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TopBranch.Designer.cs">
+      <DependentUpon>TopBranch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TopCustomers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TopCustomers.Designer.cs">
+      <DependentUpon>TopCustomers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TopVehicle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TopVehicle.Designer.cs">
+      <DependentUpon>TopVehicle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TopVehicleType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TopVehicleType.Designer.cs">
+      <DependentUpon>TopVehicleType.cs</DependentUpon>
     </Compile>
     <Compile Include="UpdateBranch.cs">
       <SubType>Form</SubType>
@@ -190,18 +196,6 @@
     <Compile Include="UpdateVehicleType.Designer.cs">
       <DependentUpon>UpdateVehicleType.cs</DependentUpon>
     </Compile>
-    <Compile Include="Update_confirm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Update_confirm.Designer.cs">
-      <DependentUpon>Update_confirm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Vehicles.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Vehicles.Designer.cs">
-      <DependentUpon>Vehicles.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="AddNewBooking.resx">
       <DependentUpon>AddNewBooking.cs</DependentUpon>
     </EmbeddedResource>
@@ -217,17 +211,17 @@
     <EmbeddedResource Include="BookingCustomer.resx">
       <DependentUpon>BookingCustomer.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Confirmation.resx">
-      <DependentUpon>Confirmation.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Confirm_add.resx">
-      <DependentUpon>Confirm_add.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="CustomerLogin.resx">
       <DependentUpon>CustomerLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Delete_confirm.resx">
-      <DependentUpon>Delete_confirm.cs</DependentUpon>
+    <EmbeddedResource Include="DeleteBranch.resx">
+      <DependentUpon>DeleteBranch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteVehicle.resx">
+      <DependentUpon>DeleteVehicle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteVehicleType.resx">
+      <DependentUpon>DeleteVehicleType.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FindVehicleType.resx">
       <DependentUpon>FindVehicleType.cs</DependentUpon>
@@ -238,20 +232,11 @@
     <EmbeddedResource Include="EmployeeLogin.resx">
       <DependentUpon>EmployeeLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Employee_booking.resx">
-      <DependentUpon>Employee_booking.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FindCustomer.resx">
       <DependentUpon>FindCustomer.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Employee_vehicles.resx">
-      <DependentUpon>Employee_vehicles.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Payment.resx">
-      <DependentUpon>Payment.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -269,6 +254,21 @@
     <EmbeddedResource Include="FindVehicle.resx">
       <DependentUpon>FindVehicle.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ReturnTransaction.resx">
+      <DependentUpon>ReturnTransaction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TopBranch.resx">
+      <DependentUpon>TopBranch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TopCustomers.resx">
+      <DependentUpon>TopCustomers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TopVehicle.resx">
+      <DependentUpon>TopVehicle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TopVehicleType.resx">
+      <DependentUpon>TopVehicleType.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UpdateBranch.resx">
       <DependentUpon>UpdateBranch.cs</DependentUpon>
     </EmbeddedResource>
@@ -277,12 +277,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UpdateVehicleType.resx">
       <DependentUpon>UpdateVehicleType.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Update_confirm.resx">
-      <DependentUpon>Update_confirm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Vehicles.resx">
-      <DependentUpon>Vehicles.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

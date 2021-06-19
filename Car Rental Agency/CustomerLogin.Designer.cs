@@ -79,7 +79,7 @@ namespace Car_Rental_Agency
             this.groupBox1.Controls.Add(this.Cpsswd);
             this.groupBox1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.White;
-            this.groupBox1.Location = new System.Drawing.Point(4, 94);
+            this.groupBox1.Location = new System.Drawing.Point(12, 94);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(288, 307);
             this.groupBox1.TabIndex = 0;
@@ -181,7 +181,7 @@ namespace Car_Rental_Agency
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(228, 329);
+            this.label7.Location = new System.Drawing.Point(235, 329);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(89, 22);
             this.label7.TabIndex = 36;
@@ -189,7 +189,7 @@ namespace Car_Rental_Agency
             // 
             // agedateTimePicker
             // 
-            this.agedateTimePicker.Location = new System.Drawing.Point(228, 360);
+            this.agedateTimePicker.Location = new System.Drawing.Point(239, 360);
             this.agedateTimePicker.Name = "agedateTimePicker";
             this.agedateTimePicker.Size = new System.Drawing.Size(238, 29);
             this.agedateTimePicker.TabIndex = 35;
@@ -216,7 +216,7 @@ namespace Car_Rental_Agency
             // 
             this.signupBtn.BackColor = System.Drawing.Color.Gray;
             this.signupBtn.ForeColor = System.Drawing.Color.Black;
-            this.signupBtn.Location = new System.Drawing.Point(256, 415);
+            this.signupBtn.Location = new System.Drawing.Point(283, 416);
             this.signupBtn.Name = "signupBtn";
             this.signupBtn.Size = new System.Drawing.Size(150, 41);
             this.signupBtn.TabIndex = 32;
@@ -252,7 +252,7 @@ namespace Car_Rental_Agency
             // 
             // psswdTextBox
             // 
-            this.psswdTextBox.Location = new System.Drawing.Point(228, 284);
+            this.psswdTextBox.Location = new System.Drawing.Point(243, 284);
             this.psswdTextBox.Multiline = true;
             this.psswdTextBox.Name = "psswdTextBox";
             this.psswdTextBox.Size = new System.Drawing.Size(190, 27);
@@ -268,7 +268,7 @@ namespace Car_Rental_Agency
             // 
             // country
             // 
-            this.country.Location = new System.Drawing.Point(228, 205);
+            this.country.Location = new System.Drawing.Point(243, 205);
             this.country.Multiline = true;
             this.country.Name = "country";
             this.country.Size = new System.Drawing.Size(190, 27);
@@ -292,7 +292,7 @@ namespace Car_Rental_Agency
             // 
             // street
             // 
-            this.street.Location = new System.Drawing.Point(228, 136);
+            this.street.Location = new System.Drawing.Point(243, 136);
             this.street.Multiline = true;
             this.street.Name = "street";
             this.street.Size = new System.Drawing.Size(190, 27);
@@ -321,7 +321,7 @@ namespace Car_Rental_Agency
             // 
             this.password.AutoSize = true;
             this.password.BackColor = System.Drawing.Color.Black;
-            this.password.Location = new System.Drawing.Point(228, 247);
+            this.password.Location = new System.Drawing.Point(243, 247);
             this.password.Name = "password";
             this.password.Size = new System.Drawing.Size(103, 22);
             this.password.TabIndex = 19;
@@ -341,7 +341,7 @@ namespace Car_Rental_Agency
             // 
             this.label11.AutoSize = true;
             this.label11.BackColor = System.Drawing.Color.Black;
-            this.label11.Location = new System.Drawing.Point(224, 179);
+            this.label11.Location = new System.Drawing.Point(239, 179);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(85, 22);
             this.label11.TabIndex = 16;
@@ -371,7 +371,7 @@ namespace Car_Rental_Agency
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(224, 104);
+            this.label5.Location = new System.Drawing.Point(239, 104);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(65, 22);
             this.label5.TabIndex = 11;
@@ -409,7 +409,7 @@ namespace Car_Rental_Agency
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(224, 35);
+            this.label2.Location = new System.Drawing.Point(239, 35);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(107, 22);
             this.label2.TabIndex = 7;
@@ -427,7 +427,7 @@ namespace Car_Rental_Agency
             // 
             // lName
             // 
-            this.lName.Location = new System.Drawing.Point(228, 65);
+            this.lName.Location = new System.Drawing.Point(243, 65);
             this.lName.Multiline = true;
             this.lName.Name = "lName";
             this.lName.Size = new System.Drawing.Size(190, 27);

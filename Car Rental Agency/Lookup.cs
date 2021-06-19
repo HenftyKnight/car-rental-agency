@@ -41,63 +41,133 @@ namespace Car_Rental_Agency
 
         private void FindVehicleTypeBtn_Click(object sender, EventArgs e)
         {
-            FindVehicleType findVehicleType = new FindVehicleType();
-            findVehicleType.Show();
+            try
+            {
+                FindVehicleType findVehicleType = new FindVehicleType();
+                findVehicleType.Show();
+            }
+            catch (Exception ex) {
+                MessageBox.Show(ex.ToString());
+            }
         }
 
         private void FindVehicleBtn_Click(object sender, EventArgs e)
         {
-            FindVehicle findVehicle = new FindVehicle();
-            findVehicle.Show();
+            try
+            {
+                FindVehicle findVehicle = new FindVehicle();
+                findVehicle.Show();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
         }
 
         private void FindBranchBtn_Click(object sender, EventArgs e)
         {
-            FindBranch findBranch = new FindBranch();
-            findBranch.Show();
+            try
+            {
+                FindBranch findBranch = new FindBranch();
+                findBranch.Show();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
         }
 
         private void UpdateVehicleTypebtn_Click(object sender, EventArgs e)
         {
-            UpdateVehicleType updateVehicleType = new UpdateVehicleType();
-            updateVehicleType.Show();
+            try
+            {
+                UpdateVehicleType updateVehicleType = new UpdateVehicleType();
+                updateVehicleType.Show();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
         }
 
         private void UpdateVehiclebtn_Click(object sender, EventArgs e)
         {
-            UpdateVehicle update = new UpdateVehicle();
-            update.Show();
+            try
+            {
+                UpdateVehicle update = new UpdateVehicle();
+                update.Show();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
         }
 
         private void UpdateBranchbtn_Click(object sender, EventArgs e)
         {
-            UpdateBranch updateBranch = new UpdateBranch();
-            updateBranch.Show();
-            
+            try
+            {
+                UpdateBranch updateBranch = new UpdateBranch();
+                updateBranch.Show();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+
         }
 
         private void AddNewVehicleTypeButton_Click(object sender, EventArgs e)
         {
-            AddNewVehicleType addNewVehicleType = new AddNewVehicleType(mysqlConnection);
-            addNewVehicleType.Show();
+            try
+            {
+                AddNewVehicleType addNewVehicleType = new AddNewVehicleType(mysqlConnection);
+                addNewVehicleType.Show();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
         }
 
         private void AddNewVehicleButton_Click(object sender, EventArgs e)
         {
-            AddNewVehicle addNewVehicle = new AddNewVehicle(mysqlConnection);
-            addNewVehicle.Show();
+            try
+            {
+                AddNewVehicle addNewVehicle = new AddNewVehicle(mysqlConnection);
+                addNewVehicle.Show();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
         }
 
         private void AddNewBranchButton_Click(object sender, EventArgs e)
         {
-            AddNewBranch addNewBranch = new AddNewBranch(mysqlConnection);
-            addNewBranch.Show();
+            try
+            {
+                AddNewBranch addNewBranch = new AddNewBranch(mysqlConnection);
+                addNewBranch.Show();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+
         }
 
         private void SearchBtn_Click(object sender, EventArgs e)
         {
-            AddNewVehicleType add_new_vehicle_type = new AddNewVehicleType(mysqlConnection);
-            add_new_vehicle_type.Show();
+            try
+            {
+                AddNewVehicleType add_new_vehicle_type = new AddNewVehicleType(mysqlConnection);
+                add_new_vehicle_type.Show();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -122,8 +192,16 @@ namespace Car_Rental_Agency
 
         private void button1_Click(object sender, EventArgs e)
         {
-            AddNewBooking newBooking = new AddNewBooking();
-            newBooking.ShowDialog();
+            try
+            {
+                AddNewBooking newBooking = new AddNewBooking();
+                newBooking.ShowDialog();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+
         }
 
         private void findVehicleTypeBtn_Click_1(object sender, EventArgs e)
@@ -133,8 +211,127 @@ namespace Car_Rental_Agency
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            FindCustomer findCustomer = new FindCustomer();
-            findCustomer.ShowDialog();
+            try
+            {
+                FindCustomer findCustomer = new FindCustomer();
+                findCustomer.ShowDialog();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
         }
+
+        private void findBranchBtn_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void topVehicleTypeBtn_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                TopVehicleType topVehicleType = new TopVehicleType();
+                topVehicleType.ShowDialog();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+        }
+
+        private void topVehicleBtn_Click(object sender, EventArgs e)
+        {
+            try {
+                TopVehicle topVehicle = new TopVehicle();
+                topVehicle.ShowDialog();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+        }
+
+        private void topBranchBtn_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                TopBranch topBranch = new TopBranch();
+                topBranch.ShowDialog();
+            }
+
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+        }
+        private void topCustomerBtn_Click(object sender, EventArgs e)
+        {
+            try {
+                TopCustomers topCustomers = new TopCustomers();
+                topCustomers.ShowDialog();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void returnTrans_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                ReturnTransaction returnTransaction = new ReturnTransaction();
+                returnTransaction.ShowDialog();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+        }
+
+        private void deletevehicle_Click(object sender, EventArgs e)
+        {
+            try {
+                DeleteVehicle deleteVehicle = new DeleteVehicle();
+                deleteVehicle.ShowDialog();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            try {
+                DeleteVehicleType deleteVehicleType = new DeleteVehicleType();
+                deleteVehicleType.ShowDialog();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+
+        }
+
+        private void deleteBranchBtn_Click(object sender, EventArgs e)
+        {
+            try {
+
+                DeleteBranch delete = new DeleteBranch();
+                delete.ShowDialog();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+        }
+
     }
 }

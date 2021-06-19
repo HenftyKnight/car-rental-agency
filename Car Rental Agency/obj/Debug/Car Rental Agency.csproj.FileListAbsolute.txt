@@ -71,22 +71,14 @@ R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\obj\Debug\Car
 R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.AddNewVehicleType.resources
 R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.AddNewVehicle.resources
 R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.BookingCustomer.resources
-R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.Confirmation.resources
-R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.Confirm_add.resources
 R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.CustomerLogin.resources
-R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.Delete_confirm.resources
 R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.AddingtoDB.resources
 R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.EmployeeLogin.resources
-R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.Employee_booking.resources
-R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.Employee_vehicles.resources
 R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.Main.resources
-R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.Payment.resources
 R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.Properties.Resources.resources
 R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.FindBranch.resources
 R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.FindVehicle.resources
 R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.UpdateBranch.resources
-R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.Update_confirm.resources
-R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.Vehicles.resources
 R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\obj\Debug\Car Rental Agency.csproj.GenerateResource.cache
 R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\obj\Debug\Car Rental Agency.csproj.CoreCompileInputs.cache
 R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\obj\Debug\Car Rental Agency.exe
@@ -97,3 +89,11 @@ R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\obj\Debug\Car
 R:\CMPT\Car-Rental-Agency 1006\car-rental-agency\Car Rental Agency\obj\Debug\Car_Rental_Agency.AddNewBooking.resources
 r:\cmpt\car-rental-agency 1006\car-rental-agency\car rental agency\obj\Debug\Car Rental Agency.csprojAssemblyReference.cache
 r:\cmpt\car-rental-agency 1006\car-rental-agency\car rental agency\obj\Debug\Car_Rental_Agency.FindCustomer.resources
+r:\cmpt\car-rental-agency 1006\car-rental-agency\car rental agency\obj\Debug\Car_Rental_Agency.TopBranch.resources
+r:\cmpt\car-rental-agency 1006\car-rental-agency\car rental agency\obj\Debug\Car_Rental_Agency.TopCustomers.resources
+r:\cmpt\car-rental-agency 1006\car-rental-agency\car rental agency\obj\Debug\Car_Rental_Agency.TopVehicle.resources
+r:\cmpt\car-rental-agency 1006\car-rental-agency\car rental agency\obj\Debug\Car_Rental_Agency.TopVehicleType.resources
+r:\cmpt\car-rental-agency 1006\car-rental-agency\car rental agency\obj\Debug\Car_Rental_Agency.ReturnTransaction.resources
+r:\cmpt\car-rental-agency 1006\car-rental-agency\car rental agency\obj\Debug\Car_Rental_Agency.DeleteVehicle.resources
+r:\cmpt\car-rental-agency 1006\car-rental-agency\car rental agency\obj\Debug\Car_Rental_Agency.DeleteVehicleType.resources
+r:\cmpt\car-rental-agency 1006\car-rental-agency\car rental agency\obj\Debug\Car_Rental_Agency.DeleteBranch.resources

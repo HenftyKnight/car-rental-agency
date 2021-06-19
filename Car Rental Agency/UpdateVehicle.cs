@@ -67,10 +67,16 @@ namespace Car_Rental_Agency
 
             else
             {
-                String query = $"UPDATE Vehicle SET currentBranchID = '{branchName}', Vtype = '{Vtype}', make = '{make}', model = '{model}', seats = '{seats}', miles = '{miles}', makeYear = '{makeYear}', vehicleAvailability = '{availability}' WHERE currentBranchID = {branchName};";
-                Database.runQuery(query);
-                populateDGV();
-
+                try
+                {
+                    String query = $"UPDATE Vehicle SET currentBranchID = '{branchName}', Vtype = '{Vtype}', make = '{make}', model = '{model}', seats = '{seats}', miles = '{miles}', makeYear = '{makeYear}', vehicleAvailability = '{availability}' WHERE currentBranchID = {branchName};";
+                    Database.runQuery(query);
+                    populateDGV();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.ToString());
+                }
             }
         }
 

@@ -187,7 +187,7 @@ namespace Car_Rental_Agency
                 //this.User.cardType,
                 //this.User.cardNumber);
 
-                this.Close();
+               // this.Close();
                 
                 Console.WriteLine(this.User.MembershipType);
 
@@ -202,7 +202,6 @@ namespace Car_Rental_Agency
         private void button1_Click(object sender, EventArgs e) 
         {
             Customer cx = new Customer();
-
             string email = emailTextBox.Text.Trim();
             if (!IsValidEmail(email))
             {
@@ -215,20 +214,6 @@ namespace Car_Rental_Agency
                 MessageBox.Show("Error: Passwords do not match", "Password Error");
                 return;
             }
-
-            //Match match = Regex.Match(cardNoBox.Text, @"[0-9]{16}");
-
-            //if (!match.Success)
-            //{
-            //    MessageBox.Show("Error: Card number should be 16 numeric digits", "Invalid Card");
-            //    return;
-            //}
-
-            //if (cardTypeCombo.SelectedIndex == -1)
-            //{
-            //    MessageBox.Show("Please select a credit card type", "Error");
-            //    return;
-            //}
 
             // Use try-catch in case the values are not going to be compatible (ie. letters entered in Age)
             try
@@ -248,18 +233,24 @@ namespace Car_Rental_Agency
                 cx.Country = country.Text.Trim();
                 //cx.CardType = cardTypeCombo.GetItemText(cardTypeCombo.SelectedItem);
                 cx.MembershipType = "Basic";
+                
                 if (insertCustomer(cx))
                 {
-                    MessageBox.Show("Successfully Registered as a new Customer", "Success");
+                    MessageBox.Show("Successfully Registered as a new Customer, Please Login to Continue.. And Start Booking", "Success");
                     this.DialogResult = DialogResult.OK;
                     this.User = cx;
-                    this.Close();
+                    //this.Close();
 
-                    BookingCustomer booking = new BookingCustomer(this.User);
-                    this.Opacity = 0.0;
-                    booking.ShowDialog();
-                    this.Opacity = 100.0;
+                    //BookingCustomer booking = new BookingCustomer(this.User);
+                    //this.Opacity = 0.0;
+                    //booking.ShowDialog();
+                    //this.Opacity = 100.0;
                 }
+               
+
+
+
+
             }
             catch (Exception ex)
             {
@@ -311,7 +302,7 @@ namespace Car_Rental_Agency
                     command.Parameters.Add("@passwd", SqlDbType.VarChar).Value = HashPassword(random.Next(0, 1000000000).ToString());
                 }
 
-                MessageBox.Show(insertvals);
+                //MessageBox.Show(insertvals);
                 connection.Open();
                 
                 command.ExecuteNonQuery();

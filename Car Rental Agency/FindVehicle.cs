@@ -7,22 +7,59 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace Car_Rental_Agency
 {
     public partial class FindVehicle : Form
     {
+
+        SqlConnection con;
+        SqlCommand cmd;
+        SqlDataReader dr;
         public FindVehicle()
         {
             InitializeComponent();
+            con = new SqlConnection("server=SYNAPSE;" +
+                                           "Trusted_Connection=yes;" +
+                                           "database=car-rental-agency; " +
+                                           "connection timeout=30");
+            cmd = new SqlCommand();
+            con.Open();
+
             // Finding a Vehicle By different attriubutes
             vehicleIDSearchBtn.Click += VehicleIDSearchBtn_Click;
-            seatsSearchBtn.Click += SeatsSearchBtn_Click;
-            milesSearchBtn.Click += MilesSearchBtn_Click;
             vehicleTypeSearchBtn.Click += VehicleTypeSearchBtn_Click;
-            branchSearchBtn.Click += BranchSearchBtn_Click;
             findVehicleDataGridView.CellValueChanged += FindVehicleDataGridView_CellValueChanged;
             findVehicleDataGridView.EditingControlShowing += FindVehicleDataGridView_EditingControlShowing;
+
+            // Vehicle Type
+            String vtypeQuery = $"SELECT DISTINCT Vtype from VehicleType";
+            DataTable vTypeTable = Database.getDataTableAfterRunningQuery(vtypeQuery);
+            fillComboBox(VtypeComboBox, "Vtype", vTypeTable);
+
+            // Seats
+            String seatsQuery = $"SELECT DISTINCT seats from Vehicle";
+            DataTable seatsTable = Database.getDataTableAfterRunningQuery(seatsQuery);
+            fillComboBox(seatsComboBox, "seats", seatsTable);
+
+            // Miles
+            String milesQuery = $"SELECT DISTINCT miles from Vehicle";
+            DataTable milesTable = Database.getDataTableAfterRunningQuery(milesQuery);
+            fillComboBox(vehicleMilesComboBox, "miles", milesTable);
+
+            // Branch
+            string branchQuery = "SELECT branchName FROM Branch;";
+            DataTable branchTable = Database.getDataTableAfterRunningQuery(branchQuery);
+            fillComboBox(brNameComboBox, "branchName", branchTable);
+        }
+        public static void fillComboBox(ComboBox cb, string colName, DataTable table)
+        {
+            for (int i = 0; i < table.Rows.Count; i++)
+            {
+                string val = table.Rows[i][colName].ToString();
+                cb.Items.Add(val);
+            }
         }
 
         private void FindVehicleDataGridView_EditingControlShowing(object sender, DataGridViewEditingControlShowingEventArgs e)
@@ -93,109 +130,29 @@ namespace Car_Rental_Agency
 
         private void BranchSearchBtn_Click(object sender, EventArgs e)
         {
-            genQuerylabel.Visible = true;
-
-            String branch = BranchTextBox.Text.TrimEnd();
-            if (branch == "")
-            {
-                genQuerylabel.Text = "Uh oh! Branch cannot be empty!";
-                genQuerylabel.ForeColor = Color.FromArgb(0, 192, 0);
-            }
-
-            else
-            {
-                genQuerylabel.Text = "Vehicles with given Branch found!";
-                genQuerylabel.ForeColor = Color.FromArgb(0, 192, 0);
-
-                String query = $"SELECT * FROM Vehicle,Branch WHERE Vehicle.currentBranchID = Branch.branchID AND Branch.branchName = '{branch}';";
-                General.validTextboxEntry(genQuerylabel, query, findVehicleDataGridView);
-            }
+            
         }
 
         private void VehicleTypeSearchBtn_Click(object sender, EventArgs e)
         {
-            genQuerylabel.Visible = true;
-
-            String vehicleType = vehicleTypeTextBox.Text.TrimEnd();
-            if (vehicleType == "")
-            {
-                genQuerylabel.Text = "Uh oh! Vehicle Type cannot be empty!";
-                genQuerylabel.ForeColor = Color.FromArgb(0, 192, 0);
-            }
-
-            else
-            {
-                genQuerylabel.Text = "Vehicle with given Type found!";
-                genQuerylabel.ForeColor = Color.FromArgb(0, 192, 0);
-
-                String query = $"SELECT * FROM Vehicle WHERE Vehicle.Vtype = '{vehicleType}';";
-                General.validTextboxEntry(genQuerylabel, query, findVehicleDataGridView);
-            }
+            
         }
 
         private void MilesSearchBtn_Click(object sender, EventArgs e)
         {
-            genQuerylabel.Visible = true;
-
-            String miles = milesTextBox.Text.TrimEnd();
-            if (miles == "")
-            {
-                genQuerylabel.Text = "Uh oh! Miles cannot be empty!";
-                genQuerylabel.ForeColor = Color.FromArgb(0, 192, 0);
-            }
-
-            else
-            {
-                genQuerylabel.Text = "Vehicle with given Miles found!";
-                genQuerylabel.ForeColor = Color.FromArgb(0, 192, 0);
-
-                String query = $"SELECT * FROM Vehicle WHERE miles = '{miles}';";
-                General.validTextboxEntry(genQuerylabel, query, findVehicleDataGridView);
-            }
+            
         }
 
         // Finding Vehicle Based on Seats
         private void SeatsSearchBtn_Click(object sender, EventArgs e)
         {
-            genQuerylabel.Visible = true;
-
-            String seats = seatsTextBox.Text.TrimEnd();
-            if (seats == "")
-            {
-                genQuerylabel.Text = "Uh oh! Seats cannot be empty!";
-                genQuerylabel.ForeColor = Color.FromArgb(0, 192, 0);
-            }
-
-            else
-            {
-                genQuerylabel.Text = "Vehicle with given Seats found!";
-                genQuerylabel.ForeColor = Color.FromArgb(0, 192, 0);
-
-                String query = $"SELECT * FROM Vehicle WHERE seats = '{seats}';";
-                General.validTextboxEntry(genQuerylabel, query, findVehicleDataGridView);
-            }
+            
         }
             
         // Finding Vehicle Based on VehicleID
         private void VehicleIDSearchBtn_Click(object sender, EventArgs e)
         {
-            genQuerylabel.Visible = true;
-
-            String vehicleID = vehicleIDTextBox.Text.TrimEnd();
-            if (vehicleID == "")
-            {
-                genQuerylabel.Text = "Uh oh! VehicleID cannot be empty!";
-                genQuerylabel.ForeColor = Color.FromArgb(0, 192, 0);
-            }
-
-            else
-            {
-                genQuerylabel.Text = "Vehicle with given VehicleID found!";
-                genQuerylabel.ForeColor = Color.FromArgb(0, 192, 0);
-
-                String query = $"SELECT * FROM Vehicle WHERE VehicleID = '{vehicleID}';";
-                General.validTextboxEntry(genQuerylabel, query, findVehicleDataGridView);
-            }
+          
         }
 
 
@@ -213,8 +170,7 @@ namespace Car_Rental_Agency
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Update_confirm login = new Update_confirm();
-            login.Show();
+           
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -223,6 +179,72 @@ namespace Car_Rental_Agency
         }
 
         private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void vehicleIDSearchBtn_Click_1(object sender, EventArgs e)
+        {
+            
+            ErrorLabel.Visible = true;
+            string branchName = brNameComboBox.SelectedItem.ToString();
+
+            if (brNameComboBox.SelectedIndex == -1 | vehicleMilesComboBox.SelectedIndex == -1 | seatsComboBox.SelectedIndex == -1 | VtypeComboBox.SelectedIndex == -1)
+            {
+                ErrorLabel.Text = "Please Enter the Values for all the fields, fields cannot be Empty";
+                ErrorLabel.ForeColor = Color.FromArgb(0, 192, 0);
+            }
+
+            else
+            {
+                
+                string query = $"SELECT branchID FROM Branch WHERE branchName = '{branchName}';";
+                DataTable table = Database.getDataTableAfterRunningQuery(query);
+
+                var branchID = (table.Rows[0]["branchID"]);
+
+
+                String vehiclequery = $"SELECT * FROM Vehicle WHERE currentBranchID = '{branchID}' AND seats = '{seatsComboBox.Text}' AND miles = '{vehicleMilesComboBox.Text}' AND Vtype = '{VtypeComboBox.Text}'";
+                SqlDataAdapter dataAdapter = new SqlDataAdapter(vehiclequery, con);
+
+                DataTable dataTable = new DataTable();
+                dataAdapter.Fill(dataTable);
+                findVehicleDataGridView.DataSource = dataTable;
+                findVehicleDataGridView.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
+                findVehicleDataGridView.ColumnHeadersDefaultCellStyle.WrapMode = DataGridViewTriState.False;
+                
+            }
+        }
+
+        private void vehicleTypeSearchBtn_Click_1(object sender, EventArgs e)
+        {
+            ErrorLabel.Visible = true;
+            if (textBox1.Text == "")
+            {
+                ErrorLabel.Text = "Please Enter the Values for VehiclType, fields cannot be Empty";
+                ErrorLabel.ForeColor = Color.FromArgb(0, 192, 0);
+            }
+
+            else
+            {
+                String query = $"SELECT * FROM Vehicle WHERE Vtype = '{textBox1.Text.TrimEnd()}'";
+                SqlDataAdapter dataAdapter = new SqlDataAdapter(query, con);
+
+                DataTable dataTable = new DataTable();
+                dataAdapter.Fill(dataTable);
+                findVehicleDataGridView.DataSource = dataTable;
+                findVehicleDataGridView.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
+                findVehicleDataGridView.ColumnHeadersDefaultCellStyle.WrapMode = DataGridViewTriState.False;
+            }
+
+        }
+
+        private void findVehicleDataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }

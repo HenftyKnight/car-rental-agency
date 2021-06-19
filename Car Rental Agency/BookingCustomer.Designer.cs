@@ -31,6 +31,9 @@ namespace Car_Rental_Agency
         {
             this.VehicleInfoDataGridView = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.SearchagainBtn = new System.Windows.Forms.Button();
+            this.seatsTextBox = new System.Windows.Forms.TextBox();
+            this.seatsComboBox = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.checkavailability = new System.Windows.Forms.Button();
             this.dropoffBranchComboBox = new System.Windows.Forms.ComboBox();
@@ -43,25 +46,27 @@ namespace Car_Rental_Agency
             this.vehicleTypeComboBox = new System.Windows.Forms.ComboBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.seatsComboBox = new System.Windows.Forms.TextBox();
             this.welcomeLabel = new System.Windows.Forms.Label();
             this.infolabel = new System.Windows.Forms.Label();
             this.errorLabel = new System.Windows.Forms.Label();
-            this.seatsTextBox = new System.Windows.Forms.TextBox();
-            this.SearchagainBtn = new System.Windows.Forms.Button();
             this.backUpDataGridView = new System.Windows.Forms.DataGridView();
             this.RentCarBtn = new System.Windows.Forms.Button();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.VehicleInfoDataGridView)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.backUpDataGridView)).BeginInit();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // VehicleInfoDataGridView
             // 
+            this.VehicleInfoDataGridView.BackgroundColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.VehicleInfoDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.VehicleInfoDataGridView.Location = new System.Drawing.Point(475, 86);
             this.VehicleInfoDataGridView.Name = "VehicleInfoDataGridView";
-            this.VehicleInfoDataGridView.Size = new System.Drawing.Size(615, 143);
+            this.VehicleInfoDataGridView.Size = new System.Drawing.Size(615, 161);
             this.VehicleInfoDataGridView.TabIndex = 18;
             this.VehicleInfoDataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.VehicleInfoDataGridView_CellContentClick);
             // 
@@ -89,6 +94,41 @@ namespace Car_Rental_Agency
             this.groupBox1.TabIndex = 17;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Booking";
+            // 
+            // SearchagainBtn
+            // 
+            this.SearchagainBtn.BackColor = System.Drawing.SystemColors.Info;
+            this.SearchagainBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SearchagainBtn.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.SearchagainBtn.Location = new System.Drawing.Point(230, 305);
+            this.SearchagainBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.SearchagainBtn.Name = "SearchagainBtn";
+            this.SearchagainBtn.Size = new System.Drawing.Size(175, 31);
+            this.SearchagainBtn.TabIndex = 16;
+            this.SearchagainBtn.Text = "Search Again";
+            this.SearchagainBtn.UseVisualStyleBackColor = false;
+            this.SearchagainBtn.Click += new System.EventHandler(this.SearchagainBtn_Click);
+            // 
+            // seatsTextBox
+            // 
+            this.seatsTextBox.Location = new System.Drawing.Point(230, 210);
+            this.seatsTextBox.Multiline = true;
+            this.seatsTextBox.Name = "seatsTextBox";
+            this.seatsTextBox.Size = new System.Drawing.Size(168, 27);
+            this.seatsTextBox.TabIndex = 15;
+            // 
+            // seatsComboBox
+            // 
+            this.seatsComboBox.BackColor = System.Drawing.SystemColors.InfoText;
+            this.seatsComboBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.seatsComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.seatsComboBox.ForeColor = System.Drawing.SystemColors.Window;
+            this.seatsComboBox.Location = new System.Drawing.Point(230, 178);
+            this.seatsComboBox.Margin = new System.Windows.Forms.Padding(2);
+            this.seatsComboBox.Name = "seatsComboBox";
+            this.seatsComboBox.Size = new System.Drawing.Size(105, 19);
+            this.seatsComboBox.TabIndex = 14;
+            this.seatsComboBox.Text = "Seats";
             // 
             // textBox3
             // 
@@ -205,7 +245,7 @@ namespace Car_Rental_Agency
             this.vehicleTypeComboBox.Location = new System.Drawing.Point(22, 210);
             this.vehicleTypeComboBox.Margin = new System.Windows.Forms.Padding(2);
             this.vehicleTypeComboBox.Name = "vehicleTypeComboBox";
-            this.vehicleTypeComboBox.Size = new System.Drawing.Size(114, 27);
+            this.vehicleTypeComboBox.Size = new System.Drawing.Size(175, 27);
             this.vehicleTypeComboBox.TabIndex = 9;
             this.vehicleTypeComboBox.Text = "All";
             // 
@@ -228,33 +268,22 @@ namespace Car_Rental_Agency
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.textBox2.Location = new System.Drawing.Point(42, 47);
+            this.textBox2.Location = new System.Drawing.Point(25, 11);
             this.textBox2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(154, 34);
             this.textBox2.TabIndex = 16;
             this.textBox2.Text = "Book a Car";
             // 
-            // seatsComboBox
-            // 
-            this.seatsComboBox.BackColor = System.Drawing.SystemColors.InfoText;
-            this.seatsComboBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.seatsComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.seatsComboBox.ForeColor = System.Drawing.SystemColors.Window;
-            this.seatsComboBox.Location = new System.Drawing.Point(230, 178);
-            this.seatsComboBox.Margin = new System.Windows.Forms.Padding(2);
-            this.seatsComboBox.Name = "seatsComboBox";
-            this.seatsComboBox.Size = new System.Drawing.Size(105, 19);
-            this.seatsComboBox.TabIndex = 14;
-            this.seatsComboBox.Text = "Seats";
-            // 
             // welcomeLabel
             // 
             this.welcomeLabel.AutoSize = true;
-            this.welcomeLabel.BackColor = System.Drawing.Color.Gray;
-            this.welcomeLabel.Location = new System.Drawing.Point(388, 27);
+            this.welcomeLabel.BackColor = System.Drawing.Color.Black;
+            this.welcomeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.welcomeLabel.ForeColor = System.Drawing.Color.DimGray;
+            this.welcomeLabel.Location = new System.Drawing.Point(194, 53);
             this.welcomeLabel.Name = "welcomeLabel";
-            this.welcomeLabel.Size = new System.Drawing.Size(35, 13);
+            this.welcomeLabel.Size = new System.Drawing.Size(60, 24);
             this.welcomeLabel.TabIndex = 19;
             this.welcomeLabel.Text = "label1";
             // 
@@ -262,9 +291,11 @@ namespace Car_Rental_Agency
             // 
             this.infolabel.AutoSize = true;
             this.infolabel.BackColor = System.Drawing.Color.Gray;
-            this.infolabel.Location = new System.Drawing.Point(73, 463);
+            this.infolabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.infolabel.ForeColor = System.Drawing.Color.White;
+            this.infolabel.Location = new System.Drawing.Point(18, 77);
             this.infolabel.Name = "infolabel";
-            this.infolabel.Size = new System.Drawing.Size(88, 13);
+            this.infolabel.Size = new System.Drawing.Size(133, 20);
             this.infolabel.TabIndex = 20;
             this.infolabel.Text = "Information Label";
             // 
@@ -272,77 +303,100 @@ namespace Car_Rental_Agency
             // 
             this.errorLabel.AutoSize = true;
             this.errorLabel.BackColor = System.Drawing.Color.Gray;
-            this.errorLabel.Location = new System.Drawing.Point(222, 463);
+            this.errorLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.errorLabel.ForeColor = System.Drawing.Color.White;
+            this.errorLabel.Location = new System.Drawing.Point(18, 33);
             this.errorLabel.Name = "errorLabel";
-            this.errorLabel.Size = new System.Drawing.Size(58, 13);
+            this.errorLabel.Size = new System.Drawing.Size(87, 20);
             this.errorLabel.TabIndex = 21;
             this.errorLabel.Text = "Error Label";
             // 
-            // seatsTextBox
-            // 
-            this.seatsTextBox.Location = new System.Drawing.Point(230, 210);
-            this.seatsTextBox.Multiline = true;
-            this.seatsTextBox.Name = "seatsTextBox";
-            this.seatsTextBox.Size = new System.Drawing.Size(168, 20);
-            this.seatsTextBox.TabIndex = 15;
-            // 
-            // SearchagainBtn
-            // 
-            this.SearchagainBtn.BackColor = System.Drawing.SystemColors.Info;
-            this.SearchagainBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SearchagainBtn.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.SearchagainBtn.Location = new System.Drawing.Point(230, 305);
-            this.SearchagainBtn.Margin = new System.Windows.Forms.Padding(2);
-            this.SearchagainBtn.Name = "SearchagainBtn";
-            this.SearchagainBtn.Size = new System.Drawing.Size(175, 31);
-            this.SearchagainBtn.TabIndex = 16;
-            this.SearchagainBtn.Text = "Search Again";
-            this.SearchagainBtn.UseVisualStyleBackColor = false;
-            this.SearchagainBtn.Click += new System.EventHandler(this.SearchagainBtn_Click);
-            // 
             // backUpDataGridView
             // 
+            this.backUpDataGridView.BackgroundColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.backUpDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.backUpDataGridView.Location = new System.Drawing.Point(475, 274);
+            this.backUpDataGridView.Location = new System.Drawing.Point(475, 306);
             this.backUpDataGridView.Name = "backUpDataGridView";
-            this.backUpDataGridView.Size = new System.Drawing.Size(615, 150);
+            this.backUpDataGridView.Size = new System.Drawing.Size(615, 143);
             this.backUpDataGridView.TabIndex = 22;
+            this.backUpDataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.backUpDataGridView_CellContentClick);
             // 
             // RentCarBtn
             // 
             this.RentCarBtn.BackColor = System.Drawing.SystemColors.Info;
             this.RentCarBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RentCarBtn.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.RentCarBtn.Location = new System.Drawing.Point(915, 490);
+            this.RentCarBtn.Location = new System.Drawing.Point(828, 517);
             this.RentCarBtn.Margin = new System.Windows.Forms.Padding(2);
             this.RentCarBtn.Name = "RentCarBtn";
-            this.RentCarBtn.Size = new System.Drawing.Size(175, 31);
+            this.RentCarBtn.Size = new System.Drawing.Size(177, 50);
             this.RentCarBtn.TabIndex = 23;
             this.RentCarBtn.Text = "Rent Car";
             this.RentCarBtn.UseVisualStyleBackColor = false;
             this.RentCarBtn.Click += new System.EventHandler(this.RentCarBtn_Click);
             // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.errorLabel);
+            this.groupBox2.Controls.Add(this.infolabel);
+            this.groupBox2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.groupBox2.Location = new System.Drawing.Point(25, 455);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(714, 190);
+            this.groupBox2.TabIndex = 24;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Rental Summary";
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.SystemColors.InfoText;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.SystemColors.Window;
+            this.textBox1.Location = new System.Drawing.Point(488, 274);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(262, 19);
+            this.textBox1.TabIndex = 25;
+            this.textBox1.Text = "Upgrades For Golden Member";
+            // 
+            // textBox8
+            // 
+            this.textBox8.BackColor = System.Drawing.SystemColors.InfoText;
+            this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox8.ForeColor = System.Drawing.SystemColors.Window;
+            this.textBox8.Location = new System.Drawing.Point(477, 44);
+            this.textBox8.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(262, 19);
+            this.textBox8.TabIndex = 26;
+            this.textBox8.Text = "Original Request";
+            // 
             // BookingCustomer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(1135, 588);
+            this.BackColor = System.Drawing.Color.Black;
+            this.ClientSize = new System.Drawing.Size(1135, 646);
+            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.RentCarBtn);
             this.Controls.Add(this.backUpDataGridView);
-            this.Controls.Add(this.errorLabel);
-            this.Controls.Add(this.infolabel);
             this.Controls.Add(this.welcomeLabel);
             this.Controls.Add(this.VehicleInfoDataGridView);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.textBox2);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "BookingCustomer";
             this.Text = "BookingCustomer";
             ((System.ComponentModel.ISupportInitialize)(this.VehicleInfoDataGridView)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.backUpDataGridView)).EndInit();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -372,5 +426,8 @@ namespace Car_Rental_Agency
         private System.Windows.Forms.Button SearchagainBtn;
         private System.Windows.Forms.DataGridView backUpDataGridView;
         private System.Windows.Forms.Button RentCarBtn;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox8;
     }
 }

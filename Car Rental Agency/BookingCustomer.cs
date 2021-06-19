@@ -27,6 +27,7 @@ namespace Car_Rental_Agency
         double entryAmount;
         //string entryCardNumber;
         //string entryCardType;
+        string entryOriginalRequest;
         string entryPaymentMethod;
         string entryStatus;
         string entryMembership;
@@ -86,7 +87,7 @@ namespace Car_Rental_Agency
                 Console.WriteLine("Entry MmeberShip Type",entryMembership);
             }
 
-            if (entryMembership.TrimEnd() == "Gold")
+            if (entryMembership == "Gold")
             {
                 welcomeLabel.ForeColor = Color.Gold;
                 welcomeLabel.Text = "★ Welcome Gold Member " + User.FirstName + " ★";
@@ -325,6 +326,7 @@ namespace Car_Rental_Agency
                 "FROM VehicleType " +
                 "WHERE Vtype = '" + rentalType + "'";
 
+                entryOriginalRequest = rentalType;
                 
 
                 dr = cmd.ExecuteReader();
@@ -350,7 +352,7 @@ namespace Car_Rental_Agency
                 // If the pickup or drop off datetime are invalid
                 if (!validatePickupAndDropDateTime(entryCarID, pickupDateTime, returnDateTime))
                 {
-                    MessageBox.Show("OK");
+                   // MessageBox.Show("OK");
                     if (entryMembership.TrimEnd() != "Gold")
                     {
                         infolabel.Text = "The car is not available at the given date. Upgrading is not allowed for Basic membership";
@@ -359,7 +361,7 @@ namespace Car_Rental_Agency
 
                     summary = "The car you found is not available during the selected time! Looking for other cars . . \n";
                     //infoLabel.Text = sum;
-                    MessageBox.Show(summary);
+                    //MessageBox.Show(summary);
                     DataTable table = findOtherCars(dailyRate, weeklyRate, monthyRate, pickupDateTime, returnDateTime);
 
                     if (table == null)
@@ -425,6 +427,7 @@ namespace Car_Rental_Agency
                 else infolabel.Text = summary + "Total: " + rentalCost;
             }
             entryAmount = rentalCost;
+            
             successfulTransactionFlag = 1;
         }
 
@@ -526,28 +529,30 @@ namespace Car_Rental_Agency
                 //dr.Close();
 
 
-                string sql = $"INSERT INTO [Booking] (CustomerID, VehicleID, PickUpBranchID, DropOffBranchID, FromDate, ToDate, Total, payment, status, TransactionDateAndTime) ";
-                string values = "VALUES (@eCUID, @eVHID, @ePBID, @eDBID, @ePDT, @eDDT, @eTTL,@ePMTD, @ePSTS, @eTDT);";
-                //String values = $"VALUES ({uid}, {entryCarID}, {entryPickupBranchID}, {entryDropBranchID}, CONVERT(DateTime,'{entryPickupDateTime.Date.ToString("d")}',103), CONVERT(DateTime,'{entryReturnDateTime.Date.ToString("d")}',103), {entryAmount},'{entryPaymentMethod}', '{entryStatus}', CONVERT(DateTime,'{entryTransactionDateTime.Date.ToString("d")}',103));";
+                string sql = $"INSERT INTO [Booking] (CustomerID, VehicleID, PickUpBranchID, DropOffBranchID, FromDate, ToDate, Total, payment, status, OriginalRequest, TransactionDateAndTime) ";
+                //string values = "VALUES (@eCUID, @eVHID, @ePBID, @eDBID, @ePDT, @eDDT, @eTTL,@ePMTD, @OGRQ, @ePSTS, @eTDT);";
+                String values = $"VALUES ({entryUserID}, {entryCarID}, {entryPickupBranchID}, {entryDropBranchID}, CONVERT(DateTime,'{entryPickupDateTime.Date.ToString("d")}',103), CONVERT(DateTime,'{entryReturnDateTime.Date.ToString("d")}',103), {entryAmount},'{entryPaymentMethod}', '{entryStatus}', '{entryOriginalRequest.ToString().TrimEnd()}',CONVERT(DateTime,'{entryTransactionDateTime.Date.ToString("d")}',103));";
                 string insertvals = sql + values;
                 //MessageBox.Show(entryPickupDateTime.Date.ToString("d"));
                 int returnStatus = 0;
-                
+
+                Console.WriteLine(insertvals);
 
                 cmd = new SqlCommand(insertvals, con);
-                //MessageBox.Show(entryUserID.ToString(), "Entry UserID");
-                cmd.Parameters.Add("@eCUID", SqlDbType.Int).Value = entryUserID.ToString();
-                cmd.Parameters.Add("@eVHID", SqlDbType.Int).Value = entryCarID;
-                cmd.Parameters.Add("@ePBID", SqlDbType.Int).Value = entryPickupBranchID;
-                cmd.Parameters.Add("@eDBID", SqlDbType.Int).Value = entryDropBranchID;
-                cmd.Parameters.Add("@ePDT", SqlDbType.DateTime).Value = entryPickupDateTime;
-                cmd.Parameters.Add("@eDDT", SqlDbType.DateTime).Value = entryReturnDateTime;
-                cmd.Parameters.Add("@eTTL", SqlDbType.Decimal).Value = entryAmount;
-                cmd.Parameters.Add("@ePMTD", SqlDbType.VarChar).Value = entryPaymentMethod;
-                cmd.Parameters.Add("@ePSTS", SqlDbType.VarChar).Value = entryStatus;
-                cmd.Parameters.Add("@eTDT", SqlDbType.DateTime).Value = entryTransactionDateTime;
+                //MessageBox.Show(entryUserID, "Entry UserID");
+                //cmd.Parameters.Add("@eCUID", SqlDbType.Int).Value = entryUserID.ToString();
+                //cmd.Parameters.Add("@eVHID", SqlDbType.Int).Value = entryCarID;
+                //cmd.Parameters.Add("@ePBID", SqlDbType.Int).Value = entryPickupBranchID;
+                //cmd.Parameters.Add("@eDBID", SqlDbType.Int).Value = entryDropBranchID;
+                //cmd.Parameters.Add("@ePDT", SqlDbType.DateTime).Value = entryPickupDateTime;
+                //cmd.Parameters.Add("@eDDT", SqlDbType.DateTime).Value = entryReturnDateTime;
+                //cmd.Parameters.Add("@eTTL", SqlDbType.Decimal).Value = entryAmount;
+                //cmd.Parameters.Add("@ePMTD", SqlDbType.VarChar).Value = entryPaymentMethod;
+                //cmd.Parameters.Add("@eOGRQ", SqlDbType.VarChar).Value = entryOriginalRequest;
+                //cmd.Parameters.Add("@ePSTS", SqlDbType.VarChar).Value = entryStatus;
+                //cmd.Parameters.Add("@eTDT", SqlDbType.DateTime).Value = entryTransactionDateTime;
 
-                MessageBox.Show(insertvals);
+               // MessageBox.Show(insertvals);
                 returnStatus = cmd.ExecuteNonQuery();
                 Console.WriteLine(returnStatus);
                 con.Close();
@@ -584,10 +589,10 @@ namespace Car_Rental_Agency
                     Console.WriteLine(customerTransations);
                     Console.WriteLine(entryMembership);
 
-                    MessageBox.Show(customerTransations.ToString());
+                    //MessageBox.Show(customerTransations.ToString());
                     
                     int rowUpdated = 0;
-                    if (customerTransations>=3)
+                    if (customerTransations>=3 && entryMembership.ToString().TrimEnd() == "Basic")
                     {
                         con = new SqlConnection("server=SYNAPSE;" +
                                        "Trusted_Connection=yes;" +
@@ -598,7 +603,7 @@ namespace Car_Rental_Agency
                         cmd.Connection = con;
                         Console.WriteLine("Inside the Gold");
 
-                        MessageBox.Show(entryUserID.ToString(),"Inside Gold Entry User ID");
+                        //MessageBox.Show(entryUserID.ToString(),"Inside Gold Entry User ID");
                         cmd.CommandText = "UPDATE Users SET MembershipType = 'Gold' Where userID = " + entryUserID.ToString();
 
                         //this.User.ID
@@ -619,6 +624,11 @@ namespace Car_Rental_Agency
                     //this.Close();
                 }
             }
+        }
+
+        private void backUpDataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
